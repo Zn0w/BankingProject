@@ -16,7 +16,7 @@ public class EmployeeTest {
 		String login = "emlp";
 		String password = "12345";
 		
-		Employee employee = new Employee(id, new NameContainer(name), login, password);
+		Employee employee = new Employee(id, name, login, password);
 		
 		assertEquals(id, employee.getId());
 		assertEquals(name, employee.getName().getFullName());

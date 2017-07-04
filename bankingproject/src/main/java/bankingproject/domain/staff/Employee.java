@@ -9,9 +9,9 @@ public class Employee {
 	protected String login = "";
 	protected String password = "";
 	
-	public Employee(int id, NameContainer name, String login, String password) {
+	public Employee(int id, String name, String login, String password) {
 		this.id = id;
-		this.name = name;
+		this.name = new NameContainer(name);
 		this.login = login;
 		this.password = password;
 	}
