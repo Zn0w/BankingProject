@@ -63,13 +63,104 @@ public class EmployeeDaoImpl implements EmployeeDao {
 	}
 
 	@Override
-	public Employee getEmployee(int id) throws DaoException {
-		return null;
+	public Employee getEmployee(String login) throws DaoException {
+		logger.info("Getting employee with login: " + login);
+		
+		Employee employee = null;
+		
+		Connection connection = null;
+		Statement statement = null;
+		ResultSet rs = null;
+		
+		logger.trace("Setting up connection");
+		connection = daoFactory.getConnection();
+		
+		try {
+			logger.trace("Creating statement");
+			statement = connection.createStatement();
+			
+			logger.trace("Getting result set");
+			rs = statement.executeQuery("select * from employees where login = '" + login + "'");
+			
+			rs.next();
+			
+			employee = new Employee(rs.getInt(1), rs.getString(2), rs.getString(3), rs.getString(4));
+			logger.info("Got employee with login: " + login);
+		} catch (SQLException e) {
+			logger.error("Failed to get employee with login: " + login, e);
+			throw new DaoException("Failed to get employee with login: " + login, e);
+		} finally {
+			logger.trace("Closing result set");
+			daoFactory.close(rs);
+			
+			logger.trace("Closing statement");
+			daoFactory.close(statement);
+			
+			logger.trace("Closing connection");
+			daoFactory.close(connection);
+		}
+		
+		return employee;
 	}
 
 	@Override
-	public void createNewEmployee() throws DaoException {
+	public void createNewEmployee(String name, String login, String password) throws DaoException {
+		logger.info("Creating new employee with login: " + login);
 		
+		Connection connection = null;
+		Statement statement = null;
+		
+		logger.trace("Setting up connection");
+		connection = daoFactory.getConnection();
+		
+		try {
+			logger.trace("Creating statement");
+			statement = connection.createStatement();
+			
+			logger.trace("Executing update statement");
+			statement.executeUpdate("insert into employees(name, login, password) values('" + name + "', '" + login + "', '" + password + "')");
+			
+			logger.info("Employee with login: " + login + " has been created");
+		} catch (SQLException e) {
+			logger.error("Failed to get employee with login: " + login, e);
+			throw new DaoException("Failed to get employee with login: " + login, e);
+		} finally {
+			logger.trace("Closing statement");
+			daoFactory.close(statement);
+			
+			logger.trace("Closing connection");
+			daoFactory.close(connection);
+		}
+	}
+
+	@Override
+	public void deleteEmployee(String login) throws DaoException {
+		logger.info("Deleting employee with login: " + login);
+		
+		Connection connection = null;
+		Statement statement = null;
+		
+		logger.trace("Setting up connection");
+		connection = daoFactory.getConnection();
+		
+		try {
+			logger.trace("Creating statement");
+			statement = connection.createStatement();
+			
+			logger.trace("Executing update");
+			statement.executeUpdate("delete from employees where login = '" + login + "'");
+			
+			logger.info("Employee with login: " + login + " has been deleted");
+		} catch (SQLException e) {
+			logger.error("Failed to delete employee with login: " + login, e);
+			throw new DaoException("Failed to delete employee with login: " + login, e);
+		} finally {
+			logger.trace("Closing statement");
+			daoFactory.close(statement);
+			
+			logger.trace("Closing connection");
+			daoFactory.close(connection);
+		}
 	}
 	
 }
