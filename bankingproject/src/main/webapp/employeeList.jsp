@@ -7,18 +7,28 @@
 
 <head>
 	<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
-	<title>BankingProject(User authorization)</title>
+	<title>BankingProject(Employees)</title>
 </head>
 
 <body>
 	<div align = "center">
-		<h1>Hello World</h1>
+		<h1>Employees: </h1>
 		
-		<c:forEach var = "i" begin = "1" end = "5">
-			<h2><c:out value="Hello ${i}"></c:out></h2>
-		</c:forEach>
-		
-		<a href = "http://localhost:8080/bankingproject/EmployeeListServlet">See employee list</a>
+		<table>
+			<tr>
+				<th>Name</th>
+				<th>Login</th>
+			</tr>
+			
+			<c:set var = "employees" value = "${requestScope.employees}"/>
+			
+			<c:forEach var = "employee" items = "${employees}">
+				<tr>
+					<td><c:out value="${employee[0]}"></c:out></td>
+					<td><c:out value="${employee[1]}"></c:out></td>
+				</tr>
+			</c:forEach>
+		</table>
 	</div>
 </body>
 

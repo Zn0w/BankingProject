@@ -6,4 +6,15 @@
     version="2.5">
 
   <display-name>Archetype Created Web Application</display-name>
+  <servlet>
+  	<description>
+  	</description>
+  	<display-name>EmployeeListServlet</display-name>
+  	<servlet-name>EmployeeListServlet</servlet-name>
+  	<servlet-class>bankingproject.ui.EmployeeListServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  	<servlet-name>EmployeeListServlet</servlet-name>
+  	<url-pattern>/EmployeeListServlet</url-pattern>
+  </servlet-mapping>
 </web-app>

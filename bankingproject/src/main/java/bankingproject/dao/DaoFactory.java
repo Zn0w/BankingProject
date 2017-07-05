@@ -14,8 +14,8 @@ import com.mysql.fabric.jdbc.FabricMySQLDriver;
 public class DaoFactory {
 	
 	private final String URL = "jdbc:mysql://localhost:3306/banking_project";
-	private final String USERNAME = "";
-	private final String PASSWORD = "";
+	private final String USERNAME = "root";
+	private final String PASSWORD = "root";
 	
 	private final static Logger logger = Logger.getLogger(DaoFactory.class);
 	
