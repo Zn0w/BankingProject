@@ -1,9 +1,9 @@
 package bankingproject.ui;
 
 import java.io.IOException;
-import java.util.List;
 
 import javax.servlet.ServletException;
+import javax.servlet.http.Cookie;
 import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
@@ -16,45 +16,45 @@ import bankingproject.dao.employee.EmployeeDaoImpl;
 import bankingproject.domain.staff.Employee;
 
 /**
- * Servlet implementation class EmployeeListServlet
+ * Servlet implementation class LoginServlet
  */
-public class EmployeeListServlet extends HttpServlet {
+public class LoginServlet extends HttpServlet {
 	private static final long serialVersionUID = 1L;
 	
-	private static final Logger logger = Logger.getLogger(EmployeeListServlet.class);
-
+	private final static Logger logger = Logger.getLogger(LoginServlet.class);
+	
     /**
-     * Default constructor. 
+     * @see HttpServlet#HttpServlet()
      */
-    public EmployeeListServlet() {
-    	
+    public LoginServlet() {
+        super();
     }
 
 	/**
 	 * @see HttpServlet#doGet(HttpServletRequest request, HttpServletResponse response)
 	 */
 	protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
+		String login = request.getParameter("login");
+		String password = request.getParameter("password");
+		
 		EmployeeDao employeeDao = new EmployeeDaoImpl();
 		
 		try {
-			logger.trace("Getting employees");
-			List<Employee> employees = employeeDao.getEmployees();
+			logger.trace("Getting user with login " + login);
+			Employee employee = employeeDao.getEmployee(login);
 			
-			String employeeInfo[][] = new String[employees.size()][2];
-			
-			int i = 0;
-			for (Employee employee : employees) {
-				employeeInfo[i][0] = employee.getName().getFullName();
-				employeeInfo[i][1] = employee.getLogin();
+			if (employee == null) {
+				request.setAttribute("message", "Login " + login + " does not exist");
 				
-				i++;
+				request.getRequestDispatcher("index.jsp").forward(request, response);
 			}
-			
-			request.setAttribute("employees", employeeInfo);
-			
-			request.getRequestDispatcher("employeeList.jsp").forward(request, response);
+			else {
+				Cookie cookie = new Cookie("login", login);
+				response.addCookie(cookie);
+				response.sendRedirect("employee/mainPage.jsp");
+			}
 		} catch (DaoException e) {
-			logger.error("Failed to get employees");
+			logger.error("Failed to get user");
 			// Go to error page
 		}
 	}
@@ -65,5 +65,5 @@ public class EmployeeListServlet extends HttpServlet {
 	protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
 		doGet(request, response);
 	}
-
+	
 }

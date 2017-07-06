@@ -11,14 +11,26 @@
 </head>
 
 <body>
+	<c:if test="${cookie.containsKey('login')}">
+		<c:redirect url = "employee/mainPage.jsp"/>
+	</c:if>
+	
 	<div align = "center">
-		<h1>Hello World</h1>
+		<h1>Log in to start working</h1>
 		
-		<c:forEach var = "i" begin = "1" end = "5">
-			<h2><c:out value="Hello ${i}"></c:out></h2>
-		</c:forEach>
+		<br><br><br><br>
 		
-		<a href = "http://localhost:8080/bankingproject/EmployeeListServlet">See employee list</a>
+		<form action="LoginServlet">
+			Login: <input type = "text" name = "login">
+			<br><br>
+			Password: <input type = "password" name = "password">
+			<br><br><br>
+			<input type = "submit" value = "Log in">
+		</form>
+		
+		<c:if test="${requestScope.message != null}">
+			<h2><c:out value = "${requestScope.message}"></c:out></h2>
+		</c:if>
 	</div>
 </body>
 

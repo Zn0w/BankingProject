@@ -13,8 +13,19 @@
   	<servlet-name>EmployeeListServlet</servlet-name>
   	<servlet-class>bankingproject.ui.EmployeeListServlet</servlet-class>
   </servlet>
+  <servlet>
+  	<description>
+  	</description>
+  	<display-name>LoginServlet</display-name>
+  	<servlet-name>LoginServlet</servlet-name>
+  	<servlet-class>bankingproject.ui.LoginServlet</servlet-class>
+  </servlet>
   <servlet-mapping>
   	<servlet-name>EmployeeListServlet</servlet-name>
   	<url-pattern>/EmployeeListServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>LoginServlet</servlet-name>
+  	<url-pattern>/LoginServlet</url-pattern>
   </servlet-mapping>
 </web-app>

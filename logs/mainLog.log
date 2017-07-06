@@ -1,0 +1,7 @@
+2017-07-05 11:14:22 INFO  LoggingTest:14 - Testing
+2017-07-05 11:14:22 INFO  LoggingTest:21 - Testing
+2017-07-05 11:14:22 TRACE LoggingTest:22 - Testing
+2017-07-05 11:14:22 DEBUG LoggingTest:23 - Testing
+2017-07-05 11:14:22 WARN  LoggingTest:24 - Testing
+2017-07-05 11:14:22 ERROR LoggingTest:25 - Testing
+2017-07-05 11:14:22 FATAL LoggingTest:26 - Testing

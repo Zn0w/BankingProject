@@ -82,10 +82,13 @@ public class EmployeeDaoImpl implements EmployeeDao {
 			logger.trace("Getting result set");
 			rs = statement.executeQuery("select * from employees where login = '" + login + "'");
 			
-			rs.next();
-			
-			employee = new Employee(rs.getInt(1), rs.getString(2), rs.getString(3), rs.getString(4));
-			logger.info("Got employee with login: " + login);
+			if (rs.next()) {
+				employee = new Employee(rs.getInt(1), rs.getString(2), rs.getString(3), rs.getString(4));
+				logger.info("Got employee with login: " + login);
+			}
+			else {
+				logger.info("Employee with login " + login + " doesn't exist");
+			}
 		} catch (SQLException e) {
 			logger.error("Failed to get employee with login: " + login, e);
 			throw new DaoException("Failed to get employee with login: " + login, e);
