@@ -23,6 +23,12 @@
 		</c:choose>
 		
 		<h1>Welcome, <c:out value="${login}"/>!</h1>
+		
+		<br><br><br><br>
+		
+		<form action="../LogoutServlet">
+			<input type = "submit" value = "Log out">
+		</form>
 	</div>
 </body>
 
