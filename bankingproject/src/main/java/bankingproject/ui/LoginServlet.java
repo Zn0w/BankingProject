@@ -40,7 +40,7 @@ public class LoginServlet extends HttpServlet {
 		EmployeeDao employeeDao = new EmployeeDaoImpl();
 		
 		try {
-			logger.trace("Getting user with login " + login);
+			logger.trace("Getting employee with login " + login);
 			Employee employee = employeeDao.getEmployee(login);
 			
 			if (employee == null) {
