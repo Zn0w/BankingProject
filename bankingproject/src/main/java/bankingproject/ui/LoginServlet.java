@@ -48,6 +48,11 @@ public class LoginServlet extends HttpServlet {
 				
 				request.getRequestDispatcher("index.jsp").forward(request, response);
 			}
+			else if (!employee.getPassword().equals(password)) {
+				request.setAttribute("message", "Password is incorrect");
+				
+				request.getRequestDispatcher("index.jsp").forward(request, response);
+			}
 			else {
 				Cookie cookie = new Cookie("login", login);
 				response.addCookie(cookie);

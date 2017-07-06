@@ -18,7 +18,7 @@
 			</c:when>
 			
 			<c:otherwise>
-				<c:redirect url = "index.jsp"/>
+				<c:redirect url = "../index.jsp"/>
 			</c:otherwise>
 		</c:choose>
 		
