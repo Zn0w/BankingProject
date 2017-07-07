@@ -243,3 +243,73 @@
 2017-07-06 16:04:00 TRACE DaoFactory:62 - Statement has been closed
 2017-07-06 16:04:00 TRACE EmployeeDao:102 - Closing connection
 2017-07-06 16:04:00 TRACE DaoFactory:47 - Connection has been closed
+2017-07-07 10:55:34 TRACE LoginServlet:43 - Getting employee with login Zn0w
+2017-07-07 10:55:34 INFO  EmployeeDao:67 - Getting employee with login: Zn0w
+2017-07-07 10:55:34 TRACE EmployeeDao:75 - Setting up connection
+2017-07-07 10:55:34 INFO  DaoFactory:23 - Establishing db connection
+2017-07-07 10:55:34 INFO  DaoFactory:33 - Connection has been established
+2017-07-07 10:55:34 TRACE EmployeeDao:79 - Creating statement
+2017-07-07 10:55:34 TRACE EmployeeDao:82 - Getting result set
+2017-07-07 10:55:34 INFO  EmployeeDao:90 - Employee with login Zn0w doesn't exist
+2017-07-07 10:55:34 TRACE EmployeeDao:96 - Closing result set
+2017-07-07 10:55:34 TRACE DaoFactory:77 - Result set has been closed
+2017-07-07 10:55:34 TRACE EmployeeDao:99 - Closing statement
+2017-07-07 10:55:34 TRACE DaoFactory:62 - Statement has been closed
+2017-07-07 10:55:34 TRACE EmployeeDao:102 - Closing connection
+2017-07-07 10:55:34 TRACE DaoFactory:47 - Connection has been closed
+2017-07-07 10:55:41 TRACE LoginServlet:43 - Getting employee with login davet
+2017-07-07 10:55:41 INFO  EmployeeDao:67 - Getting employee with login: davet
+2017-07-07 10:55:41 TRACE EmployeeDao:75 - Setting up connection
+2017-07-07 10:55:41 INFO  DaoFactory:23 - Establishing db connection
+2017-07-07 10:55:41 INFO  DaoFactory:33 - Connection has been established
+2017-07-07 10:55:41 TRACE EmployeeDao:79 - Creating statement
+2017-07-07 10:55:41 TRACE EmployeeDao:82 - Getting result set
+2017-07-07 10:55:41 INFO  EmployeeDao:87 - Got employee with login: davet
+2017-07-07 10:55:41 TRACE EmployeeDao:96 - Closing result set
+2017-07-07 10:55:41 TRACE DaoFactory:77 - Result set has been closed
+2017-07-07 10:55:41 TRACE EmployeeDao:99 - Closing statement
+2017-07-07 10:55:41 TRACE DaoFactory:62 - Statement has been closed
+2017-07-07 10:55:41 TRACE EmployeeDao:102 - Closing connection
+2017-07-07 10:55:41 TRACE DaoFactory:47 - Connection has been closed
+2017-07-07 10:55:48 TRACE LoginServlet:43 - Getting employee with login kskd
+2017-07-07 10:55:48 INFO  EmployeeDao:67 - Getting employee with login: kskd
+2017-07-07 10:55:48 TRACE EmployeeDao:75 - Setting up connection
+2017-07-07 10:55:48 INFO  DaoFactory:23 - Establishing db connection
+2017-07-07 10:55:48 INFO  DaoFactory:33 - Connection has been established
+2017-07-07 10:55:48 TRACE EmployeeDao:79 - Creating statement
+2017-07-07 10:55:48 TRACE EmployeeDao:82 - Getting result set
+2017-07-07 10:55:48 INFO  EmployeeDao:90 - Employee with login kskd doesn't exist
+2017-07-07 10:55:48 TRACE EmployeeDao:96 - Closing result set
+2017-07-07 10:55:48 TRACE DaoFactory:77 - Result set has been closed
+2017-07-07 10:55:48 TRACE EmployeeDao:99 - Closing statement
+2017-07-07 10:55:48 TRACE DaoFactory:62 - Statement has been closed
+2017-07-07 10:55:48 TRACE EmployeeDao:102 - Closing connection
+2017-07-07 10:55:48 TRACE DaoFactory:47 - Connection has been closed
+2017-07-07 10:55:52 TRACE LoginServlet:43 - Getting employee with login kskd
+2017-07-07 10:55:52 INFO  EmployeeDao:67 - Getting employee with login: kskd
+2017-07-07 10:55:52 TRACE EmployeeDao:75 - Setting up connection
+2017-07-07 10:55:52 INFO  DaoFactory:23 - Establishing db connection
+2017-07-07 10:55:52 INFO  DaoFactory:33 - Connection has been established
+2017-07-07 10:55:52 TRACE EmployeeDao:79 - Creating statement
+2017-07-07 10:55:52 TRACE EmployeeDao:82 - Getting result set
+2017-07-07 10:55:52 INFO  EmployeeDao:90 - Employee with login kskd doesn't exist
+2017-07-07 10:55:52 TRACE EmployeeDao:96 - Closing result set
+2017-07-07 10:55:52 TRACE DaoFactory:77 - Result set has been closed
+2017-07-07 10:55:52 TRACE EmployeeDao:99 - Closing statement
+2017-07-07 10:55:52 TRACE DaoFactory:62 - Statement has been closed
+2017-07-07 10:55:52 TRACE EmployeeDao:102 - Closing connection
+2017-07-07 10:55:52 TRACE DaoFactory:47 - Connection has been closed
+2017-07-07 10:56:13 TRACE LoginServlet:43 - Getting employee with login maryRR
+2017-07-07 10:56:13 INFO  EmployeeDao:67 - Getting employee with login: maryRR
+2017-07-07 10:56:13 TRACE EmployeeDao:75 - Setting up connection
+2017-07-07 10:56:13 INFO  DaoFactory:23 - Establishing db connection
+2017-07-07 10:56:13 INFO  DaoFactory:33 - Connection has been established
+2017-07-07 10:56:13 TRACE EmployeeDao:79 - Creating statement
+2017-07-07 10:56:13 TRACE EmployeeDao:82 - Getting result set
+2017-07-07 10:56:13 INFO  EmployeeDao:87 - Got employee with login: maryRR
+2017-07-07 10:56:13 TRACE EmployeeDao:96 - Closing result set
+2017-07-07 10:56:13 TRACE DaoFactory:77 - Result set has been closed
+2017-07-07 10:56:13 TRACE EmployeeDao:99 - Closing statement
+2017-07-07 10:56:13 TRACE DaoFactory:62 - Statement has been closed
+2017-07-07 10:56:13 TRACE EmployeeDao:102 - Closing connection
+2017-07-07 10:56:13 TRACE DaoFactory:47 - Connection has been closed

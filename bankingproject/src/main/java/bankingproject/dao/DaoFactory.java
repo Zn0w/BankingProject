@@ -43,8 +43,6 @@ public class DaoFactory {
 		if (connection != null) {
 			try {
 				connection.close();
-				
-				logger.trace("Connection has been closed");
 			} catch (SQLException e) {
 				logger.warn("Failed to close connection");
 			}
@@ -58,8 +56,6 @@ public class DaoFactory {
 		if (statement != null) {
 			try {
 				statement.close();
-				
-				logger.trace("Statement has been closed");
 			} catch (SQLException e) {
 				logger.warn("Failed to close statement");
 			}
@@ -73,8 +69,6 @@ public class DaoFactory {
 		if (rs != null) {
 			try {
 				rs.close();
-				
-				logger.trace("Result set has been closed");
 			} catch (SQLException e) {
 				logger.warn("Failed to close result set");
 			}
