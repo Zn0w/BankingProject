@@ -10,5 +10,13 @@ public class Admin extends Employee {
 		super(id, name, login, password);
 		this.confirmationPassword = confirmationPassword;
 	}
+
+	public String getConfirmationPassword() {
+		return confirmationPassword;
+	}
+
+	public void setConfirmationPassword(String confirmationPassword) {
+		this.confirmationPassword = confirmationPassword;
+	}
 	
 }

@@ -22,13 +22,20 @@
 			</c:otherwise>
 		</c:choose>
 		
-		<h1>Welcome, <c:out value="${login}"/>!</h1>
-		
-		<br><br><br><br>
-		
+		<h1>You are logged in as <c:out value="${login}"/>.</h1>
+		<h2>(If you are leaving your workspace, please, log out)</h2>
+	</div>
+	
+	<div align = "right">
 		<form action="../LogoutServlet">
 			<input type = "submit" value = "Log out">
 		</form>
+	</div>
+	
+	<div align = "center">
+		<a href = "../CustomerListServlet">
+			<img alt="Customers" src="images/customers.jpg">
+		</a>
 	</div>
 </body>
 
