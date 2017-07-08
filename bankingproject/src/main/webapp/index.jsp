@@ -11,9 +11,15 @@
 </head>
 
 <body>
-	<c:if test="${cookie.containsKey('login')}">
-		<c:redirect url = "employee/mainPage.jsp"/>
-	</c:if>
+	<c:choose>
+		<c:when test="${cookie.containsKey('employeeLogin')}">
+			<c:redirect url = "employee/mainPage.jsp"/>
+		</c:when>
+		
+		<c:when test="${cookie.containsKey('adminLogin')}">
+			<c:redirect url = "admin/mainPage.jsp"/>
+		</c:when>
+	</c:choose>
 	
 	<div align = "center">
 		<h1>Log in to start working</h1>

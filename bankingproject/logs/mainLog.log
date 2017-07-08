@@ -313,3 +313,70 @@
 2017-07-07 10:56:13 TRACE DaoFactory:62 - Statement has been closed
 2017-07-07 10:56:13 TRACE EmployeeDao:102 - Closing connection
 2017-07-07 10:56:13 TRACE DaoFactory:47 - Connection has been closed
+2017-07-08 06:09:12 TRACE LoginServlet:43 - Get employee with login maryRR
+2017-07-08 06:09:12 INFO  EmployeeDao:57 - Getting employee with login maryRR
+2017-07-08 06:09:12 INFO  DaoFactory:23 - Establishing db connection
+2017-07-08 06:09:12 INFO  DaoFactory:33 - Connection has been established
+2017-07-08 06:09:12 INFO  EmployeeDao:72 - Got employee with login maryRR
+2017-07-08 06:15:10 TRACE EmployeeListServlet:44 - Get employees
+2017-07-08 06:15:10 INFO  EmployeeDao:24 - Getting employees
+2017-07-08 06:15:10 INFO  DaoFactory:23 - Establishing db connection
+2017-07-08 06:15:10 INFO  DaoFactory:33 - Connection has been established
+2017-07-08 06:15:10 INFO  EmployeeDao:42 - Got employees
+2017-07-08 06:15:10 TRACE EmployeeListServlet:57 - Get admins
+2017-07-08 06:15:10 INFO  AdminDaoImpl:24 - Getting admins
+2017-07-08 06:15:10 INFO  DaoFactory:23 - Establishing db connection
+2017-07-08 06:15:10 INFO  DaoFactory:33 - Connection has been established
+2017-07-08 06:15:10 INFO  AdminDaoImpl:42 - Got admins
+2017-07-08 06:28:06 INFO  LoginServlet:43 - Logging in with login rory
+2017-07-08 06:28:06 TRACE LoginServlet:48 - Get employee with login rory
+2017-07-08 06:28:06 INFO  EmployeeDao:57 - Getting employee with login rory
+2017-07-08 06:28:06 INFO  DaoFactory:23 - Establishing db connection
+2017-07-08 06:28:06 INFO  DaoFactory:33 - Connection has been established
+2017-07-08 06:28:06 INFO  EmployeeDao:75 - Employee with login rory doesn't exist
+2017-07-08 06:28:06 INFO  AdminDaoImpl:57 - Getting admin with login rory
+2017-07-08 06:28:06 INFO  DaoFactory:23 - Establishing db connection
+2017-07-08 06:28:06 INFO  DaoFactory:33 - Connection has been established
+2017-07-08 06:28:06 INFO  AdminDaoImpl:75 - Admin with login rory doesn't exist
+2017-07-08 06:28:19 INFO  LoginServlet:43 - Logging in with login donD
+2017-07-08 06:28:19 TRACE LoginServlet:48 - Get employee with login donD
+2017-07-08 06:28:19 INFO  EmployeeDao:57 - Getting employee with login donD
+2017-07-08 06:28:19 INFO  DaoFactory:23 - Establishing db connection
+2017-07-08 06:28:19 INFO  DaoFactory:33 - Connection has been established
+2017-07-08 06:28:19 INFO  EmployeeDao:75 - Employee with login donD doesn't exist
+2017-07-08 06:28:19 INFO  AdminDaoImpl:57 - Getting admin with login donD
+2017-07-08 06:28:19 INFO  DaoFactory:23 - Establishing db connection
+2017-07-08 06:28:19 INFO  DaoFactory:33 - Connection has been established
+2017-07-08 06:28:19 INFO  AdminDaoImpl:72 - Got admin with login donD
+2017-07-08 06:28:26 INFO  LoginServlet:43 - Logging in with login maryRR
+2017-07-08 06:28:26 TRACE LoginServlet:48 - Get employee with login maryRR
+2017-07-08 06:28:26 INFO  EmployeeDao:57 - Getting employee with login maryRR
+2017-07-08 06:28:26 INFO  DaoFactory:23 - Establishing db connection
+2017-07-08 06:28:26 INFO  DaoFactory:33 - Connection has been established
+2017-07-08 06:28:26 INFO  EmployeeDao:72 - Got employee with login maryRR
+2017-07-08 06:28:34 INFO  LoginServlet:43 - Logging in with login donD
+2017-07-08 06:28:34 TRACE LoginServlet:48 - Get employee with login donD
+2017-07-08 06:28:34 INFO  EmployeeDao:57 - Getting employee with login donD
+2017-07-08 06:28:34 INFO  DaoFactory:23 - Establishing db connection
+2017-07-08 06:28:34 INFO  DaoFactory:33 - Connection has been established
+2017-07-08 06:28:34 INFO  EmployeeDao:75 - Employee with login donD doesn't exist
+2017-07-08 06:28:34 INFO  AdminDaoImpl:57 - Getting admin with login donD
+2017-07-08 06:28:34 INFO  DaoFactory:23 - Establishing db connection
+2017-07-08 06:28:34 INFO  DaoFactory:33 - Connection has been established
+2017-07-08 06:28:34 INFO  AdminDaoImpl:72 - Got admin with login donD
+2017-07-08 06:29:05 INFO  LoginServlet:43 - Logging in with login mary
+2017-07-08 06:29:05 TRACE LoginServlet:48 - Get employee with login mary
+2017-07-08 06:29:05 INFO  EmployeeDao:57 - Getting employee with login mary
+2017-07-08 06:29:05 INFO  DaoFactory:23 - Establishing db connection
+2017-07-08 06:29:05 INFO  DaoFactory:33 - Connection has been established
+2017-07-08 06:29:05 INFO  EmployeeDao:75 - Employee with login mary doesn't exist
+2017-07-08 06:29:05 INFO  AdminDaoImpl:57 - Getting admin with login mary
+2017-07-08 06:29:05 INFO  DaoFactory:23 - Establishing db connection
+2017-07-08 06:29:05 INFO  DaoFactory:33 - Connection has been established
+2017-07-08 06:29:05 INFO  AdminDaoImpl:75 - Admin with login mary doesn't exist
+2017-07-08 06:29:14 INFO  LoginServlet:43 - Logging in with login maryRR
+2017-07-08 06:29:14 TRACE LoginServlet:48 - Get employee with login maryRR
+2017-07-08 06:29:14 INFO  EmployeeDao:57 - Getting employee with login maryRR
+2017-07-08 06:29:14 INFO  DaoFactory:23 - Establishing db connection
+2017-07-08 06:29:14 INFO  DaoFactory:33 - Connection has been established
+2017-07-08 06:29:14 INFO  EmployeeDao:72 - Got employee with login maryRR

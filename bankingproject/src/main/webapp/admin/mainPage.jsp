@@ -13,8 +13,8 @@
 <body>
 	<div align = "center">
 		<c:choose>
-			<c:when test="${cookie.containsKey('employeeLogin')}">
-				<c:set var = "login" value = "${cookie['employeeLogin'].value}"/>
+			<c:when test="${cookie.containsKey('adminLogin')}">
+				<c:set var = "login" value = "${cookie['adminLogin'].value}"/>
 			</c:when>
 			
 			<c:otherwise>

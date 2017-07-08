@@ -11,8 +11,11 @@ import javax.servlet.http.HttpServletResponse;
 import org.apache.log4j.Logger;
 
 import bankingproject.dao.DaoException;
+import bankingproject.dao.admin.AdminDao;
+import bankingproject.dao.admin.AdminDaoImpl;
 import bankingproject.dao.employee.EmployeeDao;
 import bankingproject.dao.employee.EmployeeDaoImpl;
+import bankingproject.domain.staff.Admin;
 import bankingproject.domain.staff.Employee;
 
 /**
@@ -35,9 +38,10 @@ public class EmployeeListServlet extends HttpServlet {
 	 */
 	protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
 		EmployeeDao employeeDao = new EmployeeDaoImpl();
+		AdminDao adminDao = new AdminDaoImpl();
 		
 		try {
-			logger.trace("Getting employees");
+			logger.trace("Get employees");
 			List<Employee> employees = employeeDao.getEmployees();
 			
 			String employeeInfo[][] = new String[employees.size()][2];
@@ -50,11 +54,24 @@ public class EmployeeListServlet extends HttpServlet {
 				i++;
 			}
 			
+			logger.trace("Get admins");
+			List<Admin> admins = adminDao.getAdmins();
+			
+			String adminInfo[][] = new String[admins.size()][2];
+			
+			i = 0;
+			for (Admin admin : admins) {
+				adminInfo[i][0] = admin.getName().getFullName();
+				adminInfo[i][1] = admin.getLogin();
+				
+				i++;
+			}
+			
 			request.setAttribute("employees", employeeInfo);
+			request.setAttribute("admins", adminInfo);
 			
 			request.getRequestDispatcher("employeeList.jsp").forward(request, response);
 		} catch (DaoException e) {
-			logger.error("Failed to get employees");
 			// Go to error page
 		}
 	}

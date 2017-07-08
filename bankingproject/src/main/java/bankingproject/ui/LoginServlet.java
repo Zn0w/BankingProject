@@ -11,8 +11,11 @@ import javax.servlet.http.HttpServletResponse;
 import org.apache.log4j.Logger;
 
 import bankingproject.dao.DaoException;
+import bankingproject.dao.admin.AdminDao;
+import bankingproject.dao.admin.AdminDaoImpl;
 import bankingproject.dao.employee.EmployeeDao;
 import bankingproject.dao.employee.EmployeeDaoImpl;
+import bankingproject.domain.staff.Admin;
 import bankingproject.domain.staff.Employee;
 
 /**
@@ -37,16 +40,34 @@ public class LoginServlet extends HttpServlet {
 		String login = request.getParameter("login");
 		String password = request.getParameter("password");
 		
+		logger.info("Logging in with login " + login);
+		
 		EmployeeDao employeeDao = new EmployeeDaoImpl();
 		
 		try {
-			logger.trace("Getting employee with login " + login);
+			logger.trace("Get employee with login " + login);
 			Employee employee = employeeDao.getEmployee(login);
 			
 			if (employee == null) {
-				request.setAttribute("message", "Login " + login + " does not exist");
+				AdminDao adminDao = new AdminDaoImpl();
 				
-				request.getRequestDispatcher("index.jsp").forward(request, response);
+				Admin admin = adminDao.getAdmin(login);
+				
+				if (admin == null) {
+					request.setAttribute("message", "Login " + login + " does not exist");
+					
+					request.getRequestDispatcher("index.jsp").forward(request, response);
+				}
+				else if (!admin.getPassword().equals(password)) {
+					request.setAttribute("message", "Password is incorrect");
+					
+					request.getRequestDispatcher("index.jsp").forward(request, response);
+				}
+				else {
+					Cookie cookie = new Cookie("adminLogin", login);
+					response.addCookie(cookie);
+					response.sendRedirect("admin/mainPage.jsp");
+				}
 			}
 			else if (!employee.getPassword().equals(password)) {
 				request.setAttribute("message", "Password is incorrect");
@@ -54,12 +75,11 @@ public class LoginServlet extends HttpServlet {
 				request.getRequestDispatcher("index.jsp").forward(request, response);
 			}
 			else {
-				Cookie cookie = new Cookie("login", login);
+				Cookie cookie = new Cookie("employeeLogin", login);
 				response.addCookie(cookie);
 				response.sendRedirect("employee/mainPage.jsp");
 			}
 		} catch (DaoException e) {
-			logger.error("Failed to get user");
 			// Go to error page
 		}
 	}

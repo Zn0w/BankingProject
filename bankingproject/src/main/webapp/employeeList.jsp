@@ -20,12 +20,26 @@
 				<th>Login</th>
 			</tr>
 			
-			<c:set var = "employees" value = "${requestScope.employees}"/>
-			
-			<c:forEach var = "employee" items = "${employees}">
+			<c:forEach var = "employee" items = "${requestScope.employees}">
 				<tr>
 					<td><c:out value="${employee[0]}"></c:out></td>
 					<td><c:out value="${employee[1]}"></c:out></td>
+				</tr>
+			</c:forEach>
+		</table>
+		
+		<br><br><br><br><br>
+		
+		<table>
+			<tr>
+				<th>Name</th>
+				<th>Login</th>
+			</tr>
+			
+			<c:forEach var = "admin" items = "${requestScope.admins}">
+				<tr>
+					<td><c:out value="${admin[0]}"></c:out></td>
+					<td><c:out value="${admin[1]}"></c:out></td>
 				</tr>
 			</c:forEach>
 		</table>
