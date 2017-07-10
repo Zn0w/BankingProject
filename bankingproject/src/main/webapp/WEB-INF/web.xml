@@ -27,6 +27,13 @@
   	<servlet-name>LogoutServlet</servlet-name>
   	<servlet-class>bankingproject.ui.LogoutServlet</servlet-class>
   </servlet>
+  <servlet>
+  	<description>
+  	</description>
+  	<display-name>CustomerListServlet</display-name>
+  	<servlet-name>CustomerListServlet</servlet-name>
+  	<servlet-class>bankingproject.ui.CustomerListServlet</servlet-class>
+  </servlet>
   <servlet-mapping>
   	<servlet-name>EmployeeListServlet</servlet-name>
   	<url-pattern>/EmployeeListServlet</url-pattern>
@@ -38,5 +45,9 @@
   <servlet-mapping>
   	<servlet-name>LogoutServlet</servlet-name>
   	<url-pattern>/LogoutServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>CustomerListServlet</servlet-name>
+  	<url-pattern>/CustomerListServlet</url-pattern>
   </servlet-mapping>
 </web-app>

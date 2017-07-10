@@ -12,6 +12,12 @@ public class Customer {
 	private int age;
 	private List<Account> accounts = new ArrayList<Account>();
 	
+	public Customer(int id, String name, int age) {
+		this.id = id;
+		this.name = new NameContainer(name);
+		this.age = age;
+	}
+	
 	public int getId() {
 		return id;
 	}

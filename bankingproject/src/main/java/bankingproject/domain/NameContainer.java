@@ -10,6 +10,8 @@ public class NameContainer {
 	private final static Logger logger = Logger.getLogger(NameContainer.class);
 	
 	public NameContainer(String fullName) {
+		logger.info("Passing name " + fullName);
+		
 		String[] nameComponents = fullName.split(" ");
 		
 		if (nameComponents.length != 2) {

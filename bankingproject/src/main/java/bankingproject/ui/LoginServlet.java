@@ -40,7 +40,7 @@ public class LoginServlet extends HttpServlet {
 		String login = request.getParameter("login");
 		String password = request.getParameter("password");
 		
-		logger.info("Logging in with login " + login);
+		logger.info("Log in with login " + login);
 		
 		EmployeeDao employeeDao = new EmployeeDaoImpl();
 		
