@@ -5,3 +5,28 @@
 2017-07-10 08:02:54 WARN  LoggingTest:24 - Testing
 2017-07-10 08:02:54 ERROR LoggingTest:25 - Testing
 2017-07-10 08:02:54 FATAL LoggingTest:26 - Testing
+2017-07-10 09:18:32 INFO  LoginServlet:43 - Log in with login maryRR
+2017-07-10 09:18:32 TRACE LoginServlet:48 - Get employee with login maryRR
+2017-07-10 09:18:32 INFO  EmployeeDao:57 - Getting employee with login maryRR
+2017-07-10 09:18:32 INFO  DaoFactory:23 - Establishing db connection
+2017-07-10 09:18:32 INFO  DaoFactory:33 - Connection has been established
+2017-07-10 09:18:32 INFO  NameContainer:13 - Passing name Mary Cracker
+2017-07-10 09:18:32 INFO  EmployeeDao:72 - Got employee with login maryRR
+2017-07-10 09:18:39 INFO  LoginServlet:43 - Log in with login maryRR
+2017-07-10 09:18:39 TRACE LoginServlet:48 - Get employee with login maryRR
+2017-07-10 09:18:39 INFO  EmployeeDao:57 - Getting employee with login maryRR
+2017-07-10 09:18:39 INFO  DaoFactory:23 - Establishing db connection
+2017-07-10 09:18:39 INFO  DaoFactory:33 - Connection has been established
+2017-07-10 09:18:39 INFO  NameContainer:13 - Passing name Mary Cracker
+2017-07-10 09:18:39 INFO  EmployeeDao:72 - Got employee with login maryRR
+2017-07-10 09:18:46 TRACE CustomerListServlet:41 - Get customers
+2017-07-10 09:18:46 INFO  CustomerDaoImpl:24 - Getting customers
+2017-07-10 09:18:46 INFO  DaoFactory:23 - Establishing db connection
+2017-07-10 09:18:46 INFO  DaoFactory:33 - Connection has been established
+2017-07-10 09:18:46 INFO  NameContainer:13 - Passing name Dan Tooler
+2017-07-10 09:18:46 INFO  NameContainer:13 - Passing name Mike Altman
+2017-07-10 09:18:46 INFO  NameContainer:13 - Passing name Andy Aronwitz
+2017-07-10 09:18:46 INFO  NameContainer:13 - Passing name Daniil Fogel
+2017-07-10 09:18:46 INFO  CustomerDaoImpl:42 - Got customers
+2017-07-10 09:21:44 INFO  LogoutServlet:32 - Logging out
+2017-07-10 09:21:44 INFO  LogoutServlet:39 - maryRRlogged out

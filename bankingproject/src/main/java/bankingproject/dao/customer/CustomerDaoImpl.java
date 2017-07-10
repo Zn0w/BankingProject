@@ -88,12 +88,46 @@ public class CustomerDaoImpl implements CustomerDao {
 
 	@Override
 	public void createCustomer(String name, int age) throws DaoException {
+		logger.info("Creating new customer");
 		
+		Connection connection = null;
+		Statement statement = null;
+		
+		try {
+			connection = daoFactory.getConnection();
+			statement = connection.createStatement();
+			statement.executeUpdate("insert into customers(name, age) values('"+name+"', '"+age+"')");
+			
+			logger.info("New customer has been created");
+		} catch (SQLException e) {
+			logger.error("Failed to create customer", e);
+			throw new DaoException("Failed to create customer", e);
+		} finally {
+			daoFactory.close(statement);
+			daoFactory.close(connection);
+		}
 	}
 
 	@Override
 	public void deleteCustomer(int id) throws DaoException {
+		logger.info("Deleting customer");
 		
+		Connection connection = null;
+		Statement statement = null;
+		
+		try {
+			connection = daoFactory.getConnection();
+			statement = connection.createStatement();
+			statement.executeUpdate("delete from customers where id = '"+id+"'");
+			
+			logger.info("Customer has been deleted");
+		} catch (SQLException e) {
+			logger.error("Failed to delete customer", e);
+			throw new DaoException("Failed to delete customer", e);
+		} finally {
+			daoFactory.close(statement);
+			daoFactory.close(connection);
+		}
 	}
 	
 }
