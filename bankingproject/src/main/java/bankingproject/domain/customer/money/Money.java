@@ -1,12 +1,15 @@
 package bankingproject.domain.customer.money;
 
+import java.math.BigDecimal;
+import java.math.RoundingMode;
+
 public class Money {
 	
-	private int amount;
+	private double amount;
 	private String currency;
 	
 	public Money(int amount, String currency) {
-		this.amount = amount;
+		this.amount = round(amount, 2);
 		this.currency = currency;
 	}
 	
@@ -18,12 +21,20 @@ public class Money {
 			try {
 				Double coefficient = CurrencyHandler.getCurrencyCoefficient(money.getCurrency(), currency);
 				
-				amount += money.getAmount() * coefficient;
+				amount += money.getAmount() * Money.round(coefficient, 3);
 			} catch (IllegalCurrencyException e) {
 				e.printStackTrace();
 				// Go to error page
 			}
 		}
+	}
+	
+	public static double round(double value, int places) {
+	    if (places < 0) throw new IllegalArgumentException();
+
+	    BigDecimal bd = new BigDecimal(value);
+	    bd = bd.setScale(places, RoundingMode.HALF_UP);
+	    return bd.doubleValue();
 	}
 	
 	public void withdraw(Money money) {
@@ -42,7 +53,7 @@ public class Money {
 		return currency;
 	}
 
-	public int getAmount() {
+	public double getAmount() {
 		return amount;
 	}
 	
