@@ -8,7 +8,7 @@ public class Money {
 	private double amount;
 	private String currency;
 	
-	public Money(int amount, String currency) {
+	public Money(double amount, String currency) {
 		this.amount = round(amount, 2);
 		this.currency = currency;
 	}
@@ -22,6 +22,22 @@ public class Money {
 				Double coefficient = CurrencyHandler.getCurrencyCoefficient(money.getCurrency(), currency);
 				
 				amount += money.getAmount() * Money.round(coefficient, 3);
+			} catch (IllegalCurrencyException e) {
+				e.printStackTrace();
+				// Go to error page
+			}
+		}
+	}
+	
+	public void subtract(Money money) {
+		if (currency.equals(money.getCurrency())) {
+			amount -= money.getAmount();
+		}
+		else {
+			try {
+				Double coefficient = CurrencyHandler.getCurrencyCoefficient(money.getCurrency(), currency);
+				
+				amount -= money.getAmount() * Money.round(coefficient, 3);
 			} catch (IllegalCurrencyException e) {
 				e.printStackTrace();
 				// Go to error page
@@ -54,7 +70,7 @@ public class Money {
 	}
 
 	public double getAmount() {
-		return amount;
+		return round(amount, 2);
 	}
 	
 }
