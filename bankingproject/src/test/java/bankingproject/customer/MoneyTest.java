@@ -58,4 +58,24 @@ public class MoneyTest {
 		assertEquals(1.154, m2.getAmount(), 0.01);
 	}
 	
+	@Test
+	public void checkCurrencyConvertion() {
+		Money m1 = new Money(120, "RUB");
+		Money m2 = new Money(5, "USD");
+		Money m3 = new Money(1, "EUR");
+		Money m4 = new Money(15, "GBP");
+		
+		m1.changeCurrency("USD");
+		assertEquals(1.92, m1.getAmount(), 0.01);
+		
+		m2.changeCurrency("RUB");
+		assertEquals(304, m2.getAmount(), 0.01);
+		
+		m3.changeCurrency("USD");
+		assertEquals(1.148, m3.getAmount(), 0.01);
+		
+		m4.changeCurrency("EUR");
+		assertEquals(16.73, m4.getAmount(), 0.01);
+	}
+	
 }

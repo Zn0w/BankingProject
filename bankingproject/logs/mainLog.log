@@ -192,3 +192,216 @@
 2017-07-13 10:16:21 INFO  CurrencyHandler:28 - Got coefficient
 2017-07-13 10:16:21 INFO  CurrencyHandler:17 - Converting USD to RUB
 2017-07-13 10:16:21 INFO  CurrencyHandler:25 - Got coefficient
+2017-07-15 06:57:05 INFO  CurrencyHandler:17 - Converting RUB to USD
+2017-07-15 06:57:05 INFO  CurrencyHandler:28 - Got coefficient
+2017-07-15 06:57:05 INFO  CurrencyHandler:17 - Converting GBP to USD
+2017-07-15 06:57:05 INFO  CurrencyHandler:40 - Got coefficient
+2017-07-15 06:57:05 INFO  CurrencyHandler:17 - Converting RUB to USD
+2017-07-15 06:57:05 INFO  CurrencyHandler:28 - Got coefficient
+2017-07-15 06:57:05 INFO  CurrencyHandler:17 - Converting USD to RUB
+2017-07-15 06:57:05 INFO  CurrencyHandler:25 - Got coefficient
+2017-07-15 07:24:26 INFO  Money:61 - Changing currency from RUB to USD
+2017-07-15 07:24:26 INFO  CurrencyHandler:17 - Converting RUB to USD
+2017-07-15 07:24:26 INFO  CurrencyHandler:28 - Got coefficient
+2017-07-15 07:24:26 INFO  Money:61 - Changing currency from USD to RUB
+2017-07-15 07:24:26 INFO  CurrencyHandler:17 - Converting USD to RUB
+2017-07-15 07:24:26 INFO  CurrencyHandler:25 - Got coefficient
+2017-07-15 07:24:26 INFO  Money:61 - Changing currency from EUR to USD
+2017-07-15 07:24:26 INFO  CurrencyHandler:17 - Converting EUR to USD
+2017-07-15 07:24:26 INFO  CurrencyHandler:34 - Got coefficient
+2017-07-15 07:24:26 INFO  CurrencyHandler:17 - Converting RUB to USD
+2017-07-15 07:24:26 INFO  CurrencyHandler:28 - Got coefficient
+2017-07-15 07:24:26 INFO  CurrencyHandler:17 - Converting GBP to USD
+2017-07-15 07:24:26 INFO  CurrencyHandler:40 - Got coefficient
+2017-07-15 07:24:26 INFO  CurrencyHandler:17 - Converting RUB to USD
+2017-07-15 07:24:26 INFO  CurrencyHandler:28 - Got coefficient
+2017-07-15 07:24:26 INFO  CurrencyHandler:17 - Converting USD to RUB
+2017-07-15 07:24:26 INFO  CurrencyHandler:25 - Got coefficient
+2017-07-15 07:26:07 INFO  Money:61 - Changing currency from RUB to USD
+2017-07-15 07:26:07 INFO  CurrencyHandler:17 - Converting RUB to USD
+2017-07-15 07:26:07 INFO  CurrencyHandler:28 - Got coefficient
+2017-07-15 07:26:07 INFO  Money:61 - Changing currency from USD to RUB
+2017-07-15 07:26:07 INFO  CurrencyHandler:17 - Converting USD to RUB
+2017-07-15 07:26:07 INFO  CurrencyHandler:25 - Got coefficient
+2017-07-15 07:26:07 INFO  Money:61 - Changing currency from EUR to USD
+2017-07-15 07:26:07 INFO  CurrencyHandler:17 - Converting EUR to USD
+2017-07-15 07:26:07 INFO  CurrencyHandler:34 - Got coefficient
+2017-07-15 07:26:07 INFO  CurrencyHandler:17 - Converting RUB to USD
+2017-07-15 07:26:07 INFO  CurrencyHandler:28 - Got coefficient
+2017-07-15 07:26:07 INFO  CurrencyHandler:17 - Converting GBP to USD
+2017-07-15 07:26:07 INFO  CurrencyHandler:40 - Got coefficient
+2017-07-15 07:26:07 INFO  CurrencyHandler:17 - Converting RUB to USD
+2017-07-15 07:26:07 INFO  CurrencyHandler:28 - Got coefficient
+2017-07-15 07:26:07 INFO  CurrencyHandler:17 - Converting USD to RUB
+2017-07-15 07:26:07 INFO  CurrencyHandler:25 - Got coefficient
+2017-07-15 07:27:04 INFO  Money:61 - Changing currency from RUB to USD
+2017-07-15 07:27:04 INFO  CurrencyHandler:17 - Converting RUB to USD
+2017-07-15 07:27:04 INFO  CurrencyHandler:28 - Got coefficient
+2017-07-15 07:27:04 INFO  Money:61 - Changing currency from USD to RUB
+2017-07-15 07:27:04 INFO  CurrencyHandler:17 - Converting USD to RUB
+2017-07-15 07:27:04 INFO  CurrencyHandler:25 - Got coefficient
+2017-07-15 07:27:04 INFO  Money:61 - Changing currency from EUR to USD
+2017-07-15 07:27:04 INFO  CurrencyHandler:17 - Converting EUR to USD
+2017-07-15 07:27:04 INFO  CurrencyHandler:34 - Got coefficient
+2017-07-15 07:27:04 INFO  CurrencyHandler:17 - Converting RUB to USD
+2017-07-15 07:27:04 INFO  CurrencyHandler:28 - Got coefficient
+2017-07-15 07:27:04 INFO  CurrencyHandler:17 - Converting GBP to USD
+2017-07-15 07:27:04 INFO  CurrencyHandler:40 - Got coefficient
+2017-07-15 07:27:04 INFO  CurrencyHandler:17 - Converting RUB to USD
+2017-07-15 07:27:04 INFO  CurrencyHandler:28 - Got coefficient
+2017-07-15 07:27:04 INFO  CurrencyHandler:17 - Converting USD to RUB
+2017-07-15 07:27:04 INFO  CurrencyHandler:25 - Got coefficient
+2017-07-15 07:28:59 INFO  Money:61 - Changing currency from RUB to USD
+2017-07-15 07:28:59 INFO  CurrencyHandler:17 - Converting RUB to USD
+2017-07-15 07:28:59 INFO  CurrencyHandler:28 - Got coefficient
+2017-07-15 07:28:59 INFO  Money:61 - Changing currency from USD to RUB
+2017-07-15 07:28:59 INFO  CurrencyHandler:17 - Converting USD to RUB
+2017-07-15 07:28:59 INFO  CurrencyHandler:25 - Got coefficient
+2017-07-15 07:28:59 INFO  Money:61 - Changing currency from EUR to USD
+2017-07-15 07:28:59 INFO  CurrencyHandler:17 - Converting EUR to USD
+2017-07-15 07:28:59 INFO  CurrencyHandler:34 - Got coefficient
+2017-07-15 07:28:59 INFO  Money:61 - Changing currency from GBP to EUR
+2017-07-15 07:28:59 INFO  CurrencyHandler:17 - Converting GBP to USD
+2017-07-15 07:28:59 INFO  CurrencyHandler:40 - Got coefficient
+2017-07-15 07:28:59 INFO  CurrencyHandler:17 - Converting GBP to EUR
+2017-07-15 07:28:59 ERROR CurrencyHandler:44 - Failed to find coefficient
+2017-07-15 07:28:59 INFO  CurrencyHandler:17 - Converting RUB to USD
+2017-07-15 07:28:59 INFO  CurrencyHandler:28 - Got coefficient
+2017-07-15 07:28:59 INFO  CurrencyHandler:17 - Converting GBP to USD
+2017-07-15 07:28:59 INFO  CurrencyHandler:40 - Got coefficient
+2017-07-15 07:28:59 INFO  CurrencyHandler:17 - Converting RUB to USD
+2017-07-15 07:28:59 INFO  CurrencyHandler:28 - Got coefficient
+2017-07-15 07:28:59 INFO  CurrencyHandler:17 - Converting USD to RUB
+2017-07-15 07:28:59 INFO  CurrencyHandler:25 - Got coefficient
+2017-07-15 07:48:04 INFO  Money:61 - Changing currency from RUB to USD
+2017-07-15 07:48:04 INFO  CurrencyHandler:17 - Converting RUB to USD
+2017-07-15 07:48:04 INFO  CurrencyHandler:28 - Got coefficient
+2017-07-15 07:48:04 INFO  Money:61 - Changing currency from USD to RUB
+2017-07-15 07:48:04 INFO  CurrencyHandler:17 - Converting USD to RUB
+2017-07-15 07:48:04 INFO  CurrencyHandler:25 - Got coefficient
+2017-07-15 07:48:04 INFO  Money:61 - Changing currency from EUR to USD
+2017-07-15 07:48:04 INFO  CurrencyHandler:17 - Converting EUR to USD
+2017-07-15 07:48:04 INFO  CurrencyHandler:34 - Got coefficient
+2017-07-15 07:48:04 INFO  Money:61 - Changing currency from GBP to RUB
+2017-07-15 07:48:04 INFO  CurrencyHandler:17 - Converting GBP to USD
+2017-07-15 07:48:04 INFO  CurrencyHandler:40 - Got coefficient
+2017-07-15 07:48:04 INFO  CurrencyHandler:17 - Converting GBP to RUB
+2017-07-15 07:48:04 ERROR CurrencyHandler:44 - Failed to find coefficient
+2017-07-15 07:48:04 INFO  CurrencyHandler:17 - Converting RUB to USD
+2017-07-15 07:48:04 INFO  CurrencyHandler:28 - Got coefficient
+2017-07-15 07:48:04 INFO  CurrencyHandler:17 - Converting GBP to USD
+2017-07-15 07:48:04 INFO  CurrencyHandler:40 - Got coefficient
+2017-07-15 07:48:04 INFO  CurrencyHandler:17 - Converting RUB to USD
+2017-07-15 07:48:04 INFO  CurrencyHandler:28 - Got coefficient
+2017-07-15 07:48:04 INFO  CurrencyHandler:17 - Converting USD to RUB
+2017-07-15 07:48:04 INFO  CurrencyHandler:25 - Got coefficient
+2017-07-15 07:48:34 INFO  Money:61 - Changing currency from RUB to USD
+2017-07-15 07:48:34 INFO  CurrencyHandler:17 - Converting RUB to USD
+2017-07-15 07:48:34 INFO  CurrencyHandler:28 - Got coefficient
+2017-07-15 07:48:34 INFO  Money:61 - Changing currency from USD to RUB
+2017-07-15 07:48:34 INFO  CurrencyHandler:17 - Converting USD to RUB
+2017-07-15 07:48:34 INFO  CurrencyHandler:25 - Got coefficient
+2017-07-15 07:48:34 INFO  Money:61 - Changing currency from EUR to USD
+2017-07-15 07:48:34 INFO  CurrencyHandler:17 - Converting EUR to USD
+2017-07-15 07:48:34 INFO  CurrencyHandler:34 - Got coefficient
+2017-07-15 07:48:34 INFO  Money:61 - Changing currency from GBP to EUR
+2017-07-15 07:48:34 INFO  CurrencyHandler:17 - Converting GBP to USD
+2017-07-15 07:48:34 INFO  CurrencyHandler:40 - Got coefficient
+2017-07-15 07:48:34 INFO  CurrencyHandler:17 - Converting GBP to EUR
+2017-07-15 07:48:34 ERROR CurrencyHandler:44 - Failed to find coefficient
+2017-07-15 07:48:34 INFO  CurrencyHandler:17 - Converting RUB to USD
+2017-07-15 07:48:34 INFO  CurrencyHandler:28 - Got coefficient
+2017-07-15 07:48:34 INFO  CurrencyHandler:17 - Converting GBP to USD
+2017-07-15 07:48:34 INFO  CurrencyHandler:40 - Got coefficient
+2017-07-15 07:48:34 INFO  CurrencyHandler:17 - Converting RUB to USD
+2017-07-15 07:48:34 INFO  CurrencyHandler:28 - Got coefficient
+2017-07-15 07:48:34 INFO  CurrencyHandler:17 - Converting USD to RUB
+2017-07-15 07:48:34 INFO  CurrencyHandler:25 - Got coefficient
+2017-07-15 07:49:41 INFO  Money:61 - Changing currency from RUB to USD
+2017-07-15 07:49:41 INFO  CurrencyHandler:17 - Converting RUB to USD
+2017-07-15 07:49:41 INFO  CurrencyHandler:28 - Got coefficient
+2017-07-15 07:49:41 INFO  Money:61 - Changing currency from USD to RUB
+2017-07-15 07:49:41 INFO  CurrencyHandler:17 - Converting USD to RUB
+2017-07-15 07:49:41 INFO  CurrencyHandler:25 - Got coefficient
+2017-07-15 07:49:41 INFO  Money:61 - Changing currency from EUR to USD
+2017-07-15 07:49:41 INFO  CurrencyHandler:17 - Converting EUR to USD
+2017-07-15 07:49:41 INFO  CurrencyHandler:34 - Got coefficient
+2017-07-15 07:49:41 INFO  Money:61 - Changing currency from GBP to EUR
+2017-07-15 07:49:41 INFO  CurrencyHandler:17 - Converting GBP to USD
+2017-07-15 07:49:41 INFO  CurrencyHandler:40 - Got coefficient
+2017-07-15 07:49:41 INFO  CurrencyHandler:17 - Converting GBP to EUR
+2017-07-15 07:49:41 ERROR CurrencyHandler:44 - Failed to find coefficient
+2017-07-15 07:49:41 INFO  CurrencyHandler:17 - Converting RUB to USD
+2017-07-15 07:49:41 INFO  CurrencyHandler:28 - Got coefficient
+2017-07-15 07:49:41 INFO  CurrencyHandler:17 - Converting GBP to USD
+2017-07-15 07:49:41 INFO  CurrencyHandler:40 - Got coefficient
+2017-07-15 07:49:41 INFO  CurrencyHandler:17 - Converting RUB to USD
+2017-07-15 07:49:41 INFO  CurrencyHandler:28 - Got coefficient
+2017-07-15 07:49:41 INFO  CurrencyHandler:17 - Converting USD to RUB
+2017-07-15 07:49:41 INFO  CurrencyHandler:25 - Got coefficient
+2017-07-15 07:50:27 INFO  Money:61 - Changing currency from RUB to USD
+2017-07-15 07:50:27 INFO  CurrencyHandler:17 - Converting RUB to USD
+2017-07-15 07:50:27 INFO  CurrencyHandler:28 - Got coefficient
+2017-07-15 07:50:27 INFO  Money:61 - Changing currency from USD to RUB
+2017-07-15 07:50:27 INFO  CurrencyHandler:17 - Converting USD to RUB
+2017-07-15 07:50:27 INFO  CurrencyHandler:25 - Got coefficient
+2017-07-15 07:50:27 INFO  Money:61 - Changing currency from EUR to USD
+2017-07-15 07:50:27 INFO  CurrencyHandler:17 - Converting EUR to USD
+2017-07-15 07:50:27 INFO  CurrencyHandler:34 - Got coefficient
+2017-07-15 07:50:27 INFO  Money:61 - Changing currency from GBP to EUR
+2017-07-15 07:50:27 INFO  CurrencyHandler:17 - Converting GBP to USD
+2017-07-15 07:50:27 INFO  CurrencyHandler:40 - Got coefficient
+2017-07-15 07:50:27 INFO  CurrencyHandler:17 - Converting GBP to EUR
+2017-07-15 07:50:27 ERROR CurrencyHandler:44 - Failed to find coefficient
+2017-07-15 07:50:27 INFO  CurrencyHandler:17 - Converting RUB to USD
+2017-07-15 07:50:27 INFO  CurrencyHandler:28 - Got coefficient
+2017-07-15 07:50:27 INFO  CurrencyHandler:17 - Converting GBP to USD
+2017-07-15 07:50:27 INFO  CurrencyHandler:40 - Got coefficient
+2017-07-15 07:50:27 INFO  CurrencyHandler:17 - Converting RUB to USD
+2017-07-15 07:50:27 INFO  CurrencyHandler:28 - Got coefficient
+2017-07-15 07:50:27 INFO  CurrencyHandler:17 - Converting USD to RUB
+2017-07-15 07:50:27 INFO  CurrencyHandler:25 - Got coefficient
+2017-07-15 07:52:30 INFO  Money:61 - Changing currency from RUB to USD
+2017-07-15 07:52:30 INFO  CurrencyHandler:17 - Converting RUB to USD
+2017-07-15 07:52:30 INFO  CurrencyHandler:28 - Got coefficient
+2017-07-15 07:52:30 INFO  Money:61 - Changing currency from USD to RUB
+2017-07-15 07:52:30 INFO  CurrencyHandler:17 - Converting USD to RUB
+2017-07-15 07:52:30 INFO  CurrencyHandler:25 - Got coefficient
+2017-07-15 07:52:30 INFO  Money:61 - Changing currency from EUR to USD
+2017-07-15 07:52:30 INFO  CurrencyHandler:17 - Converting EUR to USD
+2017-07-15 07:52:30 INFO  CurrencyHandler:34 - Got coefficient
+2017-07-15 07:52:30 INFO  Money:61 - Changing currency from GBP to EUR
+2017-07-15 07:52:30 INFO  CurrencyHandler:17 - Converting GBP to USD
+2017-07-15 07:52:30 INFO  CurrencyHandler:40 - Got coefficient
+2017-07-15 07:52:30 INFO  CurrencyHandler:17 - Converting EUR to EUR
+2017-07-15 07:52:30 ERROR CurrencyHandler:44 - Failed to find coefficient
+2017-07-15 07:52:30 INFO  CurrencyHandler:17 - Converting RUB to USD
+2017-07-15 07:52:30 INFO  CurrencyHandler:28 - Got coefficient
+2017-07-15 07:52:30 INFO  CurrencyHandler:17 - Converting GBP to USD
+2017-07-15 07:52:30 INFO  CurrencyHandler:40 - Got coefficient
+2017-07-15 07:52:30 INFO  CurrencyHandler:17 - Converting RUB to USD
+2017-07-15 07:52:30 INFO  CurrencyHandler:28 - Got coefficient
+2017-07-15 07:52:30 INFO  CurrencyHandler:17 - Converting USD to RUB
+2017-07-15 07:52:30 INFO  CurrencyHandler:25 - Got coefficient
+2017-07-15 07:53:34 INFO  Money:61 - Changing currency from RUB to USD
+2017-07-15 07:53:34 INFO  CurrencyHandler:17 - Converting RUB to USD
+2017-07-15 07:53:34 INFO  CurrencyHandler:28 - Got coefficient
+2017-07-15 07:53:34 INFO  Money:61 - Changing currency from USD to RUB
+2017-07-15 07:53:34 INFO  CurrencyHandler:17 - Converting USD to RUB
+2017-07-15 07:53:34 INFO  CurrencyHandler:25 - Got coefficient
+2017-07-15 07:53:34 INFO  Money:61 - Changing currency from EUR to USD
+2017-07-15 07:53:34 INFO  CurrencyHandler:17 - Converting EUR to USD
+2017-07-15 07:53:34 INFO  CurrencyHandler:34 - Got coefficient
+2017-07-15 07:53:34 INFO  Money:61 - Changing currency from GBP to EUR
+2017-07-15 07:53:34 INFO  CurrencyHandler:17 - Converting GBP to USD
+2017-07-15 07:53:34 INFO  CurrencyHandler:40 - Got coefficient
+2017-07-15 07:53:34 INFO  CurrencyHandler:17 - Converting USD to EUR
+2017-07-15 07:53:34 INFO  CurrencyHandler:31 - Got coefficient
+2017-07-15 07:53:34 INFO  CurrencyHandler:17 - Converting RUB to USD
+2017-07-15 07:53:34 INFO  CurrencyHandler:28 - Got coefficient
+2017-07-15 07:53:34 INFO  CurrencyHandler:17 - Converting GBP to USD
+2017-07-15 07:53:34 INFO  CurrencyHandler:40 - Got coefficient
+2017-07-15 07:53:34 INFO  CurrencyHandler:17 - Converting RUB to USD
+2017-07-15 07:53:34 INFO  CurrencyHandler:28 - Got coefficient
+2017-07-15 07:53:34 INFO  CurrencyHandler:17 - Converting USD to RUB
+2017-07-15 07:53:34 INFO  CurrencyHandler:25 - Got coefficient

@@ -3,10 +3,14 @@ package bankingproject.domain.customer.money;
 import java.math.BigDecimal;
 import java.math.RoundingMode;
 
+import org.apache.log4j.Logger;
+
 public class Money {
 	
 	private double amount;
 	private String currency;
+	
+	private static final Logger logger = Logger.getLogger(Money.class);
 	
 	public Money(double amount, String currency) {
 		this.amount = round(amount, 2);
@@ -53,16 +57,37 @@ public class Money {
 	    return bd.doubleValue();
 	}
 	
-	public void withdraw(Money money) {
-		
-	}
-	
 	public void changeCurrency(String newCurrency) {
+		logger.info("Changing currency from " + currency + " to " + newCurrency);
 		
-	}
-	
-	public Money getInCurrency(String currency) {
-		return null;
+		if (currency.equals(newCurrency)) {
+			logger.trace("Currency is same");
+			return;
+		} else {
+			try {
+				if ((currency.equals("USD")) || (!currency.equals("USD") && newCurrency.equals("USD"))) {
+					Double coefficient = CurrencyHandler.getCurrencyCoefficient(currency, newCurrency);
+					
+					amount = round(amount, 2) * round(coefficient, 3);
+					currency = newCurrency;
+				} else if (!currency.equals("USD") && !newCurrency.equals("USD")) {
+					Double coefficientUSD = CurrencyHandler.getCurrencyCoefficient(currency, "USD");
+					
+					amount = round(amount, 2) * round(coefficientUSD, 3);
+					currency = "USD";
+					System.out.println("1 amount: " + amount);
+					
+					Double coefficientCurrency = CurrencyHandler.getCurrencyCoefficient(currency, newCurrency);
+					
+					amount = round(amount, 2) * round(coefficientCurrency, 3);
+					currency = newCurrency;
+					System.out.println("2 amount: " + amount);
+				}
+			} catch (IllegalCurrencyException e) {
+				e.printStackTrace();
+				// Go to error page
+			}
+		}
 	}
 
 	public String getCurrency() {

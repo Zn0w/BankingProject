@@ -32,7 +32,7 @@ public class CurrencyHandler {
 				return USDToEUR;
 			} else if (from.equals("EUR") && to.equals("USD")) {
 				logger.info("Got coefficient");
-				return Math.pow(USDToRUB, -1);
+				return Math.pow(USDToEUR, -1);
 			} else if (from.equals("USD") && to.equals("GBP")) {
 				logger.info("Got coefficient");
 				return USDToGBP;
