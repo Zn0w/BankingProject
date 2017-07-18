@@ -405,3 +405,7 @@
 2017-07-15 07:53:34 INFO  CurrencyHandler:28 - Got coefficient
 2017-07-15 07:53:34 INFO  CurrencyHandler:17 - Converting USD to RUB
 2017-07-15 07:53:34 INFO  CurrencyHandler:25 - Got coefficient
+2017-07-18 09:54:00 INFO  Account:20 - Transfer from 102 to 134 amount: 100.0 USD
+2017-07-18 09:54:00 TRACE Account:23 - Transaction 102-134 : 100.0 USD has been completed
+2017-07-18 09:55:26 INFO  Account:20 - Transfer from 102 to 134 amount: 100.0 USD
+2017-07-18 09:55:26 TRACE Account:23 - Transaction 102-134 : 100.0 USD has been completed
