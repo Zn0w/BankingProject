@@ -55,12 +55,48 @@ public class AccountDaoImpl implements AccountDao {
 
 	@Override
 	public void createAccount(int customerId, String currency) throws DaoException {
+		logger.info("Creating account for customer " + customerId);
 		
+		Connection connection = null;
+		Statement statement = null;
+		
+		try {
+			connection = daoFactory.getConnection();
+			statement = connection.createStatement();
+			
+			statement.executeUpdate("insert into accounts(balance, currency, customer) values('"+0+"', '"+currency+"', '"+customerId+"')");
+			
+			logger.trace("Account for customer " + customerId + " has been created");
+		} catch (SQLException e) {
+			logger.error("Failed to create account for customer " + customerId, e);
+			throw new DaoException("Failed to create account for customer " + customerId, e);
+		} finally {
+			daoFactory.close(statement);
+			daoFactory.close(connection);
+		}
 	}
 
 	@Override
 	public void deleteAccount(int id) throws DaoException {
+		logger.info("Deleting account " + id);
 		
+		Connection connection = null;
+		Statement statement = null;
+		
+		try {
+			connection = daoFactory.getConnection();
+			statement = connection.createStatement();
+			
+			statement.executeUpdate("delete from accounts where id = '"+id+"'");
+			
+			logger.trace("Account " + id + " has been deleted");
+		} catch (SQLException e) {
+			logger.error("Failed to delete account " + id, e);
+			throw new DaoException("Failed to delete account " + id, e);
+		} finally {
+			daoFactory.close(statement);
+			daoFactory.close(connection);
+		}
 	}
 	
 }

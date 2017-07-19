@@ -409,3 +409,19 @@
 2017-07-18 09:54:00 TRACE Account:23 - Transaction 102-134 : 100.0 USD has been completed
 2017-07-18 09:55:26 INFO  Account:20 - Transfer from 102 to 134 amount: 100.0 USD
 2017-07-18 09:55:26 TRACE Account:23 - Transaction 102-134 : 100.0 USD has been completed
+2017-07-19 09:47:09 INFO  LoginServlet:43 - Log in with login davet
+2017-07-19 09:47:09 TRACE LoginServlet:48 - Get employee with login davet
+2017-07-19 09:47:09 INFO  EmployeeDao:57 - Getting employee with login davet
+2017-07-19 09:47:09 INFO  DaoFactory:23 - Establishing db connection
+2017-07-19 09:47:09 INFO  DaoFactory:33 - Connection has been established
+2017-07-19 09:47:09 INFO  NameContainer:13 - Passing name Dave Tuo
+2017-07-19 09:47:09 INFO  EmployeeDao:72 - Got employee with login davet
+2017-07-19 09:47:21 TRACE CustomerListServlet:41 - Get customers
+2017-07-19 09:47:21 INFO  CustomerDaoImpl:24 - Getting customers
+2017-07-19 09:47:21 INFO  DaoFactory:23 - Establishing db connection
+2017-07-19 09:47:21 INFO  DaoFactory:33 - Connection has been established
+2017-07-19 09:47:21 INFO  NameContainer:13 - Passing name Dan Tooler
+2017-07-19 09:47:21 INFO  NameContainer:13 - Passing name Mike Altman
+2017-07-19 09:47:21 INFO  NameContainer:13 - Passing name Andy Aronwitz
+2017-07-19 09:47:21 INFO  NameContainer:13 - Passing name Daniil Fogel
+2017-07-19 09:47:21 INFO  CustomerDaoImpl:42 - Got customers

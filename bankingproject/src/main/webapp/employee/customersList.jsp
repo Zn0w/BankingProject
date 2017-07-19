@@ -11,20 +11,15 @@
 </head>
 
 <body>
-	<div align = "center">
-		<c:choose>
-			<c:when test="${cookie.containsKey('employeeLogin')}">
-				<c:set var = "login" value = "${cookie['employeeLogin'].value}"/>
-			</c:when>
+	<c:choose>
+		<c:when test="${cookie.containsKey('employeeLogin')}">
+			<c:set var = "login" value = "${cookie['employeeLogin'].value}"/>
+		</c:when>
 			
-			<c:otherwise>
-				<c:redirect url = "../index.jsp"/>
-			</c:otherwise>
-		</c:choose>
-		
-		<h1>You are logged in as <c:out value="${login}"/>.</h1>
-		<h2>(If you are leaving your workspace, please, log out)</h2>
-	</div>
+		<c:otherwise>
+			<c:redirect url = "../index.jsp"/>
+		</c:otherwise>
+	</c:choose>
 	
 	<div align = "right">
 		<form action="../LogoutServlet">
@@ -33,9 +28,9 @@
 	</div>
 	
 	<div align = "center">
-		<a href = "customers.jsp">
-			<img alt="Customers" src="images/customers.jpg" width = "250" height = "250">
-		</a>
+		<c:forEach var = "customer" items = "${requestScope.customers}">
+			<h3><c:out value="${customer[0]}"/> | <c:out value="${customer[1]}"/> | <c:out value="${customer[2]}"/></h3>
+		</c:forEach>
 	</div>
 </body>
 
