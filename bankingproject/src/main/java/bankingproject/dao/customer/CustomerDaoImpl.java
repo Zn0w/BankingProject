@@ -65,7 +65,8 @@ public class CustomerDaoImpl implements CustomerDao {
 		try {
 			connection = daoFactory.getConnection();
 			statement = connection.createStatement();
-			rs = statement.getResultSet();
+			rs = statement.executeQuery("select * from customers where id = '"+id+"'");
+			
 			
 			if (rs.next()) {
 				customer = new Customer(rs.getInt(1), rs.getString(2), rs.getInt(3));
@@ -74,6 +75,7 @@ public class CustomerDaoImpl implements CustomerDao {
 			else {
 				logger.info("Customer with id " + id + " doesn't exist");
 			}
+			return customer;
 		} catch (SQLException e) {
 			logger.error("Failed to get customer with id " + id, e);
 			throw new DaoException("Failed to get customer with id " + id, e);
@@ -82,8 +84,6 @@ public class CustomerDaoImpl implements CustomerDao {
 			daoFactory.close(statement);
 			daoFactory.close(connection);
 		}
-		
-		return customer;
 	}
 
 	@Override

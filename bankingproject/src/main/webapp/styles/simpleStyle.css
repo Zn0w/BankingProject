@@ -1,0 +1,6 @@
+@CHARSET "UTF-8";
+
+ul {
+	display:table;
+	margin:0 auto;
+}

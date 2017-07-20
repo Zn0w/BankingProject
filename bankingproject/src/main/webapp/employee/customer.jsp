@@ -8,8 +8,7 @@
 <head>
 	<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
 	<title>BankingProject</title>
-	
-	<script type="text/javascript" src = "../scripts/customersScripts.js"></script>
+	<link href = "../styles/simpleStyle.css" type = "text/css" rel = "stylesheet">
 </head>
 
 <body>
@@ -27,21 +26,27 @@
 		<h2>You are logged in as <c:out value="${login}"/>.</h2>
 		<h3>(If you are leaving your workspace, please, log out)</h3>
 		
-		<h1>Main page</h1>
+		<h1>Customer page</h1>
 	</div>
 	
 	<div align = "right">
 		<form action="../LogoutServlet">
 			<input type = "submit" value = "Log out">
 		</form>
+		
+		<form action="employee/mainPage.jsp">
+			<input type = "submit" value = "Go to main page">
+		</form>
 	</div>
 	
 	<div align = "center">
-		<br><br><br><br>
-		
-		<img alt="Add new customer" src="images/addCustomer.png" width = "250" height = "250" hspace = "20" onclick = "getNewCustomerData()">
-		
-		<img alt="Find customer" src="images/search.png" width = "250" height = "250" hspace = "20" onclick = "getSearchQuery()">
+		<h2>Personal information: </h2>
+		<ul>
+			<li>ID: <c:out value="${requestScope.id}"/></li>
+			<li>Name: <c:out value="${requestScope.name}"/></li>
+			<li>Age: <c:out value="${requestScope.age}"/></li>
+		</ul>
+		<h2>Accounts information: </h2>
 	</div>
 </body>
 
