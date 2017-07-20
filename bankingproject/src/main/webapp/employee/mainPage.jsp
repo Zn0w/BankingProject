@@ -8,6 +8,8 @@
 <head>
 	<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
 	<title>BankingProject</title>
+	
+	<script type="text/javascript" src = "../scripts/customersScripts.js"></script>
 </head>
 
 <body>
@@ -33,9 +35,11 @@
 	</div>
 	
 	<div align = "center">
-		<a href = "customers.jsp">
-			<img alt="Customers" src="images/customers.jpg" width = "250" height = "250">
-		</a>
+		<br><br><br><br>
+		
+		<img alt="Add new customer" src="images/addCustomer.png" width = "250" height = "250" hspace = "20" onclick = "getNewCustomerData()">
+		
+		<img alt="Find customer" src="images/search.png" width = "250" height = "250" hspace = "20" onclick = "getSearchQuery()">
 	</div>
 </body>
 

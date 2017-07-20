@@ -425,3 +425,54 @@
 2017-07-19 09:47:21 INFO  NameContainer:13 - Passing name Andy Aronwitz
 2017-07-19 09:47:21 INFO  NameContainer:13 - Passing name Daniil Fogel
 2017-07-19 09:47:21 INFO  CustomerDaoImpl:42 - Got customers
+2017-07-19 15:47:34 INFO  LoginServlet:43 - Log in with login maryRR
+2017-07-19 15:47:34 TRACE LoginServlet:48 - Get employee with login maryRR
+2017-07-19 15:47:34 INFO  EmployeeDao:57 - Getting employee with login maryRR
+2017-07-19 15:47:34 INFO  DaoFactory:23 - Establishing db connection
+2017-07-19 15:47:35 INFO  DaoFactory:33 - Connection has been established
+2017-07-19 15:47:35 INFO  NameContainer:13 - Passing name Mary Cracker
+2017-07-19 15:47:35 INFO  EmployeeDao:72 - Got employee with login maryRR
+2017-07-20 07:06:24 INFO  LoginServlet:43 - Log in with login donD
+2017-07-20 07:06:24 TRACE LoginServlet:48 - Get employee with login donD
+2017-07-20 07:06:24 INFO  EmployeeDao:57 - Getting employee with login donD
+2017-07-20 07:06:24 INFO  DaoFactory:23 - Establishing db connection
+2017-07-20 07:06:24 INFO  DaoFactory:33 - Connection has been established
+2017-07-20 07:06:24 INFO  EmployeeDao:75 - Employee with login donD doesn't exist
+2017-07-20 07:06:24 INFO  AdminDaoImpl:57 - Getting admin with login donD
+2017-07-20 07:06:24 INFO  DaoFactory:23 - Establishing db connection
+2017-07-20 07:06:24 INFO  DaoFactory:33 - Connection has been established
+2017-07-20 07:06:24 INFO  NameContainer:13 - Passing name Donald Duck
+2017-07-20 07:06:24 INFO  AdminDaoImpl:72 - Got admin with login donD
+2017-07-20 07:06:27 INFO  LogoutServlet:32 - Logging out
+2017-07-20 07:06:27 INFO  LogoutServlet:49 - donDlogged out
+2017-07-20 07:06:31 INFO  LoginServlet:43 - Log in with login donD
+2017-07-20 07:06:31 TRACE LoginServlet:48 - Get employee with login donD
+2017-07-20 07:06:31 INFO  EmployeeDao:57 - Getting employee with login donD
+2017-07-20 07:06:31 INFO  DaoFactory:23 - Establishing db connection
+2017-07-20 07:06:31 INFO  DaoFactory:33 - Connection has been established
+2017-07-20 07:06:31 INFO  EmployeeDao:75 - Employee with login donD doesn't exist
+2017-07-20 07:06:31 INFO  AdminDaoImpl:57 - Getting admin with login donD
+2017-07-20 07:06:31 INFO  DaoFactory:23 - Establishing db connection
+2017-07-20 07:06:31 INFO  DaoFactory:33 - Connection has been established
+2017-07-20 07:06:31 INFO  NameContainer:13 - Passing name Donald Duck
+2017-07-20 07:06:31 INFO  AdminDaoImpl:72 - Got admin with login donD
+2017-07-20 07:06:41 INFO  LoginServlet:43 - Log in with login donD
+2017-07-20 07:06:41 TRACE LoginServlet:48 - Get employee with login donD
+2017-07-20 07:06:41 INFO  EmployeeDao:57 - Getting employee with login donD
+2017-07-20 07:06:41 INFO  DaoFactory:23 - Establishing db connection
+2017-07-20 07:06:41 INFO  DaoFactory:33 - Connection has been established
+2017-07-20 07:06:41 INFO  EmployeeDao:75 - Employee with login donD doesn't exist
+2017-07-20 07:06:41 INFO  AdminDaoImpl:57 - Getting admin with login donD
+2017-07-20 07:06:41 INFO  DaoFactory:23 - Establishing db connection
+2017-07-20 07:06:41 INFO  DaoFactory:33 - Connection has been established
+2017-07-20 07:06:41 INFO  NameContainer:13 - Passing name Donald Duck
+2017-07-20 07:06:41 INFO  AdminDaoImpl:72 - Got admin with login donD
+2017-07-20 07:06:44 INFO  LogoutServlet:32 - Logging out
+2017-07-20 07:06:44 INFO  LogoutServlet:49 - donDlogged out
+2017-07-20 07:06:49 INFO  LoginServlet:43 - Log in with login davet
+2017-07-20 07:06:49 TRACE LoginServlet:48 - Get employee with login davet
+2017-07-20 07:06:49 INFO  EmployeeDao:57 - Getting employee with login davet
+2017-07-20 07:06:49 INFO  DaoFactory:23 - Establishing db connection
+2017-07-20 07:06:50 INFO  DaoFactory:33 - Connection has been established
+2017-07-20 07:06:50 INFO  NameContainer:13 - Passing name Dave Tuo
+2017-07-20 07:06:50 INFO  EmployeeDao:72 - Got employee with login davet
