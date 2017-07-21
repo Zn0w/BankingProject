@@ -1,6 +1,7 @@
 package bankingproject.ui;
 
 import java.io.IOException;
+import java.util.List;
 
 import javax.servlet.ServletException;
 import javax.servlet.http.HttpServlet;
@@ -12,6 +13,7 @@ import org.apache.log4j.Logger;
 import bankingproject.dao.DaoException;
 import bankingproject.dao.customer.CustomerDao;
 import bankingproject.dao.customer.CustomerDaoImpl;
+import bankingproject.domain.customer.Account;
 import bankingproject.domain.customer.Customer;
 
 /**
@@ -43,9 +45,18 @@ public class CustomerServlet extends HttpServlet {
 			String name = customer.getName().getFullName();
 			String age = String.valueOf(customer.getAge());
 			
+			List<Account> accounts = customer.getAccounts();
+			String[][] accountsInfo = new String[accounts.size()][3];
+			for (Account account : accounts) {
+				accountsInfo[accounts.indexOf(account)][0] = String.valueOf(account.getId());
+				accountsInfo[accounts.indexOf(account)][1] = String.valueOf(account.getBalance().getAmount());
+				accountsInfo[accounts.indexOf(account)][2] = account.getBalance().getCurrency();
+			}
+			
 			request.setAttribute("id", id);
 			request.setAttribute("name", name);
 			request.setAttribute("age", age);
+			request.setAttribute("accounts", accountsInfo);
 			
 			request.getRequestDispatcher("employee/customer.jsp").forward(request, response);
 		} catch (NumberFormatException e) {

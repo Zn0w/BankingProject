@@ -1,8 +1,10 @@
 package bankingproject.domain.customer;
 
-import java.util.ArrayList;
 import java.util.List;
 
+import bankingproject.dao.DaoException;
+import bankingproject.dao.account.AccountDao;
+import bankingproject.dao.account.AccountDaoImpl;
 import bankingproject.domain.NameContainer;
 
 public class Customer {
@@ -10,12 +12,19 @@ public class Customer {
 	private int id;
 	private NameContainer name;
 	private int age;
-	private List<Account> accounts = new ArrayList<Account>();
+	private List<Account> accounts;
 	
 	public Customer(int id, String name, int age) {
 		this.id = id;
 		this.name = new NameContainer(name);
 		this.age = age;
+		
+		AccountDao accountDao = new AccountDaoImpl();
+		try {
+			accounts = accountDao.getCustomerAccounts(id);
+		} catch (DaoException e) {
+			e.printStackTrace();
+		}
 	}
 	
 	public int getId() {

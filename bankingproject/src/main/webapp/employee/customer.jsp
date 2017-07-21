@@ -46,7 +46,23 @@
 			<li>Name: <c:out value="${requestScope.name}"/></li>
 			<li>Age: <c:out value="${requestScope.age}"/></li>
 		</ul>
+		
 		<h2>Accounts information: </h2>
+		<table border = "1">
+			<tr>
+				<th>ID</th>
+				<th>Balance</th>
+				<th>Currency</th>
+			</tr>
+			
+			<c:forEach var = "account" items = "${requestScope.accounts}">
+				<tr>
+					<td><c:out value="${account[0]}"/></td>
+					<td><c:out value="${account[1]}"/></td>
+					<td><c:out value="${account[2]}"/></td>
+				</tr>
+			</c:forEach>
+		</table>
 	</div>
 </body>
 
