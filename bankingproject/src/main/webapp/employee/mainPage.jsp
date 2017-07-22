@@ -39,9 +39,15 @@
 	<div align = "center">
 		<br><br><br><br>
 		
-		<img alt="Add new customer" src="images/addCustomer.png" width = "250" height = "250" hspace = "20" onclick = "getNewCustomerData()">
+		<img alt="Add new customer" src="images/addCustomer.png" width = "250" height = "250" hspace = "20" onclick = "setNewCustomerData()">
 		
-		<img alt="Find customer" src="images/search.png" width = "250" height = "250" hspace = "20" onclick = "getSearchQuery()">
+		<img alt="Find customer" src="images/search.png" width = "250" height = "250" hspace = "20" onclick = "setSearchQuery()">
+	</div>
+	
+	<br><br>
+	
+	<div id = "display" align = "center">
+		
 	</div>
 </body>
 

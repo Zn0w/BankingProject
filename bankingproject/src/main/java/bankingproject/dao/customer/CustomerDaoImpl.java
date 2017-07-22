@@ -129,5 +129,11 @@ public class CustomerDaoImpl implements CustomerDao {
 			daoFactory.close(connection);
 		}
 	}
+
+	@Override
+	public Customer getCustomer(String name, int age) throws DaoException {
+		logger.info("Getting customer " + name + " age: " + age);
+		return null;
+	}
 	
 }

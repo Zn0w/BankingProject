@@ -1,17 +1,16 @@
-function getNewCustomerData() {
-	alert("Adding new customer");
+function setNewCustomerData() {
+	document.getElementById("display").innerHTML = "<h3>Register new customer<h3>" +
+			"<form action = '../CreateCustomerServlet'>" +
+			"First name: <input type = 'text' name = 'first name'>" +
+			"Last name:  <input type = 'text' name = 'last name'>" +
+			"Age:        <input type = 'text' name = 'age'>" +
+			"<input type = 'submit' value = 'Submit'>";
 }
 
-function getSearchQuery() {
+function setSearchQuery() {
 	var query = prompt("Enter customer id");
 	
 	if (query != null && !isNaN(query)) {
-		/*$.ajax({
-		     type: 'GET',
-		     url: 'localhost:8080/bankingproject/CustomerServlet',
-		     data: {"query": query}
-		});*/
-		
 		window.location.href = "/bankingproject/CustomerServlet?query=" + query;
 	}
 	else {

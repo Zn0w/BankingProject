@@ -15,4 +15,6 @@ public interface CustomerDao {
 	
 	public void deleteCustomer(int id) throws DaoException;
 	
+	public Customer getCustomer(String name, int age) throws DaoException;
+	
 }

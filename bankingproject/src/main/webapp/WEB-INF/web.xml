@@ -41,6 +41,13 @@
   	<servlet-name>CustomerServlet</servlet-name>
   	<servlet-class>bankingproject.ui.CustomerServlet</servlet-class>
   </servlet>
+  <servlet>
+  	<description>
+  	</description>
+  	<display-name>CreateCustomerServlet</display-name>
+  	<servlet-name>CreateCustomerServlet</servlet-name>
+  	<servlet-class>bankingproject.ui.CreateCustomerServlet</servlet-class>
+  </servlet>
   <servlet-mapping>
   	<servlet-name>EmployeeListServlet</servlet-name>
   	<url-pattern>/EmployeeListServlet</url-pattern>
@@ -60,5 +67,9 @@
   <servlet-mapping>
   	<servlet-name>CustomerServlet</servlet-name>
   	<url-pattern>/CustomerServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>CreateCustomerServlet</servlet-name>
+  	<url-pattern>/CreateCustomerServlet</url-pattern>
   </servlet-mapping>
 </web-app>
