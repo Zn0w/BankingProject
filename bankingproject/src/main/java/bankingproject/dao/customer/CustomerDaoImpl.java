@@ -67,7 +67,6 @@ public class CustomerDaoImpl implements CustomerDao {
 			statement = connection.createStatement();
 			rs = statement.executeQuery("select * from customers where id = '"+id+"'");
 			
-			
 			if (rs.next()) {
 				customer = new Customer(rs.getInt(1), rs.getString(2), rs.getInt(3));
 				logger.info("Got customer with id " + id);
@@ -88,7 +87,7 @@ public class CustomerDaoImpl implements CustomerDao {
 
 	@Override
 	public void createCustomer(String name, int age) throws DaoException {
-		logger.info("Creating new customer");
+		logger.info("Creating new customer " + name + " " + age);
 		
 		Connection connection = null;
 		Statement statement = null;
@@ -98,7 +97,7 @@ public class CustomerDaoImpl implements CustomerDao {
 			statement = connection.createStatement();
 			statement.executeUpdate("insert into customers(name, age) values('"+name+"', '"+age+"')");
 			
-			logger.info("New customer has been created");
+			logger.info("Customer " + name + " " + age + " has been created");
 		} catch (SQLException e) {
 			logger.error("Failed to create customer", e);
 			throw new DaoException("Failed to create customer", e);
@@ -110,7 +109,7 @@ public class CustomerDaoImpl implements CustomerDao {
 
 	@Override
 	public void deleteCustomer(int id) throws DaoException {
-		logger.info("Deleting customer");
+		logger.info("Deleting customer " + id);
 		
 		Connection connection = null;
 		Statement statement = null;
@@ -120,7 +119,7 @@ public class CustomerDaoImpl implements CustomerDao {
 			statement = connection.createStatement();
 			statement.executeUpdate("delete from customers where id = '"+id+"'");
 			
-			logger.info("Customer has been deleted");
+			logger.info("Customer " + id + " has been deleted");
 		} catch (SQLException e) {
 			logger.error("Failed to delete customer", e);
 			throw new DaoException("Failed to delete customer", e);
@@ -133,7 +132,35 @@ public class CustomerDaoImpl implements CustomerDao {
 	@Override
 	public Customer getCustomer(String name, int age) throws DaoException {
 		logger.info("Getting customer " + name + " age: " + age);
-		return null;
+		
+		Customer customer = null;
+		
+		Connection connection = null;
+		Statement statement = null;
+		ResultSet rs = null;
+		
+		try {
+			connection = daoFactory.getConnection();
+			statement = connection.createStatement();
+			rs = statement.executeQuery("select * from customers where name = '"+name+"' and age = '"+age+"'");
+			
+			
+			if (rs.next()) {
+				customer = new Customer(rs.getInt(1), rs.getString(2), rs.getInt(3));
+				logger.info("Got customer " + name + " age: " + age);
+			}
+			else {
+				logger.info("Customer " + name + " age: " + age);
+			}
+			return customer;
+		} catch (SQLException e) {
+			logger.error("Failed to get customer " + name + " age: " + age, e);
+			throw new DaoException("Failed to get customer " + name + " age: " + age, e);
+		} finally {
+			daoFactory.close(rs);
+			daoFactory.close(statement);
+			daoFactory.close(connection);
+		}
 	}
 	
 }

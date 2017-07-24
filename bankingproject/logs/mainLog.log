@@ -128,91 +128,6 @@
 2017-07-13 10:05:07 INFO  CurrencyHandler:28 - Got coefficient
 2017-07-13 10:05:07 INFO  CurrencyHandler:17 - Converting USD to RUB
 2017-07-13 10:05:07 INFO  CurrencyHandler:25 - Got coefficient
-2017-07-13 10:05:37 INFO  CurrencyHandler:17 - Converting RUB to USD
-2017-07-13 10:05:37 INFO  CurrencyHandler:28 - Got coefficient
-2017-07-13 10:05:37 INFO  CurrencyHandler:17 - Converting USD to RUB
-2017-07-13 10:05:37 INFO  CurrencyHandler:25 - Got coefficient
-2017-07-13 10:05:49 INFO  CurrencyHandler:17 - Converting RUB to USD
-2017-07-13 10:05:49 INFO  CurrencyHandler:28 - Got coefficient
-2017-07-13 10:05:49 INFO  CurrencyHandler:17 - Converting USD to RUB
-2017-07-13 10:05:49 INFO  CurrencyHandler:25 - Got coefficient
-2017-07-13 10:06:02 INFO  CurrencyHandler:17 - Converting RUB to USD
-2017-07-13 10:06:02 INFO  CurrencyHandler:28 - Got coefficient
-2017-07-13 10:06:02 INFO  CurrencyHandler:17 - Converting USD to RUB
-2017-07-13 10:06:02 INFO  CurrencyHandler:25 - Got coefficient
-2017-07-13 10:07:07 INFO  CurrencyHandler:17 - Converting RUB to USD
-2017-07-13 10:07:07 INFO  CurrencyHandler:28 - Got coefficient
-2017-07-13 10:07:07 INFO  CurrencyHandler:17 - Converting USD to RUB
-2017-07-13 10:07:07 INFO  CurrencyHandler:25 - Got coefficient
-2017-07-13 10:13:02 INFO  CurrencyHandler:17 - Converting RUB to USD
-2017-07-13 10:13:02 INFO  CurrencyHandler:28 - Got coefficient
-2017-07-13 10:13:02 INFO  CurrencyHandler:17 - Converting USD to RUB
-2017-07-13 10:13:02 INFO  CurrencyHandler:25 - Got coefficient
-2017-07-13 10:13:02 INFO  CurrencyHandler:17 - Converting RUB to USD
-2017-07-13 10:13:02 INFO  CurrencyHandler:28 - Got coefficient
-2017-07-13 10:13:02 INFO  CurrencyHandler:17 - Converting GBP to USD
-2017-07-13 10:13:02 INFO  CurrencyHandler:40 - Got coefficient
-2017-07-13 10:13:21 INFO  CurrencyHandler:17 - Converting RUB to USD
-2017-07-13 10:13:21 INFO  CurrencyHandler:28 - Got coefficient
-2017-07-13 10:13:21 INFO  CurrencyHandler:17 - Converting USD to RUB
-2017-07-13 10:13:21 INFO  CurrencyHandler:25 - Got coefficient
-2017-07-13 10:13:21 INFO  CurrencyHandler:17 - Converting RUB to USD
-2017-07-13 10:13:21 INFO  CurrencyHandler:28 - Got coefficient
-2017-07-13 10:13:21 INFO  CurrencyHandler:17 - Converting GBP to USD
-2017-07-13 10:13:21 INFO  CurrencyHandler:40 - Got coefficient
-2017-07-13 10:14:03 INFO  CurrencyHandler:17 - Converting RUB to USD
-2017-07-13 10:14:03 INFO  CurrencyHandler:28 - Got coefficient
-2017-07-13 10:14:03 INFO  CurrencyHandler:17 - Converting USD to RUB
-2017-07-13 10:14:03 INFO  CurrencyHandler:25 - Got coefficient
-2017-07-13 10:14:03 INFO  CurrencyHandler:17 - Converting RUB to USD
-2017-07-13 10:14:03 INFO  CurrencyHandler:28 - Got coefficient
-2017-07-13 10:14:03 INFO  CurrencyHandler:17 - Converting GBP to USD
-2017-07-13 10:14:03 INFO  CurrencyHandler:40 - Got coefficient
-2017-07-13 10:14:14 INFO  CurrencyHandler:17 - Converting RUB to USD
-2017-07-13 10:14:14 INFO  CurrencyHandler:28 - Got coefficient
-2017-07-13 10:14:14 INFO  CurrencyHandler:17 - Converting USD to RUB
-2017-07-13 10:14:14 INFO  CurrencyHandler:25 - Got coefficient
-2017-07-13 10:14:14 INFO  CurrencyHandler:17 - Converting RUB to USD
-2017-07-13 10:14:14 INFO  CurrencyHandler:28 - Got coefficient
-2017-07-13 10:14:14 INFO  CurrencyHandler:17 - Converting GBP to USD
-2017-07-13 10:14:14 INFO  CurrencyHandler:40 - Got coefficient
-2017-07-13 10:14:34 INFO  CurrencyHandler:17 - Converting RUB to USD
-2017-07-13 10:14:34 INFO  CurrencyHandler:28 - Got coefficient
-2017-07-13 10:14:34 INFO  CurrencyHandler:17 - Converting USD to RUB
-2017-07-13 10:14:34 INFO  CurrencyHandler:25 - Got coefficient
-2017-07-13 10:14:34 INFO  CurrencyHandler:17 - Converting RUB to USD
-2017-07-13 10:14:34 INFO  CurrencyHandler:28 - Got coefficient
-2017-07-13 10:14:34 INFO  CurrencyHandler:17 - Converting GBP to USD
-2017-07-13 10:14:34 INFO  CurrencyHandler:40 - Got coefficient
-2017-07-13 10:16:21 INFO  CurrencyHandler:17 - Converting RUB to USD
-2017-07-13 10:16:21 INFO  CurrencyHandler:28 - Got coefficient
-2017-07-13 10:16:21 INFO  CurrencyHandler:17 - Converting GBP to USD
-2017-07-13 10:16:21 INFO  CurrencyHandler:40 - Got coefficient
-2017-07-13 10:16:21 INFO  CurrencyHandler:17 - Converting RUB to USD
-2017-07-13 10:16:21 INFO  CurrencyHandler:28 - Got coefficient
-2017-07-13 10:16:21 INFO  CurrencyHandler:17 - Converting USD to RUB
-2017-07-13 10:16:21 INFO  CurrencyHandler:25 - Got coefficient
-2017-07-15 06:57:05 INFO  CurrencyHandler:17 - Converting RUB to USD
-2017-07-15 06:57:05 INFO  CurrencyHandler:28 - Got coefficient
-2017-07-15 06:57:05 INFO  CurrencyHandler:17 - Converting GBP to USD
-2017-07-15 06:57:05 INFO  CurrencyHandler:40 - Got coefficient
-2017-07-15 06:57:05 INFO  CurrencyHandler:17 - Converting RUB to USD
-2017-07-15 06:57:05 INFO  CurrencyHandler:28 - Got coefficient
-2017-07-15 06:57:05 INFO  CurrencyHandler:17 - Converting USD to RUB
-2017-07-15 06:57:05 INFO  CurrencyHandler:25 - Got coefficient
-2017-07-15 07:24:26 INFO  Money:61 - Changing currency from RUB to USD
-2017-07-15 07:24:26 INFO  CurrencyHandler:17 - Converting RUB to USD
-2017-07-15 07:24:26 INFO  CurrencyHandler:28 - Got coefficient
-2017-07-15 07:24:26 INFO  Money:61 - Changing currency from USD to RUB
-2017-07-15 07:24:26 INFO  CurrencyHandler:17 - Converting USD to RUB
-2017-07-15 07:24:26 INFO  CurrencyHandler:25 - Got coefficient
-2017-07-15 07:24:26 INFO  Money:61 - Changing currency from EUR to USD
-2017-07-15 07:24:26 INFO  CurrencyHandler:17 - Converting EUR to USD
-2017-07-15 07:24:26 INFO  CurrencyHandler:34 - Got coefficient
-2017-07-15 07:24:26 INFO  CurrencyHandler:17 - Converting RUB to USD
-2017-07-15 07:24:26 INFO  CurrencyHandler:28 - Got coefficient
-2017-07-15 07:24:26 INFO  CurrencyHandler:17 - Converting GBP to USD
-2017-07-15 07:24:26 INFO  CurrencyHandler:40 - Got coefficient
 2017-07-15 07:24:26 INFO  CurrencyHandler:17 - Converting RUB to USD
 2017-07-15 07:24:26 INFO  CurrencyHandler:28 - Got coefficient
 2017-07-15 07:24:26 INFO  CurrencyHandler:17 - Converting USD to RUB
@@ -771,3 +686,256 @@ com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: You have an error in 
 2017-07-22 08:26:56 INFO  DaoFactory:23 - Establishing db connection
 2017-07-22 08:26:56 INFO  DaoFactory:33 - Connection has been established
 2017-07-22 08:26:56 INFO  CustomerDaoImpl:101 - New customer has been created
+2017-07-24 09:18:53 INFO  LoginServlet:43 - Log in with login davet
+2017-07-24 09:18:53 TRACE LoginServlet:48 - Get employee with login davet
+2017-07-24 09:18:53 INFO  EmployeeDao:57 - Getting employee with login davet
+2017-07-24 09:18:53 INFO  DaoFactory:23 - Establishing db connection
+2017-07-24 09:18:53 INFO  DaoFactory:33 - Connection has been established
+2017-07-24 09:18:53 INFO  NameContainer:13 - Passing name Dave Tuo
+2017-07-24 09:18:53 INFO  EmployeeDao:72 - Got employee with login davet
+2017-07-24 09:18:58 TRACE CustomerServlet:42 - Get customer 5
+2017-07-24 09:18:58 INFO  CustomerDaoImpl:57 - Getting customer with id 5
+2017-07-24 09:18:58 INFO  DaoFactory:23 - Establishing db connection
+2017-07-24 09:18:58 INFO  DaoFactory:33 - Connection has been established
+2017-07-24 09:18:58 INFO  CustomerDaoImpl:76 - Customer with id 5 doesn't exist
+2017-07-24 09:19:01 TRACE CustomerServlet:42 - Get customer 5
+2017-07-24 09:19:01 INFO  CustomerDaoImpl:57 - Getting customer with id 5
+2017-07-24 09:19:01 INFO  DaoFactory:23 - Establishing db connection
+2017-07-24 09:19:01 INFO  DaoFactory:33 - Connection has been established
+2017-07-24 09:19:01 INFO  CustomerDaoImpl:76 - Customer with id 5 doesn't exist
+2017-07-24 09:19:43 TRACE CustomerServlet:42 - Get customer 4
+2017-07-24 09:19:43 INFO  CustomerDaoImpl:57 - Getting customer with id 4
+2017-07-24 09:19:43 INFO  DaoFactory:23 - Establishing db connection
+2017-07-24 09:19:43 INFO  DaoFactory:33 - Connection has been established
+2017-07-24 09:19:43 INFO  NameContainer:13 - Passing name Daniil Fogel
+2017-07-24 09:19:43 INFO  AccountDaoImpl:25 - Getting accounts of customer 4
+2017-07-24 09:19:43 INFO  DaoFactory:23 - Establishing db connection
+2017-07-24 09:19:43 INFO  DaoFactory:33 - Connection has been established
+2017-07-24 09:19:43 TRACE AccountDaoImpl:43 - Got accounts of customer 4
+2017-07-24 09:19:43 INFO  CustomerDaoImpl:73 - Got customer with id 4
+2017-07-24 09:20:13 INFO  CustomerDaoImpl:91 - Creating new customer David Cooper 22
+2017-07-24 09:20:13 INFO  DaoFactory:23 - Establishing db connection
+2017-07-24 09:20:13 INFO  DaoFactory:33 - Connection has been established
+2017-07-24 09:20:13 INFO  CustomerDaoImpl:101 - Customer David Cooper 22 has been created
+2017-07-24 09:20:13 INFO  CustomerDaoImpl:135 - Getting customer David Cooper age: 22
+2017-07-24 09:21:43 TRACE CustomerServlet:42 - Get customer 2
+2017-07-24 09:21:43 INFO  CustomerDaoImpl:57 - Getting customer with id 2
+2017-07-24 09:21:43 INFO  DaoFactory:23 - Establishing db connection
+2017-07-24 09:21:43 INFO  DaoFactory:33 - Connection has been established
+2017-07-24 09:21:43 INFO  NameContainer:13 - Passing name Mike Altman
+2017-07-24 09:21:43 INFO  AccountDaoImpl:25 - Getting accounts of customer 2
+2017-07-24 09:21:43 INFO  DaoFactory:23 - Establishing db connection
+2017-07-24 09:21:43 INFO  DaoFactory:33 - Connection has been established
+2017-07-24 09:21:43 TRACE AccountDaoImpl:43 - Got accounts of customer 2
+2017-07-24 09:21:43 INFO  CustomerDaoImpl:73 - Got customer with id 2
+2017-07-24 09:26:31 TRACE CustomerServlet:42 - Get customer 3
+2017-07-24 09:26:31 INFO  CustomerDaoImpl:57 - Getting customer with id 3
+2017-07-24 09:26:31 INFO  DaoFactory:23 - Establishing db connection
+2017-07-24 09:26:31 INFO  DaoFactory:33 - Connection has been established
+2017-07-24 09:26:31 INFO  NameContainer:13 - Passing name Andy Aronwitz
+2017-07-24 09:26:31 INFO  AccountDaoImpl:25 - Getting accounts of customer 3
+2017-07-24 09:26:31 INFO  DaoFactory:23 - Establishing db connection
+2017-07-24 09:26:31 INFO  DaoFactory:33 - Connection has been established
+2017-07-24 09:26:31 TRACE AccountDaoImpl:43 - Got accounts of customer 3
+2017-07-24 09:26:31 INFO  CustomerDaoImpl:73 - Got customer with id 3
+2017-07-24 09:26:37 TRACE CustomerServlet:42 - Get customer 4
+2017-07-24 09:26:37 INFO  CustomerDaoImpl:57 - Getting customer with id 4
+2017-07-24 09:26:37 INFO  DaoFactory:23 - Establishing db connection
+2017-07-24 09:26:37 INFO  DaoFactory:33 - Connection has been established
+2017-07-24 09:26:38 INFO  NameContainer:13 - Passing name Daniil Fogel
+2017-07-24 09:26:38 INFO  AccountDaoImpl:25 - Getting accounts of customer 4
+2017-07-24 09:26:38 INFO  DaoFactory:23 - Establishing db connection
+2017-07-24 09:26:38 INFO  DaoFactory:33 - Connection has been established
+2017-07-24 09:26:38 TRACE AccountDaoImpl:43 - Got accounts of customer 4
+2017-07-24 09:26:38 INFO  CustomerDaoImpl:73 - Got customer with id 4
+2017-07-24 09:26:45 TRACE CustomerServlet:42 - Get customer 10
+2017-07-24 09:26:45 INFO  CustomerDaoImpl:57 - Getting customer with id 10
+2017-07-24 09:26:45 INFO  DaoFactory:23 - Establishing db connection
+2017-07-24 09:26:45 INFO  DaoFactory:33 - Connection has been established
+2017-07-24 09:26:45 INFO  CustomerDaoImpl:76 - Customer with id 10 doesn't exist
+2017-07-24 09:26:47 TRACE CustomerServlet:42 - Get customer 10
+2017-07-24 09:26:47 INFO  CustomerDaoImpl:57 - Getting customer with id 10
+2017-07-24 09:26:47 INFO  DaoFactory:23 - Establishing db connection
+2017-07-24 09:26:47 INFO  DaoFactory:33 - Connection has been established
+2017-07-24 09:26:47 INFO  CustomerDaoImpl:76 - Customer with id 10 doesn't exist
+2017-07-24 09:27:40 TRACE CustomerServlet:42 - Get customer 10
+2017-07-24 09:27:40 INFO  CustomerDaoImpl:57 - Getting customer with id 10
+2017-07-24 09:27:40 INFO  DaoFactory:23 - Establishing db connection
+2017-07-24 09:27:41 INFO  DaoFactory:33 - Connection has been established
+2017-07-24 09:27:41 INFO  CustomerDaoImpl:76 - Customer with id 10 doesn't exist
+2017-07-24 09:27:43 TRACE CustomerServlet:42 - Get customer 10
+2017-07-24 09:27:43 INFO  CustomerDaoImpl:57 - Getting customer with id 10
+2017-07-24 09:27:43 INFO  DaoFactory:23 - Establishing db connection
+2017-07-24 09:27:43 INFO  DaoFactory:33 - Connection has been established
+2017-07-24 09:27:43 INFO  CustomerDaoImpl:76 - Customer with id 10 doesn't exist
+2017-07-24 09:27:46 TRACE CustomerServlet:42 - Get customer 10
+2017-07-24 09:27:46 INFO  CustomerDaoImpl:57 - Getting customer with id 10
+2017-07-24 09:27:46 INFO  DaoFactory:23 - Establishing db connection
+2017-07-24 09:27:46 INFO  DaoFactory:33 - Connection has been established
+2017-07-24 09:27:46 INFO  CustomerDaoImpl:76 - Customer with id 10 doesn't exist
+2017-07-24 09:29:17 TRACE CustomerServlet:42 - Get customer 9
+2017-07-24 09:29:17 INFO  CustomerDaoImpl:57 - Getting customer with id 9
+2017-07-24 09:29:17 INFO  DaoFactory:23 - Establishing db connection
+2017-07-24 09:29:18 INFO  DaoFactory:33 - Connection has been established
+2017-07-24 09:29:18 INFO  NameContainer:13 - Passing name David Cooper
+2017-07-24 09:29:18 INFO  AccountDaoImpl:25 - Getting accounts of customer 9
+2017-07-24 09:29:18 INFO  DaoFactory:23 - Establishing db connection
+2017-07-24 09:29:18 INFO  DaoFactory:33 - Connection has been established
+2017-07-24 09:29:18 TRACE AccountDaoImpl:43 - Got accounts of customer 9
+2017-07-24 09:29:18 INFO  CustomerDaoImpl:73 - Got customer with id 9
+2017-07-24 09:29:34 TRACE CustomerServlet:42 - Get customer 23
+2017-07-24 09:29:34 INFO  CustomerDaoImpl:57 - Getting customer with id 23
+2017-07-24 09:29:34 INFO  DaoFactory:23 - Establishing db connection
+2017-07-24 09:29:34 INFO  DaoFactory:33 - Connection has been established
+2017-07-24 09:29:34 INFO  CustomerDaoImpl:76 - Customer with id 23 doesn't exist
+2017-07-24 09:30:29 TRACE CustomerServlet:42 - Get customer 23
+2017-07-24 09:30:29 INFO  CustomerDaoImpl:57 - Getting customer with id 23
+2017-07-24 09:30:29 INFO  DaoFactory:23 - Establishing db connection
+2017-07-24 09:30:29 INFO  DaoFactory:33 - Connection has been established
+2017-07-24 09:30:29 INFO  CustomerDaoImpl:76 - Customer with id 23 doesn't exist
+2017-07-24 09:30:31 TRACE CustomerServlet:42 - Get customer 23
+2017-07-24 09:30:31 INFO  CustomerDaoImpl:57 - Getting customer with id 23
+2017-07-24 09:30:31 INFO  DaoFactory:23 - Establishing db connection
+2017-07-24 09:30:31 INFO  DaoFactory:33 - Connection has been established
+2017-07-24 09:30:31 INFO  CustomerDaoImpl:76 - Customer with id 23 doesn't exist
+2017-07-24 09:31:19 TRACE CustomerServlet:42 - Get customer 55
+2017-07-24 09:31:19 INFO  CustomerDaoImpl:57 - Getting customer with id 55
+2017-07-24 09:31:19 INFO  DaoFactory:23 - Establishing db connection
+2017-07-24 09:31:19 INFO  DaoFactory:33 - Connection has been established
+2017-07-24 09:31:19 INFO  CustomerDaoImpl:76 - Customer with id 55 doesn't exist
+2017-07-24 09:31:21 TRACE CustomerServlet:42 - Get customer 55
+2017-07-24 09:31:21 INFO  CustomerDaoImpl:57 - Getting customer with id 55
+2017-07-24 09:31:21 INFO  DaoFactory:23 - Establishing db connection
+2017-07-24 09:31:21 INFO  DaoFactory:33 - Connection has been established
+2017-07-24 09:31:21 INFO  CustomerDaoImpl:76 - Customer with id 55 doesn't exist
+2017-07-24 09:31:21 TRACE CustomerServlet:42 - Get customer 55
+2017-07-24 09:31:21 INFO  CustomerDaoImpl:57 - Getting customer with id 55
+2017-07-24 09:31:21 INFO  DaoFactory:23 - Establishing db connection
+2017-07-24 09:31:21 INFO  DaoFactory:33 - Connection has been established
+2017-07-24 09:31:21 INFO  CustomerDaoImpl:76 - Customer with id 55 doesn't exist
+2017-07-24 09:31:22 TRACE CustomerServlet:42 - Get customer 55
+2017-07-24 09:31:22 INFO  CustomerDaoImpl:57 - Getting customer with id 55
+2017-07-24 09:31:22 INFO  DaoFactory:23 - Establishing db connection
+2017-07-24 09:31:22 INFO  DaoFactory:33 - Connection has been established
+2017-07-24 09:31:22 INFO  CustomerDaoImpl:76 - Customer with id 55 doesn't exist
+2017-07-24 09:31:22 TRACE CustomerServlet:42 - Get customer 55
+2017-07-24 09:31:22 INFO  CustomerDaoImpl:57 - Getting customer with id 55
+2017-07-24 09:31:22 INFO  DaoFactory:23 - Establishing db connection
+2017-07-24 09:31:22 INFO  DaoFactory:33 - Connection has been established
+2017-07-24 09:31:22 INFO  CustomerDaoImpl:76 - Customer with id 55 doesn't exist
+2017-07-24 09:33:37 TRACE CustomerServlet:42 - Get customer 43
+2017-07-24 09:33:37 INFO  CustomerDaoImpl:57 - Getting customer with id 43
+2017-07-24 09:33:37 INFO  DaoFactory:23 - Establishing db connection
+2017-07-24 09:33:38 INFO  DaoFactory:33 - Connection has been established
+2017-07-24 09:33:38 INFO  CustomerDaoImpl:75 - Customer with id 43 doesn't exist
+2017-07-24 09:35:56 TRACE CustomerServlet:42 - Get customer 34
+2017-07-24 09:35:56 INFO  CustomerDaoImpl:57 - Getting customer with id 34
+2017-07-24 09:35:56 INFO  DaoFactory:23 - Establishing db connection
+2017-07-24 09:35:56 INFO  DaoFactory:33 - Connection has been established
+2017-07-24 09:35:56 INFO  CustomerDaoImpl:75 - Customer with id 34 doesn't exist
+2017-07-24 09:35:58 TRACE CustomerServlet:42 - Get customer 34
+2017-07-24 09:35:58 INFO  CustomerDaoImpl:57 - Getting customer with id 34
+2017-07-24 09:35:58 INFO  DaoFactory:23 - Establishing db connection
+2017-07-24 09:35:58 INFO  DaoFactory:33 - Connection has been established
+2017-07-24 09:35:58 INFO  CustomerDaoImpl:75 - Customer with id 34 doesn't exist
+2017-07-24 09:39:30 TRACE CustomerServlet:42 - Get customer 52
+2017-07-24 09:39:30 INFO  CustomerDaoImpl:57 - Getting customer with id 52
+2017-07-24 09:39:30 INFO  DaoFactory:23 - Establishing db connection
+2017-07-24 09:39:30 INFO  DaoFactory:33 - Connection has been established
+2017-07-24 09:39:30 INFO  CustomerDaoImpl:75 - Customer with id 52 doesn't exist
+2017-07-24 09:42:42 TRACE CustomerServlet:42 - Get customer 45
+2017-07-24 09:42:42 INFO  CustomerDaoImpl:57 - Getting customer with id 45
+2017-07-24 09:42:42 INFO  DaoFactory:23 - Establishing db connection
+2017-07-24 09:42:42 INFO  DaoFactory:33 - Connection has been established
+2017-07-24 09:42:42 INFO  CustomerDaoImpl:75 - Customer with id 45 doesn't exist
+2017-07-24 09:45:09 TRACE CustomerServlet:42 - Get customer 45
+2017-07-24 09:45:09 INFO  CustomerDaoImpl:57 - Getting customer with id 45
+2017-07-24 09:45:09 INFO  DaoFactory:23 - Establishing db connection
+2017-07-24 09:45:10 INFO  DaoFactory:33 - Connection has been established
+2017-07-24 09:45:10 INFO  CustomerDaoImpl:75 - Customer with id 45 doesn't exist
+2017-07-24 09:45:42 INFO  CustomerDaoImpl:90 - Creating new customer Yan Juian 84
+2017-07-24 09:45:42 INFO  DaoFactory:23 - Establishing db connection
+2017-07-24 09:45:42 INFO  DaoFactory:33 - Connection has been established
+2017-07-24 09:45:42 INFO  CustomerDaoImpl:100 - Customer Yan Juian 84 has been created
+2017-07-24 09:45:42 INFO  CustomerDaoImpl:134 - Getting customer Yan Juian age: 84
+2017-07-24 09:45:42 INFO  DaoFactory:23 - Establishing db connection
+2017-07-24 09:45:42 INFO  DaoFactory:33 - Connection has been established
+2017-07-24 09:45:42 ERROR CustomerDaoImpl:157 - Failed to get customer Yan Juian age: 84
+com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'age = '84'' at line 1
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at com.mysql.jdbc.Util.handleNewInstance(Util.java:408)
+	at com.mysql.jdbc.Util.getInstance(Util.java:383)
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:1062)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:4226)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:4158)
+	at com.mysql.jdbc.MysqlIO.sendCommand(MysqlIO.java:2615)
+	at com.mysql.jdbc.MysqlIO.sqlQueryDirect(MysqlIO.java:2776)
+	at com.mysql.jdbc.ConnectionImpl.execSQL(ConnectionImpl.java:2834)
+	at com.mysql.jdbc.ConnectionImpl.execSQL(ConnectionImpl.java:2783)
+	at com.mysql.jdbc.StatementImpl.executeQuery(StatementImpl.java:1569)
+	at bankingproject.dao.customer.CustomerDaoImpl.getCustomer(CustomerDaoImpl.java:145)
+	at bankingproject.ui.CreateCustomerServlet.doGet(CreateCustomerServlet.java:40)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:635)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:742)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:198)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:478)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:140)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:80)
+	at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:624)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:87)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:342)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:799)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:861)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1455)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Unknown Source)
+2017-07-24 09:45:42 DEBUG DaoFactory:77 - Result set is null
+2017-07-24 09:48:14 INFO  CustomerDaoImpl:90 - Creating new customer Andreo Tezzie 19
+2017-07-24 09:48:14 INFO  DaoFactory:23 - Establishing db connection
+2017-07-24 09:48:14 INFO  DaoFactory:33 - Connection has been established
+2017-07-24 09:48:14 INFO  CustomerDaoImpl:100 - Customer Andreo Tezzie 19 has been created
+2017-07-24 09:48:14 INFO  CustomerDaoImpl:134 - Getting customer Andreo Tezzie age: 19
+2017-07-24 09:48:14 INFO  DaoFactory:23 - Establishing db connection
+2017-07-24 09:48:14 INFO  DaoFactory:33 - Connection has been established
+2017-07-24 09:48:14 INFO  NameContainer:13 - Passing name Andreo Tezzie
+2017-07-24 09:48:14 INFO  AccountDaoImpl:25 - Getting accounts of customer 11
+2017-07-24 09:48:14 INFO  DaoFactory:23 - Establishing db connection
+2017-07-24 09:48:14 INFO  DaoFactory:33 - Connection has been established
+2017-07-24 09:48:14 TRACE AccountDaoImpl:43 - Got accounts of customer 11
+2017-07-24 09:48:14 INFO  CustomerDaoImpl:150 - Got customer Andreo Tezzie age: 19
+2017-07-24 09:50:06 INFO  CustomerDaoImpl:90 - Creating new customer Kerry Ball 26
+2017-07-24 09:50:06 INFO  DaoFactory:23 - Establishing db connection
+2017-07-24 09:50:06 INFO  DaoFactory:33 - Connection has been established
+2017-07-24 09:50:06 INFO  CustomerDaoImpl:100 - Customer Kerry Ball 26 has been created
+2017-07-24 09:50:06 INFO  CustomerDaoImpl:134 - Getting customer Kerry Ball age: 26
+2017-07-24 09:50:06 INFO  DaoFactory:23 - Establishing db connection
+2017-07-24 09:50:06 INFO  DaoFactory:33 - Connection has been established
+2017-07-24 09:50:06 INFO  NameContainer:13 - Passing name Kerry Ball
+2017-07-24 09:50:06 INFO  AccountDaoImpl:25 - Getting accounts of customer 12
+2017-07-24 09:50:06 INFO  DaoFactory:23 - Establishing db connection
+2017-07-24 09:50:06 INFO  DaoFactory:33 - Connection has been established
+2017-07-24 09:50:06 TRACE AccountDaoImpl:43 - Got accounts of customer 12
+2017-07-24 09:50:06 INFO  CustomerDaoImpl:150 - Got customer Kerry Ball age: 26
+2017-07-24 09:50:06 TRACE CustomerServlet:42 - Get customer 12
+2017-07-24 09:50:06 INFO  CustomerDaoImpl:57 - Getting customer with id 12
+2017-07-24 09:50:06 INFO  DaoFactory:23 - Establishing db connection
+2017-07-24 09:50:06 INFO  DaoFactory:33 - Connection has been established
+2017-07-24 09:50:06 INFO  NameContainer:13 - Passing name Kerry Ball
+2017-07-24 09:50:06 INFO  AccountDaoImpl:25 - Getting accounts of customer 12
+2017-07-24 09:50:06 INFO  DaoFactory:23 - Establishing db connection
+2017-07-24 09:50:06 INFO  DaoFactory:33 - Connection has been established
+2017-07-24 09:50:06 TRACE AccountDaoImpl:43 - Got accounts of customer 12
+2017-07-24 09:50:06 INFO  CustomerDaoImpl:72 - Got customer with id 12

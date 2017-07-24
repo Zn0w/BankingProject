@@ -11,6 +11,7 @@ import bankingproject.dao.DaoException;
 import bankingproject.dao.customer.CustomerDao;
 import bankingproject.dao.customer.CustomerDaoImpl;
 import bankingproject.domain.NameContainer;
+import bankingproject.domain.customer.Customer;
 
 /**
  * Servlet implementation class CreateCustomerServlet
@@ -35,6 +36,9 @@ public class CreateCustomerServlet extends HttpServlet {
 		CustomerDao customerDao = new CustomerDaoImpl();
 		try {
 			customerDao.createCustomer(name.getFullName(), age);
+			
+			Customer customer = customerDao.getCustomer(name.getFullName(), age);
+			response.sendRedirect("CustomerServlet?query=" + customer.getId() + "");
 		} catch (DaoException e) {
 			e.printStackTrace();
 			// Go to error page

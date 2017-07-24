@@ -1,6 +1,7 @@
 package bankingproject.ui;
 
 import java.io.IOException;
+import java.io.PrintWriter;
 import java.util.List;
 
 import javax.servlet.ServletException;
@@ -63,11 +64,10 @@ public class CustomerServlet extends HttpServlet {
 			logger.error("Failed to convert string query id to integer", e);
 			e.printStackTrace();
 		} catch (DaoException e) {
-			e.printStackTrace();
 			// Go to error page
 		} catch (NullPointerException e) {
 			e.printStackTrace();
-			// Go to error page
+			handleCustomerNotFound(response);
 		}
 		
 		System.out.println("Query: " + id);
@@ -78,6 +78,34 @@ public class CustomerServlet extends HttpServlet {
 	 */
 	protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
 		doGet(request, response);
+	}
+	
+	private void handleCustomerNotFound(HttpServletResponse response) {
+		try {
+			PrintWriter out = response.getWriter();
+			
+			out.println("<html>");
+			out.println("<head>");
+			out.println("<title>Customer not found</title>");
+			out.println("</head>");
+			out.println("<body>");
+			out.println("<div align = 'right'>" +
+							"<form action='LogoutServlet'>" +
+								"<input type = 'submit' value = 'Log out'>" +
+							"</form>" +
+							"<form action='employee/mainPage.jsp'>" +
+								"<input type = 'submit' value = 'Go to main page'>" +
+							"</form>" +
+						"</div>");		
+			out.println("<div align = 'center'>");
+			out.println("<br><br><br><br>");
+			out.println("<h1>Customer not found</h1>");
+			out.println("</div>");
+			out.println("</body>");
+			out.println("</html>");
+		} catch (IOException e) {
+			e.printStackTrace();
+		}
 	}
 
 }
