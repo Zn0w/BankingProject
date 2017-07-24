@@ -8,7 +8,6 @@
 <head>
 	<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
 	<title>BankingProject</title>
-	<link href = "../styles/simpleStyle.css" type = "text/css" rel = "stylesheet">
 </head>
 
 <body>
@@ -26,7 +25,7 @@
 		<h2>You are logged in as <c:out value="${login}"/>.</h2>
 		<h3>(If you are leaving your workspace, please, log out)</h3>
 		
-		<h1>Customer page</h1>
+		<h1>Account page</h1>
 	</div>
 	
 	<div align = "right">
@@ -40,41 +39,21 @@
 	</div>
 	
 	<div align = "center">
-		<h2>Personal information: </h2>
-	
-	<table>
+		<table>
 			<tr>
 				<td>ID:</td>
 				<td><c:out value="${requestScope.id}"/></td>
 			</tr>
 			
 			<tr>
-				<td>Name:</td>
-				<td><c:out value="${requestScope.name}"/></td>
+				<td>Balance:</td>
+				<td><c:out value="${requestScope.balance}"/></td>
 			</tr>
 			
 			<tr>
-				<td>Age:</td>
-				<td><c:out value="${requestScope.age}"/></td>
+				<td>Owner:</td>
+				<td><a href = "CustomerServlet?query=${requestScope.owner}"><c:out value="${requestScope.owner}"/></a></td>
 			</tr>
-		</table>
-		
-		<h2>Accounts information: </h2>
-		<table border = "1">
-			<tr>
-				<th>ID</th>
-				<th>Balance</th>
-				<th>Currency</th>
-			</tr>
-			
-			<c:forEach var = "account" items = "${requestScope.accounts}">
-				<tr>
-					<td><c:out value="${account[0]}"/></td>
-					<td><c:out value="${account[1]}"/></td>
-					<td><c:out value="${account[2]}"/></td>
-					<td><a href = "AccountServlet?id=${account[0]}">View account</a></td>
-				</tr>
-			</c:forEach>
 		</table>
 	</div>
 </body>

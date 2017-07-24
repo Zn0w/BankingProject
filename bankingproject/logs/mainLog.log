@@ -939,3 +939,284 @@ com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: You have an error in 
 2017-07-24 09:50:06 INFO  DaoFactory:33 - Connection has been established
 2017-07-24 09:50:06 TRACE AccountDaoImpl:43 - Got accounts of customer 12
 2017-07-24 09:50:06 INFO  CustomerDaoImpl:72 - Got customer with id 12
+2017-07-24 10:00:48 TRACE CustomerServlet:42 - Get customer 4
+2017-07-24 10:00:48 INFO  CustomerDaoImpl:57 - Getting customer with id 4
+2017-07-24 10:00:48 INFO  DaoFactory:23 - Establishing db connection
+2017-07-24 10:00:48 INFO  DaoFactory:33 - Connection has been established
+2017-07-24 10:00:48 INFO  NameContainer:13 - Passing name Daniil Fogel
+2017-07-24 10:00:48 INFO  AccountDaoImpl:25 - Getting accounts of customer 4
+2017-07-24 10:00:48 INFO  DaoFactory:23 - Establishing db connection
+2017-07-24 10:00:48 INFO  DaoFactory:33 - Connection has been established
+2017-07-24 10:00:48 TRACE AccountDaoImpl:43 - Got accounts of customer 4
+2017-07-24 10:00:48 INFO  CustomerDaoImpl:72 - Got customer with id 4
+2017-07-24 10:01:25 TRACE CustomerServlet:42 - Get customer 4
+2017-07-24 10:01:25 INFO  CustomerDaoImpl:57 - Getting customer with id 4
+2017-07-24 10:01:25 INFO  DaoFactory:23 - Establishing db connection
+2017-07-24 10:01:25 INFO  DaoFactory:33 - Connection has been established
+2017-07-24 10:01:25 INFO  NameContainer:13 - Passing name Daniil Fogel
+2017-07-24 10:01:25 INFO  AccountDaoImpl:25 - Getting accounts of customer 4
+2017-07-24 10:01:25 INFO  DaoFactory:23 - Establishing db connection
+2017-07-24 10:01:25 INFO  DaoFactory:33 - Connection has been established
+2017-07-24 10:01:25 TRACE AccountDaoImpl:43 - Got accounts of customer 4
+2017-07-24 10:01:25 INFO  CustomerDaoImpl:72 - Got customer with id 4
+2017-07-24 10:01:40 TRACE CustomerServlet:42 - Get customer 2
+2017-07-24 10:01:40 INFO  CustomerDaoImpl:57 - Getting customer with id 2
+2017-07-24 10:01:40 INFO  DaoFactory:23 - Establishing db connection
+2017-07-24 10:01:40 INFO  DaoFactory:33 - Connection has been established
+2017-07-24 10:01:40 INFO  NameContainer:13 - Passing name Mike Altman
+2017-07-24 10:01:40 INFO  AccountDaoImpl:25 - Getting accounts of customer 2
+2017-07-24 10:01:40 INFO  DaoFactory:23 - Establishing db connection
+2017-07-24 10:01:40 INFO  DaoFactory:33 - Connection has been established
+2017-07-24 10:01:40 TRACE AccountDaoImpl:43 - Got accounts of customer 2
+2017-07-24 10:01:40 INFO  CustomerDaoImpl:72 - Got customer with id 2
+2017-07-24 10:11:17 TRACE CustomerServlet:42 - Get customer 4
+2017-07-24 10:11:17 INFO  CustomerDaoImpl:57 - Getting customer with id 4
+2017-07-24 10:11:17 INFO  DaoFactory:23 - Establishing db connection
+2017-07-24 10:11:17 INFO  DaoFactory:33 - Connection has been established
+2017-07-24 10:11:17 INFO  NameContainer:13 - Passing name Daniil Fogel
+2017-07-24 10:11:17 INFO  AccountDaoImpl:25 - Getting accounts of customer 4
+2017-07-24 10:11:17 INFO  DaoFactory:23 - Establishing db connection
+2017-07-24 10:11:17 INFO  DaoFactory:33 - Connection has been established
+2017-07-24 10:11:17 TRACE AccountDaoImpl:43 - Got accounts of customer 4
+2017-07-24 10:11:17 INFO  CustomerDaoImpl:72 - Got customer with id 4
+2017-07-24 10:11:19 TRACE CustomerServlet:42 - Get customer 4
+2017-07-24 10:11:19 INFO  CustomerDaoImpl:57 - Getting customer with id 4
+2017-07-24 10:11:19 INFO  DaoFactory:23 - Establishing db connection
+2017-07-24 10:11:19 INFO  DaoFactory:33 - Connection has been established
+2017-07-24 10:11:19 INFO  NameContainer:13 - Passing name Daniil Fogel
+2017-07-24 10:11:19 INFO  AccountDaoImpl:25 - Getting accounts of customer 4
+2017-07-24 10:11:19 INFO  DaoFactory:23 - Establishing db connection
+2017-07-24 10:11:19 INFO  DaoFactory:33 - Connection has been established
+2017-07-24 10:11:19 TRACE AccountDaoImpl:43 - Got accounts of customer 4
+2017-07-24 10:11:19 INFO  CustomerDaoImpl:72 - Got customer with id 4
+2017-07-24 10:11:20 TRACE CustomerServlet:42 - Get customer 4
+2017-07-24 10:11:20 INFO  CustomerDaoImpl:57 - Getting customer with id 4
+2017-07-24 10:11:20 INFO  DaoFactory:23 - Establishing db connection
+2017-07-24 10:11:20 INFO  DaoFactory:33 - Connection has been established
+2017-07-24 10:11:20 INFO  NameContainer:13 - Passing name Daniil Fogel
+2017-07-24 10:11:20 INFO  AccountDaoImpl:25 - Getting accounts of customer 4
+2017-07-24 10:11:20 INFO  DaoFactory:23 - Establishing db connection
+2017-07-24 10:11:20 INFO  DaoFactory:33 - Connection has been established
+2017-07-24 10:11:20 TRACE AccountDaoImpl:43 - Got accounts of customer 4
+2017-07-24 10:11:20 INFO  CustomerDaoImpl:72 - Got customer with id 4
+2017-07-24 10:11:21 TRACE CustomerServlet:42 - Get customer 4
+2017-07-24 10:11:21 INFO  CustomerDaoImpl:57 - Getting customer with id 4
+2017-07-24 10:11:21 INFO  DaoFactory:23 - Establishing db connection
+2017-07-24 10:11:21 INFO  DaoFactory:33 - Connection has been established
+2017-07-24 10:11:21 INFO  NameContainer:13 - Passing name Daniil Fogel
+2017-07-24 10:11:21 INFO  AccountDaoImpl:25 - Getting accounts of customer 4
+2017-07-24 10:11:21 INFO  DaoFactory:23 - Establishing db connection
+2017-07-24 10:11:21 INFO  DaoFactory:33 - Connection has been established
+2017-07-24 10:11:21 TRACE AccountDaoImpl:43 - Got accounts of customer 4
+2017-07-24 10:11:21 INFO  CustomerDaoImpl:72 - Got customer with id 4
+2017-07-24 10:11:21 TRACE CustomerServlet:42 - Get customer 4
+2017-07-24 10:11:21 INFO  CustomerDaoImpl:57 - Getting customer with id 4
+2017-07-24 10:11:21 INFO  DaoFactory:23 - Establishing db connection
+2017-07-24 10:11:21 INFO  DaoFactory:33 - Connection has been established
+2017-07-24 10:11:21 INFO  NameContainer:13 - Passing name Daniil Fogel
+2017-07-24 10:11:21 INFO  AccountDaoImpl:25 - Getting accounts of customer 4
+2017-07-24 10:11:21 INFO  DaoFactory:23 - Establishing db connection
+2017-07-24 10:11:21 INFO  DaoFactory:33 - Connection has been established
+2017-07-24 10:11:21 TRACE AccountDaoImpl:43 - Got accounts of customer 4
+2017-07-24 10:11:21 INFO  CustomerDaoImpl:72 - Got customer with id 4
+2017-07-24 10:11:26 TRACE CustomerServlet:42 - Get customer 2
+2017-07-24 10:11:26 INFO  CustomerDaoImpl:57 - Getting customer with id 2
+2017-07-24 10:11:26 INFO  DaoFactory:23 - Establishing db connection
+2017-07-24 10:11:26 INFO  DaoFactory:33 - Connection has been established
+2017-07-24 10:11:26 INFO  NameContainer:13 - Passing name Mike Altman
+2017-07-24 10:11:26 INFO  AccountDaoImpl:25 - Getting accounts of customer 2
+2017-07-24 10:11:26 INFO  DaoFactory:23 - Establishing db connection
+2017-07-24 10:11:26 INFO  DaoFactory:33 - Connection has been established
+2017-07-24 10:11:26 TRACE AccountDaoImpl:43 - Got accounts of customer 2
+2017-07-24 10:11:26 INFO  CustomerDaoImpl:72 - Got customer with id 2
+2017-07-24 10:11:32 TRACE CustomerServlet:42 - Get customer 1
+2017-07-24 10:11:32 INFO  CustomerDaoImpl:57 - Getting customer with id 1
+2017-07-24 10:11:32 INFO  DaoFactory:23 - Establishing db connection
+2017-07-24 10:11:32 INFO  DaoFactory:33 - Connection has been established
+2017-07-24 10:11:32 INFO  NameContainer:13 - Passing name Dan Tooler
+2017-07-24 10:11:32 INFO  AccountDaoImpl:25 - Getting accounts of customer 1
+2017-07-24 10:11:32 INFO  DaoFactory:23 - Establishing db connection
+2017-07-24 10:11:32 INFO  DaoFactory:33 - Connection has been established
+2017-07-24 10:11:32 TRACE AccountDaoImpl:43 - Got accounts of customer 1
+2017-07-24 10:11:32 INFO  CustomerDaoImpl:72 - Got customer with id 1
+2017-07-24 10:12:51 TRACE CustomerServlet:42 - Get customer 4
+2017-07-24 10:12:51 INFO  CustomerDaoImpl:57 - Getting customer with id 4
+2017-07-24 10:12:51 INFO  DaoFactory:23 - Establishing db connection
+2017-07-24 10:12:51 INFO  DaoFactory:33 - Connection has been established
+2017-07-24 10:12:51 INFO  NameContainer:13 - Passing name Daniil Fogel
+2017-07-24 10:12:51 INFO  AccountDaoImpl:25 - Getting accounts of customer 4
+2017-07-24 10:12:51 INFO  DaoFactory:23 - Establishing db connection
+2017-07-24 10:12:51 INFO  DaoFactory:33 - Connection has been established
+2017-07-24 10:12:51 TRACE AccountDaoImpl:43 - Got accounts of customer 4
+2017-07-24 10:12:51 INFO  CustomerDaoImpl:72 - Got customer with id 4
+2017-07-24 10:12:53 TRACE CustomerServlet:42 - Get customer 4
+2017-07-24 10:12:53 INFO  CustomerDaoImpl:57 - Getting customer with id 4
+2017-07-24 10:12:53 INFO  DaoFactory:23 - Establishing db connection
+2017-07-24 10:12:53 INFO  DaoFactory:33 - Connection has been established
+2017-07-24 10:12:53 INFO  NameContainer:13 - Passing name Daniil Fogel
+2017-07-24 10:12:53 INFO  AccountDaoImpl:25 - Getting accounts of customer 4
+2017-07-24 10:12:53 INFO  DaoFactory:23 - Establishing db connection
+2017-07-24 10:12:53 INFO  DaoFactory:33 - Connection has been established
+2017-07-24 10:12:53 TRACE AccountDaoImpl:43 - Got accounts of customer 4
+2017-07-24 10:12:53 INFO  CustomerDaoImpl:72 - Got customer with id 4
+2017-07-24 10:12:54 TRACE CustomerServlet:42 - Get customer 4
+2017-07-24 10:12:54 INFO  CustomerDaoImpl:57 - Getting customer with id 4
+2017-07-24 10:12:54 INFO  DaoFactory:23 - Establishing db connection
+2017-07-24 10:12:54 INFO  DaoFactory:33 - Connection has been established
+2017-07-24 10:12:54 INFO  NameContainer:13 - Passing name Daniil Fogel
+2017-07-24 10:12:54 INFO  AccountDaoImpl:25 - Getting accounts of customer 4
+2017-07-24 10:12:54 INFO  DaoFactory:23 - Establishing db connection
+2017-07-24 10:12:54 INFO  DaoFactory:33 - Connection has been established
+2017-07-24 10:12:54 TRACE AccountDaoImpl:43 - Got accounts of customer 4
+2017-07-24 10:12:54 INFO  CustomerDaoImpl:72 - Got customer with id 4
+2017-07-24 10:15:34 TRACE CustomerServlet:42 - Get customer 4
+2017-07-24 10:15:34 INFO  CustomerDaoImpl:57 - Getting customer with id 4
+2017-07-24 10:15:34 INFO  DaoFactory:23 - Establishing db connection
+2017-07-24 10:15:34 INFO  DaoFactory:33 - Connection has been established
+2017-07-24 10:15:34 INFO  NameContainer:13 - Passing name Daniil Fogel
+2017-07-24 10:15:34 INFO  AccountDaoImpl:25 - Getting accounts of customer 4
+2017-07-24 10:15:34 INFO  DaoFactory:23 - Establishing db connection
+2017-07-24 10:15:34 INFO  DaoFactory:33 - Connection has been established
+2017-07-24 10:15:34 TRACE AccountDaoImpl:43 - Got accounts of customer 4
+2017-07-24 10:15:34 INFO  CustomerDaoImpl:72 - Got customer with id 4
+2017-07-24 10:16:22 TRACE CustomerServlet:42 - Get customer 4
+2017-07-24 10:16:22 INFO  CustomerDaoImpl:57 - Getting customer with id 4
+2017-07-24 10:16:22 INFO  DaoFactory:23 - Establishing db connection
+2017-07-24 10:16:22 INFO  DaoFactory:33 - Connection has been established
+2017-07-24 10:16:22 INFO  NameContainer:13 - Passing name Daniil Fogel
+2017-07-24 10:16:22 INFO  AccountDaoImpl:25 - Getting accounts of customer 4
+2017-07-24 10:16:22 INFO  DaoFactory:23 - Establishing db connection
+2017-07-24 10:16:22 INFO  DaoFactory:33 - Connection has been established
+2017-07-24 10:16:22 TRACE AccountDaoImpl:43 - Got accounts of customer 4
+2017-07-24 10:16:22 INFO  CustomerDaoImpl:72 - Got customer with id 4
+2017-07-24 10:16:29 TRACE CustomerServlet:42 - Get customer 2
+2017-07-24 10:16:29 INFO  CustomerDaoImpl:57 - Getting customer with id 2
+2017-07-24 10:16:29 INFO  DaoFactory:23 - Establishing db connection
+2017-07-24 10:16:29 INFO  DaoFactory:33 - Connection has been established
+2017-07-24 10:16:29 INFO  NameContainer:13 - Passing name Mike Altman
+2017-07-24 10:16:29 INFO  AccountDaoImpl:25 - Getting accounts of customer 2
+2017-07-24 10:16:29 INFO  DaoFactory:23 - Establishing db connection
+2017-07-24 10:16:29 INFO  DaoFactory:33 - Connection has been established
+2017-07-24 10:16:29 TRACE AccountDaoImpl:43 - Got accounts of customer 2
+2017-07-24 10:16:29 INFO  CustomerDaoImpl:72 - Got customer with id 2
+2017-07-24 10:17:00 TRACE CustomerServlet:42 - Get customer 4
+2017-07-24 10:17:00 INFO  CustomerDaoImpl:57 - Getting customer with id 4
+2017-07-24 10:17:00 INFO  DaoFactory:23 - Establishing db connection
+2017-07-24 10:17:00 INFO  DaoFactory:33 - Connection has been established
+2017-07-24 10:17:00 INFO  NameContainer:13 - Passing name Daniil Fogel
+2017-07-24 10:17:00 INFO  AccountDaoImpl:25 - Getting accounts of customer 4
+2017-07-24 10:17:00 INFO  DaoFactory:23 - Establishing db connection
+2017-07-24 10:17:00 INFO  DaoFactory:33 - Connection has been established
+2017-07-24 10:17:00 TRACE AccountDaoImpl:43 - Got accounts of customer 4
+2017-07-24 10:17:00 INFO  CustomerDaoImpl:72 - Got customer with id 4
+2017-07-24 10:18:34 TRACE CustomerServlet:42 - Get customer 4
+2017-07-24 10:18:34 INFO  CustomerDaoImpl:57 - Getting customer with id 4
+2017-07-24 10:18:34 INFO  DaoFactory:23 - Establishing db connection
+2017-07-24 10:18:34 INFO  DaoFactory:33 - Connection has been established
+2017-07-24 10:18:34 INFO  NameContainer:13 - Passing name Daniil Fogel
+2017-07-24 10:18:34 INFO  AccountDaoImpl:25 - Getting accounts of customer 4
+2017-07-24 10:18:34 INFO  DaoFactory:23 - Establishing db connection
+2017-07-24 10:18:34 INFO  DaoFactory:33 - Connection has been established
+2017-07-24 10:18:34 TRACE AccountDaoImpl:43 - Got accounts of customer 4
+2017-07-24 10:18:34 INFO  CustomerDaoImpl:72 - Got customer with id 4
+2017-07-24 10:18:36 TRACE CustomerServlet:42 - Get customer 4
+2017-07-24 10:18:36 INFO  CustomerDaoImpl:57 - Getting customer with id 4
+2017-07-24 10:18:36 INFO  DaoFactory:23 - Establishing db connection
+2017-07-24 10:18:36 INFO  DaoFactory:33 - Connection has been established
+2017-07-24 10:18:36 INFO  NameContainer:13 - Passing name Daniil Fogel
+2017-07-24 10:18:36 INFO  AccountDaoImpl:25 - Getting accounts of customer 4
+2017-07-24 10:18:36 INFO  DaoFactory:23 - Establishing db connection
+2017-07-24 10:18:36 INFO  DaoFactory:33 - Connection has been established
+2017-07-24 10:18:36 TRACE AccountDaoImpl:43 - Got accounts of customer 4
+2017-07-24 10:18:36 INFO  CustomerDaoImpl:72 - Got customer with id 4
+2017-07-24 10:18:38 TRACE CustomerServlet:42 - Get customer 4
+2017-07-24 10:18:38 INFO  CustomerDaoImpl:57 - Getting customer with id 4
+2017-07-24 10:18:38 INFO  DaoFactory:23 - Establishing db connection
+2017-07-24 10:18:38 INFO  DaoFactory:33 - Connection has been established
+2017-07-24 10:18:38 INFO  NameContainer:13 - Passing name Daniil Fogel
+2017-07-24 10:18:38 INFO  AccountDaoImpl:25 - Getting accounts of customer 4
+2017-07-24 10:18:38 INFO  DaoFactory:23 - Establishing db connection
+2017-07-24 10:18:38 INFO  DaoFactory:33 - Connection has been established
+2017-07-24 10:18:38 TRACE AccountDaoImpl:43 - Got accounts of customer 4
+2017-07-24 10:18:38 INFO  CustomerDaoImpl:72 - Got customer with id 4
+2017-07-24 10:23:47 TRACE CustomerServlet:42 - Get customer 4
+2017-07-24 10:23:47 INFO  CustomerDaoImpl:57 - Getting customer with id 4
+2017-07-24 10:23:47 INFO  DaoFactory:23 - Establishing db connection
+2017-07-24 10:23:47 INFO  DaoFactory:33 - Connection has been established
+2017-07-24 10:23:47 INFO  NameContainer:13 - Passing name Daniil Fogel
+2017-07-24 10:23:47 INFO  AccountDaoImpl:25 - Getting accounts of customer 4
+2017-07-24 10:23:47 INFO  DaoFactory:23 - Establishing db connection
+2017-07-24 10:23:47 INFO  DaoFactory:33 - Connection has been established
+2017-07-24 10:23:47 TRACE AccountDaoImpl:43 - Got accounts of customer 4
+2017-07-24 10:23:47 INFO  CustomerDaoImpl:72 - Got customer with id 4
+2017-07-24 10:23:54 TRACE CustomerServlet:42 - Get customer 2
+2017-07-24 10:23:54 INFO  CustomerDaoImpl:57 - Getting customer with id 2
+2017-07-24 10:23:54 INFO  DaoFactory:23 - Establishing db connection
+2017-07-24 10:23:54 INFO  DaoFactory:33 - Connection has been established
+2017-07-24 10:23:54 INFO  NameContainer:13 - Passing name Mike Altman
+2017-07-24 10:23:54 INFO  AccountDaoImpl:25 - Getting accounts of customer 2
+2017-07-24 10:23:54 INFO  DaoFactory:23 - Establishing db connection
+2017-07-24 10:23:54 INFO  DaoFactory:33 - Connection has been established
+2017-07-24 10:23:54 TRACE AccountDaoImpl:43 - Got accounts of customer 2
+2017-07-24 10:23:54 INFO  CustomerDaoImpl:72 - Got customer with id 2
+2017-07-24 17:21:22 TRACE CustomerServlet:42 - Get customer 4
+2017-07-24 17:21:22 INFO  CustomerDaoImpl:57 - Getting customer with id 4
+2017-07-24 17:21:22 INFO  DaoFactory:23 - Establishing db connection
+2017-07-24 17:21:22 INFO  DaoFactory:33 - Connection has been established
+2017-07-24 17:21:22 INFO  NameContainer:13 - Passing name Daniil Fogel
+2017-07-24 17:21:22 INFO  AccountDaoImpl:25 - Getting accounts of customer 4
+2017-07-24 17:21:22 INFO  DaoFactory:23 - Establishing db connection
+2017-07-24 17:21:22 INFO  DaoFactory:33 - Connection has been established
+2017-07-24 17:21:22 TRACE AccountDaoImpl:43 - Got accounts of customer 4
+2017-07-24 17:21:22 INFO  CustomerDaoImpl:72 - Got customer with id 4
+2017-07-24 17:21:25 INFO  AccountDaoImpl:104 - Getting account 3
+2017-07-24 17:21:25 INFO  DaoFactory:23 - Establishing db connection
+2017-07-24 17:21:25 INFO  DaoFactory:33 - Connection has been established
+2017-07-24 17:21:25 TRACE AccountDaoImpl:119 - Got account 3
+2017-07-24 17:21:45 TRACE CustomerServlet:42 - Get customer 0
+2017-07-24 17:21:45 INFO  CustomerDaoImpl:57 - Getting customer with id 0
+2017-07-24 17:21:45 INFO  DaoFactory:23 - Establishing db connection
+2017-07-24 17:21:45 INFO  DaoFactory:33 - Connection has been established
+2017-07-24 17:21:45 INFO  CustomerDaoImpl:75 - Customer with id 0 doesn't exist
+2017-07-24 17:21:51 TRACE CustomerServlet:42 - Get customer 2
+2017-07-24 17:21:51 INFO  CustomerDaoImpl:57 - Getting customer with id 2
+2017-07-24 17:21:51 INFO  DaoFactory:23 - Establishing db connection
+2017-07-24 17:21:51 INFO  DaoFactory:33 - Connection has been established
+2017-07-24 17:21:51 INFO  NameContainer:13 - Passing name Mike Altman
+2017-07-24 17:21:51 INFO  AccountDaoImpl:25 - Getting accounts of customer 2
+2017-07-24 17:21:51 INFO  DaoFactory:23 - Establishing db connection
+2017-07-24 17:21:51 INFO  DaoFactory:33 - Connection has been established
+2017-07-24 17:21:51 TRACE AccountDaoImpl:43 - Got accounts of customer 2
+2017-07-24 17:21:51 INFO  CustomerDaoImpl:72 - Got customer with id 2
+2017-07-24 17:21:54 INFO  AccountDaoImpl:104 - Getting account 1
+2017-07-24 17:21:54 INFO  DaoFactory:23 - Establishing db connection
+2017-07-24 17:21:54 INFO  DaoFactory:33 - Connection has been established
+2017-07-24 17:21:54 TRACE AccountDaoImpl:119 - Got account 1
+2017-07-24 17:23:24 TRACE CustomerServlet:42 - Get customer 4
+2017-07-24 17:23:24 INFO  CustomerDaoImpl:57 - Getting customer with id 4
+2017-07-24 17:23:24 INFO  DaoFactory:23 - Establishing db connection
+2017-07-24 17:23:24 INFO  DaoFactory:33 - Connection has been established
+2017-07-24 17:23:24 INFO  NameContainer:13 - Passing name Daniil Fogel
+2017-07-24 17:23:24 INFO  AccountDaoImpl:25 - Getting accounts of customer 4
+2017-07-24 17:23:24 INFO  DaoFactory:23 - Establishing db connection
+2017-07-24 17:23:24 INFO  DaoFactory:33 - Connection has been established
+2017-07-24 17:23:24 TRACE AccountDaoImpl:43 - Got accounts of customer 4
+2017-07-24 17:23:24 INFO  CustomerDaoImpl:72 - Got customer with id 4
+2017-07-24 17:23:27 INFO  AccountDaoImpl:104 - Getting account 2
+2017-07-24 17:23:27 INFO  DaoFactory:23 - Establishing db connection
+2017-07-24 17:23:27 INFO  DaoFactory:33 - Connection has been established
+2017-07-24 17:23:27 TRACE AccountDaoImpl:119 - Got account 2
+2017-07-24 17:23:28 TRACE CustomerServlet:42 - Get customer 4
+2017-07-24 17:23:28 INFO  CustomerDaoImpl:57 - Getting customer with id 4
+2017-07-24 17:23:28 INFO  DaoFactory:23 - Establishing db connection
+2017-07-24 17:23:28 INFO  DaoFactory:33 - Connection has been established
+2017-07-24 17:23:28 INFO  NameContainer:13 - Passing name Daniil Fogel
+2017-07-24 17:23:28 INFO  AccountDaoImpl:25 - Getting accounts of customer 4
+2017-07-24 17:23:28 INFO  DaoFactory:23 - Establishing db connection
+2017-07-24 17:23:28 INFO  DaoFactory:33 - Connection has been established
+2017-07-24 17:23:28 TRACE AccountDaoImpl:43 - Got accounts of customer 4
+2017-07-24 17:23:28 INFO  CustomerDaoImpl:72 - Got customer with id 4
+2017-07-24 17:23:31 INFO  AccountDaoImpl:104 - Getting account 3
+2017-07-24 17:23:31 INFO  DaoFactory:23 - Establishing db connection
+2017-07-24 17:23:31 INFO  DaoFactory:33 - Connection has been established
+2017-07-24 17:23:31 TRACE AccountDaoImpl:119 - Got account 3

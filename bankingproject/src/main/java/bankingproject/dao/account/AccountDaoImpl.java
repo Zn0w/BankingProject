@@ -36,7 +36,7 @@ public class AccountDaoImpl implements AccountDao {
 			rs = statement.executeQuery("select * from accounts where customer = '"+customerId+"'");
 			
 			while (rs.next()) {
-				Account account = new Account(rs.getInt(1), new Money(rs.getDouble(2), rs.getString(3)));
+				Account account = new Account(rs.getInt(1), new Money(rs.getDouble(2), rs.getString(3)), rs.getInt(4));
 				accounts.add(account);
 			}
 			
@@ -97,6 +97,39 @@ public class AccountDaoImpl implements AccountDao {
 			daoFactory.close(statement);
 			daoFactory.close(connection);
 		}
+	}
+
+	@Override
+	public Account getAccount(int id) throws DaoException {
+		logger.info("Getting account " + id);
+		
+		Account account = null;
+		
+		Connection connection = null;
+		Statement statement = null;
+		ResultSet rs = null;
+		
+		try {
+			connection = daoFactory.getConnection();
+			statement = connection.createStatement();
+			rs = statement.executeQuery("select * from accounts where id = '"+id+"'");
+			
+			if (rs.next()) {
+				account = new Account(rs.getInt(1), new Money(rs.getDouble(2), rs.getString(3)), rs.getInt(4));
+				logger.trace("Got account " + id);
+			} else {
+				logger.trace("Account " + id + " doesn't exist");
+			}
+		} catch (SQLException e) {
+			logger.error("Failed to get account " + id, e);
+			throw new DaoException("Failed to get account " + id, e);
+		} finally {
+			daoFactory.close(rs);
+			daoFactory.close(statement);
+			daoFactory.close(connection);
+		}
+		
+		return account;
 	}
 	
 }

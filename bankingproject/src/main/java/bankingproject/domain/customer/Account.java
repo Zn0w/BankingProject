@@ -6,14 +6,15 @@ import bankingproject.domain.customer.money.Money;
 
 public class Account {
 	
-	private int id;
+	private int id, ownerId;
 	private Money balance;
 	
 	private final static Logger logger = Logger.getLogger(Account.class);
 	
-	public Account(int id, Money balance) {
+	public Account(int id, Money balance, int ownerId) {
 		this.id = id;
 		this.balance = balance;
+		this.ownerId = ownerId;
 	}
 	
 	public void transfer(Account account, Money amount) {
@@ -37,6 +38,14 @@ public class Account {
 
 	public void setBalance(Money balance) {
 		this.balance = balance;
+	}
+
+	public int getOwnerId() {
+		return ownerId;
+	}
+
+	public void setOwnerId(int ownerId) {
+		this.ownerId = ownerId;
 	}
 	
 }
