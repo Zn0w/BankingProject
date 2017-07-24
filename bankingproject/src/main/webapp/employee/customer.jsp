@@ -60,6 +60,7 @@
 					<td><c:out value="${account[0]}"/></td>
 					<td><c:out value="${account[1]}"/></td>
 					<td><c:out value="${account[2]}"/></td>
+					<td><a href = "AccountServlet?id=${account[0]}">View account</a></td>
 				</tr>
 			</c:forEach>
 		</table>
