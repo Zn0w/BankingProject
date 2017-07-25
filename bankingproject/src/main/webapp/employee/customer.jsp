@@ -42,7 +42,7 @@
 	<div align = "center">
 		<h2>Personal information: </h2>
 	
-	<table>
+		<table>
 			<tr>
 				<td>ID:</td>
 				<td><c:out value="${requestScope.id}"/></td>
@@ -58,6 +58,20 @@
 				<td><c:out value="${requestScope.age}"/></td>
 			</tr>
 		</table>
+		
+		<h2>Add account</h2>
+		
+		<form action="CreateAccountServlet">
+			<input type = "hidden" name = "owner" value = "${requestScope.id}">
+			<select name = "currency">
+				<option value = "USD">USD</option>
+				<option value = "EUR">EUR</option>
+				<option value = "RUB">RUB</option>
+				<option value = "GBP">GBP</option>
+			</select>
+			<br><br>
+			<input type = "submit" value = "Submit">
+		</form>
 		
 		<h2>Accounts information: </h2>
 		<table border = "1">

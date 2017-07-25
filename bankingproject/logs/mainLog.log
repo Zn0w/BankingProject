@@ -1220,3 +1220,430 @@ com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: You have an error in 
 2017-07-24 17:23:31 INFO  DaoFactory:23 - Establishing db connection
 2017-07-24 17:23:31 INFO  DaoFactory:33 - Connection has been established
 2017-07-24 17:23:31 TRACE AccountDaoImpl:119 - Got account 3
+2017-07-25 06:26:49 INFO  LoginServlet:43 - Log in with login maryRR
+2017-07-25 06:26:49 TRACE LoginServlet:48 - Get employee with login maryRR
+2017-07-25 06:26:49 INFO  EmployeeDao:57 - Getting employee with login maryRR
+2017-07-25 06:26:49 INFO  DaoFactory:23 - Establishing db connection
+2017-07-25 06:26:49 INFO  DaoFactory:33 - Connection has been established
+2017-07-25 06:26:49 INFO  NameContainer:13 - Passing name Mary Cracker
+2017-07-25 06:26:49 INFO  EmployeeDao:72 - Got employee with login maryRR
+2017-07-25 06:26:55 TRACE CustomerServlet:42 - Get customer 3
+2017-07-25 06:26:55 INFO  CustomerDaoImpl:57 - Getting customer with id 3
+2017-07-25 06:26:55 INFO  DaoFactory:23 - Establishing db connection
+2017-07-25 06:26:56 INFO  DaoFactory:33 - Connection has been established
+2017-07-25 06:26:56 INFO  NameContainer:13 - Passing name Andy Aronwitz
+2017-07-25 06:26:56 INFO  AccountDaoImpl:25 - Getting accounts of customer 3
+2017-07-25 06:26:56 INFO  DaoFactory:23 - Establishing db connection
+2017-07-25 06:26:56 INFO  DaoFactory:33 - Connection has been established
+2017-07-25 06:26:56 TRACE AccountDaoImpl:43 - Got accounts of customer 3
+2017-07-25 06:26:56 INFO  CustomerDaoImpl:72 - Got customer with id 3
+2017-07-25 06:28:28 TRACE CustomerServlet:42 - Get customer 3
+2017-07-25 06:28:28 INFO  CustomerDaoImpl:57 - Getting customer with id 3
+2017-07-25 06:28:28 INFO  DaoFactory:23 - Establishing db connection
+2017-07-25 06:28:28 INFO  DaoFactory:33 - Connection has been established
+2017-07-25 06:28:28 INFO  NameContainer:13 - Passing name Andy Aronwitz
+2017-07-25 06:28:28 INFO  AccountDaoImpl:25 - Getting accounts of customer 3
+2017-07-25 06:28:28 INFO  DaoFactory:23 - Establishing db connection
+2017-07-25 06:28:28 INFO  DaoFactory:33 - Connection has been established
+2017-07-25 06:28:28 TRACE AccountDaoImpl:43 - Got accounts of customer 3
+2017-07-25 06:28:28 INFO  CustomerDaoImpl:72 - Got customer with id 3
+2017-07-25 06:28:37 TRACE CustomerServlet:42 - Get customer 1
+2017-07-25 06:28:37 INFO  CustomerDaoImpl:57 - Getting customer with id 1
+2017-07-25 06:28:37 INFO  DaoFactory:23 - Establishing db connection
+2017-07-25 06:28:37 INFO  DaoFactory:33 - Connection has been established
+2017-07-25 06:28:37 INFO  NameContainer:13 - Passing name Dan Tooler
+2017-07-25 06:28:37 INFO  AccountDaoImpl:25 - Getting accounts of customer 1
+2017-07-25 06:28:37 INFO  DaoFactory:23 - Establishing db connection
+2017-07-25 06:28:37 INFO  DaoFactory:33 - Connection has been established
+2017-07-25 06:28:37 TRACE AccountDaoImpl:43 - Got accounts of customer 1
+2017-07-25 06:28:37 INFO  CustomerDaoImpl:72 - Got customer with id 1
+2017-07-25 06:31:15 TRACE CustomerServlet:42 - Get customer 3
+2017-07-25 06:31:15 INFO  CustomerDaoImpl:57 - Getting customer with id 3
+2017-07-25 06:31:15 INFO  DaoFactory:23 - Establishing db connection
+2017-07-25 06:31:15 INFO  DaoFactory:33 - Connection has been established
+2017-07-25 06:31:15 INFO  NameContainer:13 - Passing name Andy Aronwitz
+2017-07-25 06:31:15 INFO  AccountDaoImpl:25 - Getting accounts of customer 3
+2017-07-25 06:31:15 INFO  DaoFactory:23 - Establishing db connection
+2017-07-25 06:31:15 INFO  DaoFactory:33 - Connection has been established
+2017-07-25 06:31:15 TRACE AccountDaoImpl:43 - Got accounts of customer 3
+2017-07-25 06:31:15 INFO  CustomerDaoImpl:72 - Got customer with id 3
+2017-07-25 06:31:38 TRACE CustomerServlet:42 - Get customer 3
+2017-07-25 06:31:38 INFO  CustomerDaoImpl:57 - Getting customer with id 3
+2017-07-25 06:31:38 INFO  DaoFactory:23 - Establishing db connection
+2017-07-25 06:31:38 INFO  DaoFactory:33 - Connection has been established
+2017-07-25 06:31:38 INFO  NameContainer:13 - Passing name Andy Aronwitz
+2017-07-25 06:31:38 INFO  AccountDaoImpl:25 - Getting accounts of customer 3
+2017-07-25 06:31:38 INFO  DaoFactory:23 - Establishing db connection
+2017-07-25 06:31:38 INFO  DaoFactory:33 - Connection has been established
+2017-07-25 06:31:38 TRACE AccountDaoImpl:43 - Got accounts of customer 3
+2017-07-25 06:31:38 INFO  CustomerDaoImpl:72 - Got customer with id 3
+2017-07-25 06:32:23 TRACE CustomerServlet:42 - Get customer 3
+2017-07-25 06:32:23 INFO  CustomerDaoImpl:57 - Getting customer with id 3
+2017-07-25 06:32:23 INFO  DaoFactory:23 - Establishing db connection
+2017-07-25 06:32:23 INFO  DaoFactory:33 - Connection has been established
+2017-07-25 06:32:23 INFO  NameContainer:13 - Passing name Andy Aronwitz
+2017-07-25 06:32:23 INFO  AccountDaoImpl:25 - Getting accounts of customer 3
+2017-07-25 06:32:23 INFO  DaoFactory:23 - Establishing db connection
+2017-07-25 06:32:23 INFO  DaoFactory:33 - Connection has been established
+2017-07-25 06:32:23 TRACE AccountDaoImpl:43 - Got accounts of customer 3
+2017-07-25 06:32:23 INFO  CustomerDaoImpl:72 - Got customer with id 3
+2017-07-25 06:32:25 TRACE CustomerServlet:42 - Get customer null
+2017-07-25 06:32:25 ERROR CustomerServlet:64 - Failed to convert string query id to integer
+java.lang.NumberFormatException: null
+	at java.lang.Integer.parseInt(Unknown Source)
+	at java.lang.Integer.parseInt(Unknown Source)
+	at bankingproject.ui.CustomerServlet.doGet(CustomerServlet.java:44)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:635)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:742)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:198)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:478)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:140)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:80)
+	at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:624)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:87)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:342)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:799)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:861)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1455)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Unknown Source)
+2017-07-25 06:34:13 TRACE CustomerServlet:42 - Get customer 3
+2017-07-25 06:34:13 INFO  CustomerDaoImpl:57 - Getting customer with id 3
+2017-07-25 06:34:13 INFO  DaoFactory:23 - Establishing db connection
+2017-07-25 06:34:13 INFO  DaoFactory:33 - Connection has been established
+2017-07-25 06:34:13 INFO  NameContainer:13 - Passing name Andy Aronwitz
+2017-07-25 06:34:13 INFO  AccountDaoImpl:25 - Getting accounts of customer 3
+2017-07-25 06:34:13 INFO  DaoFactory:23 - Establishing db connection
+2017-07-25 06:34:13 INFO  DaoFactory:33 - Connection has been established
+2017-07-25 06:34:13 TRACE AccountDaoImpl:43 - Got accounts of customer 3
+2017-07-25 06:34:13 INFO  CustomerDaoImpl:72 - Got customer with id 3
+2017-07-25 06:34:15 TRACE CustomerServlet:42 - Get customer null
+2017-07-25 06:34:15 ERROR CustomerServlet:64 - Failed to convert string query id to integer
+java.lang.NumberFormatException: null
+	at java.lang.Integer.parseInt(Unknown Source)
+	at java.lang.Integer.parseInt(Unknown Source)
+	at bankingproject.ui.CustomerServlet.doGet(CustomerServlet.java:44)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:635)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:742)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:198)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:478)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:140)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:80)
+	at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:624)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:87)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:342)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:799)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:861)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1455)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Unknown Source)
+2017-07-25 06:37:34 TRACE CustomerServlet:42 - Get customer 2
+2017-07-25 06:37:34 INFO  CustomerDaoImpl:57 - Getting customer with id 2
+2017-07-25 06:37:34 INFO  DaoFactory:23 - Establishing db connection
+2017-07-25 06:37:34 INFO  DaoFactory:33 - Connection has been established
+2017-07-25 06:37:34 INFO  NameContainer:13 - Passing name Mike Altman
+2017-07-25 06:37:34 INFO  AccountDaoImpl:25 - Getting accounts of customer 2
+2017-07-25 06:37:34 INFO  DaoFactory:23 - Establishing db connection
+2017-07-25 06:37:34 INFO  DaoFactory:33 - Connection has been established
+2017-07-25 06:37:34 TRACE AccountDaoImpl:43 - Got accounts of customer 2
+2017-07-25 06:37:34 INFO  CustomerDaoImpl:72 - Got customer with id 2
+2017-07-25 06:37:38 TRACE CustomerServlet:42 - Get customer null
+2017-07-25 06:37:38 ERROR CustomerServlet:64 - Failed to convert string query id to integer
+java.lang.NumberFormatException: null
+	at java.lang.Integer.parseInt(Unknown Source)
+	at java.lang.Integer.parseInt(Unknown Source)
+	at bankingproject.ui.CustomerServlet.doGet(CustomerServlet.java:44)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:635)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:742)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:198)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:478)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:140)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:80)
+	at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:624)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:87)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:342)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:799)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:861)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1455)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Unknown Source)
+2017-07-25 06:39:34 TRACE CustomerServlet:42 - Get customer 3
+2017-07-25 06:39:34 INFO  CustomerDaoImpl:57 - Getting customer with id 3
+2017-07-25 06:39:34 INFO  DaoFactory:23 - Establishing db connection
+2017-07-25 06:39:34 INFO  DaoFactory:33 - Connection has been established
+2017-07-25 06:39:34 INFO  NameContainer:13 - Passing name Andy Aronwitz
+2017-07-25 06:39:34 INFO  AccountDaoImpl:25 - Getting accounts of customer 3
+2017-07-25 06:39:34 INFO  DaoFactory:23 - Establishing db connection
+2017-07-25 06:39:34 INFO  DaoFactory:33 - Connection has been established
+2017-07-25 06:39:34 TRACE AccountDaoImpl:43 - Got accounts of customer 3
+2017-07-25 06:39:34 INFO  CustomerDaoImpl:72 - Got customer with id 3
+2017-07-25 06:39:36 TRACE CustomerServlet:42 - Get customer null
+2017-07-25 06:39:36 ERROR CustomerServlet:64 - Failed to convert string query id to integer
+java.lang.NumberFormatException: null
+	at java.lang.Integer.parseInt(Unknown Source)
+	at java.lang.Integer.parseInt(Unknown Source)
+	at bankingproject.ui.CustomerServlet.doGet(CustomerServlet.java:44)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:635)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:742)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:198)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:478)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:140)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:80)
+	at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:624)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:87)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:342)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:799)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:861)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1455)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Unknown Source)
+2017-07-25 06:40:00 TRACE CustomerServlet:42 - Get customer null
+2017-07-25 06:40:00 ERROR CustomerServlet:64 - Failed to convert string query id to integer
+java.lang.NumberFormatException: null
+	at java.lang.Integer.parseInt(Unknown Source)
+	at java.lang.Integer.parseInt(Unknown Source)
+	at bankingproject.ui.CustomerServlet.doGet(CustomerServlet.java:44)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:635)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:742)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:198)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:478)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:140)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:80)
+	at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:624)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:87)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:342)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:799)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:861)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1455)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Unknown Source)
+2017-07-25 06:40:05 TRACE CustomerServlet:42 - Get customer 3
+2017-07-25 06:40:05 INFO  CustomerDaoImpl:57 - Getting customer with id 3
+2017-07-25 06:40:05 INFO  DaoFactory:23 - Establishing db connection
+2017-07-25 06:40:05 INFO  DaoFactory:33 - Connection has been established
+2017-07-25 06:40:05 INFO  NameContainer:13 - Passing name Andy Aronwitz
+2017-07-25 06:40:05 INFO  AccountDaoImpl:25 - Getting accounts of customer 3
+2017-07-25 06:40:05 INFO  DaoFactory:23 - Establishing db connection
+2017-07-25 06:40:05 INFO  DaoFactory:33 - Connection has been established
+2017-07-25 06:40:05 TRACE AccountDaoImpl:43 - Got accounts of customer 3
+2017-07-25 06:40:05 INFO  CustomerDaoImpl:72 - Got customer with id 3
+2017-07-25 07:36:40 TRACE CustomerServlet:42 - Get customer 3
+2017-07-25 07:36:40 INFO  CustomerDaoImpl:57 - Getting customer with id 3
+2017-07-25 07:36:40 INFO  DaoFactory:23 - Establishing db connection
+2017-07-25 07:36:40 INFO  DaoFactory:33 - Connection has been established
+2017-07-25 07:36:40 INFO  NameContainer:13 - Passing name Andy Aronwitz
+2017-07-25 07:36:40 INFO  AccountDaoImpl:25 - Getting accounts of customer 3
+2017-07-25 07:36:40 INFO  DaoFactory:23 - Establishing db connection
+2017-07-25 07:36:40 INFO  DaoFactory:33 - Connection has been established
+2017-07-25 07:36:40 TRACE AccountDaoImpl:43 - Got accounts of customer 3
+2017-07-25 07:36:40 INFO  CustomerDaoImpl:72 - Got customer with id 3
+2017-07-25 07:42:18 TRACE CustomerServlet:42 - Get customer 3
+2017-07-25 07:42:18 INFO  CustomerDaoImpl:57 - Getting customer with id 3
+2017-07-25 07:42:18 INFO  DaoFactory:23 - Establishing db connection
+2017-07-25 07:42:18 INFO  DaoFactory:33 - Connection has been established
+2017-07-25 07:42:18 INFO  NameContainer:13 - Passing name Andy Aronwitz
+2017-07-25 07:42:18 INFO  AccountDaoImpl:25 - Getting accounts of customer 3
+2017-07-25 07:42:18 INFO  DaoFactory:23 - Establishing db connection
+2017-07-25 07:42:18 INFO  DaoFactory:33 - Connection has been established
+2017-07-25 07:42:18 TRACE AccountDaoImpl:43 - Got accounts of customer 3
+2017-07-25 07:42:18 INFO  CustomerDaoImpl:72 - Got customer with id 3
+2017-07-25 07:43:31 TRACE CustomerServlet:42 - Get customer 3
+2017-07-25 07:43:31 INFO  CustomerDaoImpl:57 - Getting customer with id 3
+2017-07-25 07:43:31 INFO  DaoFactory:23 - Establishing db connection
+2017-07-25 07:43:31 INFO  DaoFactory:33 - Connection has been established
+2017-07-25 07:43:31 INFO  NameContainer:13 - Passing name Andy Aronwitz
+2017-07-25 07:43:31 INFO  AccountDaoImpl:25 - Getting accounts of customer 3
+2017-07-25 07:43:31 INFO  DaoFactory:23 - Establishing db connection
+2017-07-25 07:43:31 INFO  DaoFactory:33 - Connection has been established
+2017-07-25 07:43:31 TRACE AccountDaoImpl:43 - Got accounts of customer 3
+2017-07-25 07:43:31 INFO  CustomerDaoImpl:72 - Got customer with id 3
+2017-07-25 07:44:34 TRACE CustomerServlet:42 - Get customer 3
+2017-07-25 07:44:34 INFO  CustomerDaoImpl:57 - Getting customer with id 3
+2017-07-25 07:44:34 INFO  DaoFactory:23 - Establishing db connection
+2017-07-25 07:44:34 INFO  DaoFactory:33 - Connection has been established
+2017-07-25 07:44:34 INFO  NameContainer:13 - Passing name Andy Aronwitz
+2017-07-25 07:44:34 INFO  AccountDaoImpl:25 - Getting accounts of customer 3
+2017-07-25 07:44:34 INFO  DaoFactory:23 - Establishing db connection
+2017-07-25 07:44:34 INFO  DaoFactory:33 - Connection has been established
+2017-07-25 07:44:34 TRACE AccountDaoImpl:43 - Got accounts of customer 3
+2017-07-25 07:44:34 INFO  CustomerDaoImpl:72 - Got customer with id 3
+2017-07-25 07:45:31 TRACE CustomerServlet:42 - Get customer 3
+2017-07-25 07:45:31 INFO  CustomerDaoImpl:57 - Getting customer with id 3
+2017-07-25 07:45:31 INFO  DaoFactory:23 - Establishing db connection
+2017-07-25 07:45:31 INFO  DaoFactory:33 - Connection has been established
+2017-07-25 07:45:31 INFO  NameContainer:13 - Passing name Andy Aronwitz
+2017-07-25 07:45:31 INFO  AccountDaoImpl:25 - Getting accounts of customer 3
+2017-07-25 07:45:31 INFO  DaoFactory:23 - Establishing db connection
+2017-07-25 07:45:31 INFO  DaoFactory:33 - Connection has been established
+2017-07-25 07:45:31 TRACE AccountDaoImpl:43 - Got accounts of customer 3
+2017-07-25 07:45:31 INFO  CustomerDaoImpl:72 - Got customer with id 3
+2017-07-25 07:52:36 TRACE CustomerServlet:42 - Get customer 3
+2017-07-25 07:52:36 INFO  CustomerDaoImpl:57 - Getting customer with id 3
+2017-07-25 07:52:36 INFO  DaoFactory:23 - Establishing db connection
+2017-07-25 07:52:36 INFO  DaoFactory:33 - Connection has been established
+2017-07-25 07:52:36 INFO  NameContainer:13 - Passing name Andy Aronwitz
+2017-07-25 07:52:36 INFO  AccountDaoImpl:25 - Getting accounts of customer 3
+2017-07-25 07:52:36 INFO  DaoFactory:23 - Establishing db connection
+2017-07-25 07:52:36 INFO  DaoFactory:33 - Connection has been established
+2017-07-25 07:52:36 TRACE AccountDaoImpl:43 - Got accounts of customer 3
+2017-07-25 07:52:36 INFO  CustomerDaoImpl:72 - Got customer with id 3
+2017-07-25 07:52:57 TRACE CustomerServlet:42 - Get customer 3
+2017-07-25 07:52:57 INFO  CustomerDaoImpl:57 - Getting customer with id 3
+2017-07-25 07:52:57 INFO  DaoFactory:23 - Establishing db connection
+2017-07-25 07:52:57 INFO  DaoFactory:33 - Connection has been established
+2017-07-25 07:52:57 INFO  NameContainer:13 - Passing name Andy Aronwitz
+2017-07-25 07:52:57 INFO  AccountDaoImpl:25 - Getting accounts of customer 3
+2017-07-25 07:52:57 INFO  DaoFactory:23 - Establishing db connection
+2017-07-25 07:52:57 INFO  DaoFactory:33 - Connection has been established
+2017-07-25 07:52:57 TRACE AccountDaoImpl:43 - Got accounts of customer 3
+2017-07-25 07:52:57 INFO  CustomerDaoImpl:72 - Got customer with id 3
+2017-07-25 07:53:34 TRACE CustomerServlet:42 - Get customer 3
+2017-07-25 07:53:34 INFO  CustomerDaoImpl:57 - Getting customer with id 3
+2017-07-25 07:53:34 INFO  DaoFactory:23 - Establishing db connection
+2017-07-25 07:53:34 INFO  DaoFactory:33 - Connection has been established
+2017-07-25 07:53:34 INFO  NameContainer:13 - Passing name Andy Aronwitz
+2017-07-25 07:53:34 INFO  AccountDaoImpl:25 - Getting accounts of customer 3
+2017-07-25 07:53:34 INFO  DaoFactory:23 - Establishing db connection
+2017-07-25 07:53:35 INFO  DaoFactory:33 - Connection has been established
+2017-07-25 07:53:35 TRACE AccountDaoImpl:43 - Got accounts of customer 3
+2017-07-25 07:53:35 INFO  CustomerDaoImpl:72 - Got customer with id 3
+2017-07-25 07:56:36 TRACE CustomerServlet:42 - Get customer 3
+2017-07-25 07:56:36 INFO  CustomerDaoImpl:57 - Getting customer with id 3
+2017-07-25 07:56:36 INFO  DaoFactory:23 - Establishing db connection
+2017-07-25 07:56:36 INFO  DaoFactory:33 - Connection has been established
+2017-07-25 07:56:36 INFO  NameContainer:13 - Passing name Andy Aronwitz
+2017-07-25 07:56:36 INFO  AccountDaoImpl:25 - Getting accounts of customer 3
+2017-07-25 07:56:36 INFO  DaoFactory:23 - Establishing db connection
+2017-07-25 07:56:36 INFO  DaoFactory:33 - Connection has been established
+2017-07-25 07:56:36 TRACE AccountDaoImpl:43 - Got accounts of customer 3
+2017-07-25 07:56:36 INFO  CustomerDaoImpl:72 - Got customer with id 3
+2017-07-25 07:57:03 TRACE CustomerServlet:42 - Get customer 3
+2017-07-25 07:57:03 INFO  CustomerDaoImpl:57 - Getting customer with id 3
+2017-07-25 07:57:03 INFO  DaoFactory:23 - Establishing db connection
+2017-07-25 07:57:03 INFO  DaoFactory:33 - Connection has been established
+2017-07-25 07:57:03 INFO  NameContainer:13 - Passing name Andy Aronwitz
+2017-07-25 07:57:03 INFO  AccountDaoImpl:25 - Getting accounts of customer 3
+2017-07-25 07:57:03 INFO  DaoFactory:23 - Establishing db connection
+2017-07-25 07:57:03 INFO  DaoFactory:33 - Connection has been established
+2017-07-25 07:57:03 TRACE AccountDaoImpl:43 - Got accounts of customer 3
+2017-07-25 07:57:03 INFO  CustomerDaoImpl:72 - Got customer with id 3
+2017-07-25 07:59:32 TRACE CustomerServlet:42 - Get customer 1
+2017-07-25 07:59:32 INFO  CustomerDaoImpl:57 - Getting customer with id 1
+2017-07-25 07:59:32 INFO  DaoFactory:23 - Establishing db connection
+2017-07-25 07:59:32 INFO  DaoFactory:33 - Connection has been established
+2017-07-25 07:59:32 INFO  NameContainer:13 - Passing name Dan Tooler
+2017-07-25 07:59:32 INFO  AccountDaoImpl:25 - Getting accounts of customer 1
+2017-07-25 07:59:32 INFO  DaoFactory:23 - Establishing db connection
+2017-07-25 07:59:33 INFO  DaoFactory:33 - Connection has been established
+2017-07-25 07:59:33 TRACE AccountDaoImpl:43 - Got accounts of customer 1
+2017-07-25 07:59:33 INFO  CustomerDaoImpl:72 - Got customer with id 1
+2017-07-25 08:06:43 TRACE CustomerServlet:42 - Get customer 3
+2017-07-25 08:06:43 INFO  CustomerDaoImpl:57 - Getting customer with id 3
+2017-07-25 08:06:43 INFO  DaoFactory:23 - Establishing db connection
+2017-07-25 08:06:43 INFO  DaoFactory:33 - Connection has been established
+2017-07-25 08:06:43 INFO  NameContainer:13 - Passing name Andy Aronwitz
+2017-07-25 08:06:43 INFO  AccountDaoImpl:25 - Getting accounts of customer 3
+2017-07-25 08:06:43 INFO  DaoFactory:23 - Establishing db connection
+2017-07-25 08:06:43 INFO  DaoFactory:33 - Connection has been established
+2017-07-25 08:06:43 TRACE AccountDaoImpl:43 - Got accounts of customer 3
+2017-07-25 08:06:43 INFO  CustomerDaoImpl:72 - Got customer with id 3
+2017-07-25 08:14:33 TRACE CustomerServlet:42 - Get customer 3
+2017-07-25 08:14:33 INFO  CustomerDaoImpl:57 - Getting customer with id 3
+2017-07-25 08:14:33 INFO  DaoFactory:23 - Establishing db connection
+2017-07-25 08:14:33 INFO  DaoFactory:33 - Connection has been established
+2017-07-25 08:14:33 INFO  NameContainer:13 - Passing name Andy Aronwitz
+2017-07-25 08:14:33 INFO  AccountDaoImpl:25 - Getting accounts of customer 3
+2017-07-25 08:14:33 INFO  DaoFactory:23 - Establishing db connection
+2017-07-25 08:14:33 INFO  DaoFactory:33 - Connection has been established
+2017-07-25 08:14:33 TRACE AccountDaoImpl:43 - Got accounts of customer 3
+2017-07-25 08:14:33 INFO  CustomerDaoImpl:72 - Got customer with id 3
+2017-07-25 08:23:57 TRACE CustomerServlet:42 - Get customer 3
+2017-07-25 08:23:57 INFO  CustomerDaoImpl:57 - Getting customer with id 3
+2017-07-25 08:23:57 INFO  DaoFactory:23 - Establishing db connection
+2017-07-25 08:23:57 INFO  DaoFactory:33 - Connection has been established
+2017-07-25 08:23:57 INFO  NameContainer:13 - Passing name Andy Aronwitz
+2017-07-25 08:23:57 INFO  AccountDaoImpl:25 - Getting accounts of customer 3
+2017-07-25 08:23:57 INFO  DaoFactory:23 - Establishing db connection
+2017-07-25 08:23:57 INFO  DaoFactory:33 - Connection has been established
+2017-07-25 08:23:57 TRACE AccountDaoImpl:43 - Got accounts of customer 3
+2017-07-25 08:23:57 INFO  CustomerDaoImpl:72 - Got customer with id 3
+2017-07-25 08:24:09 TRACE CustomerServlet:42 - Get customer 3
+2017-07-25 08:24:09 INFO  CustomerDaoImpl:57 - Getting customer with id 3
+2017-07-25 08:24:09 INFO  DaoFactory:23 - Establishing db connection
+2017-07-25 08:24:09 INFO  DaoFactory:33 - Connection has been established
+2017-07-25 08:24:09 INFO  NameContainer:13 - Passing name Andy Aronwitz
+2017-07-25 08:24:09 INFO  AccountDaoImpl:25 - Getting accounts of customer 3
+2017-07-25 08:24:09 INFO  DaoFactory:23 - Establishing db connection
+2017-07-25 08:24:09 INFO  DaoFactory:33 - Connection has been established
+2017-07-25 08:24:09 TRACE AccountDaoImpl:43 - Got accounts of customer 3
+2017-07-25 08:24:09 INFO  CustomerDaoImpl:72 - Got customer with id 3
+2017-07-25 08:25:01 TRACE CustomerServlet:42 - Get customer 3
+2017-07-25 08:25:01 INFO  CustomerDaoImpl:57 - Getting customer with id 3
+2017-07-25 08:25:01 INFO  DaoFactory:23 - Establishing db connection
+2017-07-25 08:25:01 INFO  DaoFactory:33 - Connection has been established
+2017-07-25 08:25:01 INFO  NameContainer:13 - Passing name Andy Aronwitz
+2017-07-25 08:25:01 INFO  AccountDaoImpl:25 - Getting accounts of customer 3
+2017-07-25 08:25:01 INFO  DaoFactory:23 - Establishing db connection
+2017-07-25 08:25:01 INFO  DaoFactory:33 - Connection has been established
+2017-07-25 08:25:01 TRACE AccountDaoImpl:43 - Got accounts of customer 3
+2017-07-25 08:25:01 INFO  CustomerDaoImpl:72 - Got customer with id 3
+2017-07-25 08:25:27 TRACE CustomerServlet:42 - Get customer 3
+2017-07-25 08:25:27 INFO  CustomerDaoImpl:57 - Getting customer with id 3
+2017-07-25 08:25:27 INFO  DaoFactory:23 - Establishing db connection
+2017-07-25 08:25:27 INFO  DaoFactory:33 - Connection has been established
+2017-07-25 08:25:27 INFO  NameContainer:13 - Passing name Andy Aronwitz
+2017-07-25 08:25:27 INFO  AccountDaoImpl:25 - Getting accounts of customer 3
+2017-07-25 08:25:27 INFO  DaoFactory:23 - Establishing db connection
+2017-07-25 08:25:27 INFO  DaoFactory:33 - Connection has been established
+2017-07-25 08:25:27 TRACE AccountDaoImpl:43 - Got accounts of customer 3
+2017-07-25 08:25:27 INFO  CustomerDaoImpl:72 - Got customer with id 3
