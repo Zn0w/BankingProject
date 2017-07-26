@@ -2,6 +2,9 @@ package bankingproject.domain.customer;
 
 import org.apache.log4j.Logger;
 
+import bankingproject.dao.DaoException;
+import bankingproject.dao.account.AccountDao;
+import bankingproject.dao.account.AccountDaoImpl;
 import bankingproject.domain.customer.money.Money;
 
 public class Account {
@@ -22,6 +25,16 @@ public class Account {
 		balance.subtract(amount);
 		account.balance.add(amount);
 		logger.trace("Transaction " + id + "-" + account.id + " : " + amount.getAmount() + " " + amount.getCurrency() + " has been completed");
+	}
+	
+	public void update() {
+		AccountDao accountDao = new AccountDaoImpl();
+		
+		try {
+			accountDao.updateAccount(id, balance.getAmount());
+		} catch (DaoException e) {
+			e.printStackTrace();
+		}
 	}
 
 	public int getId() {

@@ -55,6 +55,20 @@
 				<td><a href = "CustomerServlet?query=${requestScope.owner}"><c:out value="${requestScope.owner}"/></a></td>
 			</tr>
 		</table>
+		
+		<form action = "AccountManagerServlet">
+			<input type = "hidden" name = "id" value = "${requestScope.id}">
+			
+			<input type = "text" name = "deposit_amount">
+			<input type = "submit" name = "action" value = "deposit">
+			<br><br><br>
+			<input type = "text" name = "withdraw_amount">
+			<input type = "submit" name = "action" value = "withdraw">
+			<br><br><br>
+			<input type = "text" name = "transfer_id">
+			<input type = "text" name = "transfer_amount">
+			<input type = "submit" name = "action" value = "transfer">
+		</form>
 	</div>
 </body>
 

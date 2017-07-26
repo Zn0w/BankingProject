@@ -131,5 +131,28 @@ public class AccountDaoImpl implements AccountDao {
 		
 		return account;
 	}
+
+	@Override
+	public void updateAccount(int id, double amount) throws DaoException {
+		logger.info("Updating account " + id);
+		
+		Connection connection = null;
+		Statement statement = null;
+		
+		try {
+			connection = daoFactory.getConnection();
+			statement = connection.createStatement();
+			
+			statement.executeUpdate("update accounts set balance = '"+amount+"' where id = '"+id+"'");
+			
+			logger.trace("Account " + id + " has been updated");
+		} catch (SQLException e) {
+			logger.error("Failed to update account " + id, e);
+			throw new DaoException("Failed to update account " + id, e);
+		} finally {
+			daoFactory.close(statement);
+			daoFactory.close(connection);
+		}
+	}
 	
 }
