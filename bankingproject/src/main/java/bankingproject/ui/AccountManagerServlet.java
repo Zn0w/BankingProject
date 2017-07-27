@@ -1,6 +1,9 @@
 package bankingproject.ui;
 
 import java.io.IOException;
+import java.text.DateFormat;
+import java.text.SimpleDateFormat;
+import java.util.Date;
 
 import javax.servlet.ServletException;
 import javax.servlet.http.HttpServlet;
@@ -43,6 +46,8 @@ public class AccountManagerServlet extends HttpServlet {
 				
 				account.getBalance().add(new Money(Double.valueOf(amount), account.getBalance().getCurrency()));
 				account.update();
+				
+				saveTransactionInfo("DEPOSIT " + amount + " " + account.getBalance().getCurrency() + " TO " + id);
 			} catch (NumberFormatException e) {
 				e.printStackTrace();
 			} catch (DaoException e) {
@@ -58,6 +63,8 @@ public class AccountManagerServlet extends HttpServlet {
 				
 				account.getBalance().subtract(new Money(Double.valueOf(amount), account.getBalance().getCurrency()));
 				account.update();
+				
+				saveTransactionInfo("WITHDRAW " + amount + " " + account.getBalance().getCurrency() + " FROM " + id);
 			} catch (NumberFormatException e) {
 				e.printStackTrace();
 			} catch (DaoException e) {
@@ -77,6 +84,8 @@ public class AccountManagerServlet extends HttpServlet {
 				
 				accountFrom.update();
 				accountTo.update();
+				
+				saveTransactionInfo("TRANSFER " + amount + " " + accountFrom.getBalance().getCurrency() + " FROM " + id + " TO " + transfer_id);
 			} catch (NumberFormatException e) {
 				e.printStackTrace();
 			} catch (DaoException e) {
@@ -92,6 +101,13 @@ public class AccountManagerServlet extends HttpServlet {
 	 */
 	protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
 		doGet(request, response);
+	}
+	
+	private void saveTransactionInfo(String actionInfo) {
+		DateFormat dateFormat = new SimpleDateFormat("yyy/MM/dd HH:mm:ss");
+		Date date = new Date();
+		
+		System.out.println(dateFormat.format(date) + " " + actionInfo);
 	}
 
 }
