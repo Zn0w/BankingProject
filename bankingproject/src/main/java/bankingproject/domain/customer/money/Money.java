@@ -23,6 +23,10 @@ public class Money {
 		}
 		else {
 			try {
+				if (!currency.equals("USD") || !money.getCurrency().equals("USD")) {
+					money.changeCurrency("USD");
+				}
+				
 				Double coefficient = CurrencyHandler.getCurrencyCoefficient(money.getCurrency(), currency);
 				
 				amount += money.getAmount() * Money.round(coefficient, 3);
@@ -39,6 +43,10 @@ public class Money {
 		}
 		else {
 			try {
+				if (!currency.equals("USD") || !money.getCurrency().equals("USD")) {
+					money.changeCurrency("USD");
+				}
+				
 				Double coefficient = CurrencyHandler.getCurrencyCoefficient(money.getCurrency(), currency);
 				
 				amount -= money.getAmount() * Money.round(coefficient, 3);
