@@ -13,6 +13,8 @@ import javax.servlet.http.HttpServletResponse;
 import bankingproject.dao.DaoException;
 import bankingproject.dao.account.AccountDao;
 import bankingproject.dao.account.AccountDaoImpl;
+import bankingproject.dao.transaction.TransactionDao;
+import bankingproject.dao.transaction.TransactionDaoImpl;
 import bankingproject.domain.customer.Account;
 import bankingproject.domain.customer.money.Money;
 
@@ -47,7 +49,7 @@ public class AccountManagerServlet extends HttpServlet {
 				account.getBalance().add(new Money(Double.valueOf(amount), account.getBalance().getCurrency()));
 				account.update();
 				
-				saveTransactionInfo("DEPOSIT " + amount + " " + account.getBalance().getCurrency() + " TO " + id);
+				saveTransactionInfo(account.getOwnerId(), "DEPOSIT " + amount + " " + account.getBalance().getCurrency() + " TO " + id);
 			} catch (NumberFormatException e) {
 				e.printStackTrace();
 			} catch (DaoException e) {
@@ -64,7 +66,7 @@ public class AccountManagerServlet extends HttpServlet {
 				account.getBalance().subtract(new Money(Double.valueOf(amount), account.getBalance().getCurrency()));
 				account.update();
 				
-				saveTransactionInfo("WITHDRAW " + amount + " " + account.getBalance().getCurrency() + " FROM " + id);
+				saveTransactionInfo(account.getOwnerId(), "WITHDRAW " + amount + " " + account.getBalance().getCurrency() + " FROM " + id);
 			} catch (NumberFormatException e) {
 				e.printStackTrace();
 			} catch (DaoException e) {
@@ -85,7 +87,8 @@ public class AccountManagerServlet extends HttpServlet {
 				accountFrom.update();
 				accountTo.update();
 				
-				saveTransactionInfo("TRANSFER " + amount + " " + accountFrom.getBalance().getCurrency() + " FROM " + id + " TO " + transfer_id);
+				saveTransactionInfo(accountFrom.getOwnerId(), "TRANSFER " + amount + " " + accountFrom.getBalance().getCurrency() + " SENT TO " + accountTo.getOwnerId());
+				saveTransactionInfo(accountTo.getOwnerId(), "TRANSFER " + amount + " " + accountFrom.getBalance().getCurrency() + " RECIEVED FROM " + accountFrom.getOwnerId());
 			} catch (NumberFormatException e) {
 				e.printStackTrace();
 			} catch (DaoException e) {
@@ -103,11 +106,20 @@ public class AccountManagerServlet extends HttpServlet {
 		doGet(request, response);
 	}
 	
-	private void saveTransactionInfo(String actionInfo) {
+	private void saveTransactionInfo(int customerId, String actionInfo) {
 		DateFormat dateFormat = new SimpleDateFormat("yyy/MM/dd HH:mm:ss");
 		Date date = new Date();
 		
 		System.out.println(dateFormat.format(date) + " " + actionInfo);
+		
+		TransactionDao transactionDao = new TransactionDaoImpl();
+		try {
+			transactionDao.saveSimpleTransaction(customerId, dateFormat.format(date) + " " + actionInfo);
+		} catch (NumberFormatException e) {
+			e.printStackTrace();
+		} catch (DaoException e) {
+			e.printStackTrace();
+		}
 	}
 
 }

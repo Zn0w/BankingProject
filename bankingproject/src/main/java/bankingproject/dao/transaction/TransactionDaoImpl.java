@@ -11,7 +11,6 @@ import org.apache.log4j.Logger;
 
 import bankingproject.dao.DaoException;
 import bankingproject.dao.DaoFactory;
-import bankingproject.domain.customer.Customer;
 import bankingproject.domain.customer.transaction.Transaction;
 
 public class TransactionDaoImpl implements TransactionDao {
@@ -31,7 +30,7 @@ public class TransactionDaoImpl implements TransactionDao {
 			connection = daoFactory.getConnection();
 			statement = connection.createStatement();
 			
-			statement.executeQuery("insert into transactions(customer_id, info) values('"+customerId+"', '"+info+"')");
+			statement.executeUpdate("insert into transactions(customer_id, info) values('"+customerId+"', '"+info+"')");
 			
 			logger.info("Transaction has been saved");
 		} catch (SQLException e) {
@@ -54,7 +53,7 @@ public class TransactionDaoImpl implements TransactionDao {
 	}
 
 	@Override
-	public List<Transaction> getTransactions(int id) throws DaoException {
+	public List<Transaction> getTransactions(int customerId) throws DaoException {
 		return null;
 	}
 	

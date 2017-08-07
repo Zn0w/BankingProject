@@ -13,6 +13,6 @@ public interface TransactionDao {
 	
 	public List<Transaction> getTransactions() throws DaoException;
 	
-	public List<Transaction> getTransactions(int id) throws DaoException;
+	public List<Transaction> getTransactions(int customerId) throws DaoException;
 	
 }

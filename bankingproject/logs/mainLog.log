@@ -2448,3 +2448,208 @@ java.lang.NumberFormatException: For input string: "owner"
 2017-07-27 14:11:48 INFO  DaoFactory:23 - Establishing db connection
 2017-07-27 14:11:48 INFO  DaoFactory:33 - Connection has been established
 2017-07-27 14:11:48 TRACE AccountDaoImpl:119 - Got account 2
+2017-08-07 06:47:33 INFO  LoginServlet:43 - Log in with login cooper
+2017-08-07 06:47:33 TRACE LoginServlet:48 - Get employee with login cooper
+2017-08-07 06:47:33 INFO  EmployeeDao:57 - Getting employee with login cooper
+2017-08-07 06:47:33 INFO  DaoFactory:23 - Establishing db connection
+2017-08-07 06:47:33 INFO  DaoFactory:33 - Connection has been established
+2017-08-07 06:47:33 INFO  NameContainer:13 - Passing name John Cooper
+2017-08-07 06:47:33 INFO  EmployeeDao:72 - Got employee with login cooper
+2017-08-07 06:47:54 TRACE CustomerServlet:42 - Get customer 4
+2017-08-07 06:47:54 INFO  CustomerDaoImpl:57 - Getting customer with id 4
+2017-08-07 06:47:54 INFO  DaoFactory:23 - Establishing db connection
+2017-08-07 06:47:54 INFO  DaoFactory:33 - Connection has been established
+2017-08-07 06:47:54 INFO  NameContainer:13 - Passing name Daniil Fogel
+2017-08-07 06:47:54 INFO  AccountDaoImpl:25 - Getting accounts of customer 4
+2017-08-07 06:47:54 INFO  DaoFactory:23 - Establishing db connection
+2017-08-07 06:47:54 INFO  DaoFactory:33 - Connection has been established
+2017-08-07 06:47:54 TRACE AccountDaoImpl:43 - Got accounts of customer 4
+2017-08-07 06:47:54 INFO  CustomerDaoImpl:72 - Got customer with id 4
+2017-08-07 06:48:00 INFO  AccountDaoImpl:104 - Getting account 2
+2017-08-07 06:48:00 INFO  DaoFactory:23 - Establishing db connection
+2017-08-07 06:48:00 INFO  DaoFactory:33 - Connection has been established
+2017-08-07 06:48:00 TRACE AccountDaoImpl:119 - Got account 2
+2017-08-07 06:48:05 INFO  AccountDaoImpl:104 - Getting account 2
+2017-08-07 06:48:05 INFO  DaoFactory:23 - Establishing db connection
+2017-08-07 06:48:05 INFO  DaoFactory:33 - Connection has been established
+2017-08-07 06:48:05 TRACE AccountDaoImpl:119 - Got account 2
+2017-08-07 06:48:05 INFO  AccountDaoImpl:137 - Updating account 2
+2017-08-07 06:48:05 INFO  DaoFactory:23 - Establishing db connection
+2017-08-07 06:48:05 INFO  DaoFactory:33 - Connection has been established
+2017-08-07 06:48:06 TRACE AccountDaoImpl:148 - Account 2 has been updated
+2017-08-07 06:48:06 INFO  TransactionDaoImpl:24 - Saving simple transaction 2: 2017/08/07 06:48:06 DEPOSIT 100 GBP TO 2
+2017-08-07 06:48:06 INFO  DaoFactory:23 - Establishing db connection
+2017-08-07 06:48:06 INFO  DaoFactory:33 - Connection has been established
+2017-08-07 06:48:06 ERROR TransactionDaoImpl:37 - Failed to save transaction 2: 2017/08/07 06:48:06 DEPOSIT 100 GBP TO 2
+java.sql.SQLException: Can not issue data manipulation statements with executeQuery().
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:1094)
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:997)
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:983)
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:928)
+	at com.mysql.jdbc.StatementImpl.checkForDml(StatementImpl.java:501)
+	at com.mysql.jdbc.StatementImpl.executeQuery(StatementImpl.java:1521)
+	at bankingproject.dao.transaction.TransactionDaoImpl.saveSimpleTransaction(TransactionDaoImpl.java:33)
+	at bankingproject.ui.AccountManagerServlet.saveTransactionInfo(AccountManagerServlet.java:116)
+	at bankingproject.ui.AccountManagerServlet.doGet(AccountManagerServlet.java:52)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:635)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:742)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:198)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:478)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:140)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:80)
+	at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:624)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:87)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:342)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:799)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:861)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1455)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Unknown Source)
+2017-08-07 06:48:06 INFO  AccountDaoImpl:104 - Getting account 2
+2017-08-07 06:48:06 INFO  DaoFactory:23 - Establishing db connection
+2017-08-07 06:48:06 INFO  DaoFactory:33 - Connection has been established
+2017-08-07 06:48:06 TRACE AccountDaoImpl:119 - Got account 2
+2017-08-07 06:50:15 INFO  AccountDaoImpl:104 - Getting account 2
+2017-08-07 06:50:15 INFO  DaoFactory:23 - Establishing db connection
+2017-08-07 06:50:16 INFO  DaoFactory:33 - Connection has been established
+2017-08-07 06:50:16 TRACE AccountDaoImpl:119 - Got account 2
+2017-08-07 06:50:21 INFO  AccountDaoImpl:104 - Getting account 2
+2017-08-07 06:50:21 INFO  DaoFactory:23 - Establishing db connection
+2017-08-07 06:50:21 INFO  DaoFactory:33 - Connection has been established
+2017-08-07 06:50:21 TRACE AccountDaoImpl:119 - Got account 2
+2017-08-07 06:50:21 INFO  AccountDaoImpl:137 - Updating account 2
+2017-08-07 06:50:21 INFO  DaoFactory:23 - Establishing db connection
+2017-08-07 06:50:21 INFO  DaoFactory:33 - Connection has been established
+2017-08-07 06:50:21 TRACE AccountDaoImpl:148 - Account 2 has been updated
+2017-08-07 06:50:21 INFO  TransactionDaoImpl:24 - Saving simple transaction 2: 2017/08/07 06:50:21 WITHDRAW 9.5 GBP FROM 2
+2017-08-07 06:50:21 INFO  DaoFactory:23 - Establishing db connection
+2017-08-07 06:50:21 INFO  DaoFactory:33 - Connection has been established
+2017-08-07 06:50:21 ERROR TransactionDaoImpl:37 - Failed to save transaction 2: 2017/08/07 06:50:21 WITHDRAW 9.5 GBP FROM 2
+java.sql.SQLException: Can not issue data manipulation statements with executeQuery().
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:1094)
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:997)
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:983)
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:928)
+	at com.mysql.jdbc.StatementImpl.checkForDml(StatementImpl.java:501)
+	at com.mysql.jdbc.StatementImpl.executeQuery(StatementImpl.java:1521)
+	at bankingproject.dao.transaction.TransactionDaoImpl.saveSimpleTransaction(TransactionDaoImpl.java:33)
+	at bankingproject.ui.AccountManagerServlet.saveTransactionInfo(AccountManagerServlet.java:116)
+	at bankingproject.ui.AccountManagerServlet.doGet(AccountManagerServlet.java:69)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:635)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:742)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:198)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:478)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:140)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:80)
+	at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:624)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:87)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:342)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:799)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:861)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1455)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Unknown Source)
+2017-08-07 06:50:21 INFO  AccountDaoImpl:104 - Getting account 2
+2017-08-07 06:50:21 INFO  DaoFactory:23 - Establishing db connection
+2017-08-07 06:50:21 INFO  DaoFactory:33 - Connection has been established
+2017-08-07 06:50:21 TRACE AccountDaoImpl:119 - Got account 2
+2017-08-07 06:58:41 INFO  AccountDaoImpl:104 - Getting account 2
+2017-08-07 06:58:41 INFO  DaoFactory:23 - Establishing db connection
+2017-08-07 06:58:42 INFO  DaoFactory:33 - Connection has been established
+2017-08-07 06:58:42 TRACE AccountDaoImpl:119 - Got account 2
+2017-08-07 06:58:42 INFO  AccountDaoImpl:137 - Updating account 2
+2017-08-07 06:58:42 INFO  DaoFactory:23 - Establishing db connection
+2017-08-07 06:58:42 INFO  DaoFactory:33 - Connection has been established
+2017-08-07 06:58:42 TRACE AccountDaoImpl:148 - Account 2 has been updated
+2017-08-07 06:58:42 INFO  TransactionDaoImpl:24 - Saving simple transaction 4: 2017/08/07 06:58:42 DEPOSIT 50 GBP TO 2
+2017-08-07 06:58:42 INFO  DaoFactory:23 - Establishing db connection
+2017-08-07 06:58:42 INFO  DaoFactory:33 - Connection has been established
+2017-08-07 06:58:42 ERROR TransactionDaoImpl:37 - Failed to save transaction 4: 2017/08/07 06:58:42 DEPOSIT 50 GBP TO 2
+java.sql.SQLException: Can not issue data manipulation statements with executeQuery().
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:1094)
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:997)
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:983)
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:928)
+	at com.mysql.jdbc.StatementImpl.checkForDml(StatementImpl.java:501)
+	at com.mysql.jdbc.StatementImpl.executeQuery(StatementImpl.java:1521)
+	at bankingproject.dao.transaction.TransactionDaoImpl.saveSimpleTransaction(TransactionDaoImpl.java:33)
+	at bankingproject.ui.AccountManagerServlet.saveTransactionInfo(AccountManagerServlet.java:117)
+	at bankingproject.ui.AccountManagerServlet.doGet(AccountManagerServlet.java:52)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:635)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:742)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:198)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:478)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:140)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:80)
+	at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:624)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:87)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:342)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:799)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:861)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1455)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Unknown Source)
+2017-08-07 06:58:42 INFO  AccountDaoImpl:104 - Getting account 2
+2017-08-07 06:58:42 INFO  DaoFactory:23 - Establishing db connection
+2017-08-07 06:58:42 INFO  DaoFactory:33 - Connection has been established
+2017-08-07 06:58:42 TRACE AccountDaoImpl:119 - Got account 2
+2017-08-07 07:00:36 TRACE CustomerServlet:42 - Get customer 4
+2017-08-07 07:00:36 INFO  CustomerDaoImpl:57 - Getting customer with id 4
+2017-08-07 07:00:36 INFO  DaoFactory:23 - Establishing db connection
+2017-08-07 07:00:37 INFO  DaoFactory:33 - Connection has been established
+2017-08-07 07:00:37 INFO  NameContainer:13 - Passing name Daniil Fogel
+2017-08-07 07:00:37 INFO  AccountDaoImpl:25 - Getting accounts of customer 4
+2017-08-07 07:00:37 INFO  DaoFactory:23 - Establishing db connection
+2017-08-07 07:00:37 INFO  DaoFactory:33 - Connection has been established
+2017-08-07 07:00:37 TRACE AccountDaoImpl:43 - Got accounts of customer 4
+2017-08-07 07:00:37 INFO  CustomerDaoImpl:72 - Got customer with id 4
+2017-08-07 07:00:38 INFO  AccountDaoImpl:104 - Getting account 2
+2017-08-07 07:00:38 INFO  DaoFactory:23 - Establishing db connection
+2017-08-07 07:00:38 INFO  DaoFactory:33 - Connection has been established
+2017-08-07 07:00:38 TRACE AccountDaoImpl:119 - Got account 2
+2017-08-07 07:00:41 INFO  AccountDaoImpl:104 - Getting account 2
+2017-08-07 07:00:41 INFO  DaoFactory:23 - Establishing db connection
+2017-08-07 07:00:41 INFO  DaoFactory:33 - Connection has been established
+2017-08-07 07:00:41 TRACE AccountDaoImpl:119 - Got account 2
+2017-08-07 07:00:41 INFO  AccountDaoImpl:137 - Updating account 2
+2017-08-07 07:00:41 INFO  DaoFactory:23 - Establishing db connection
+2017-08-07 07:00:41 INFO  DaoFactory:33 - Connection has been established
+2017-08-07 07:00:41 TRACE AccountDaoImpl:148 - Account 2 has been updated
+2017-08-07 07:00:41 INFO  TransactionDaoImpl:24 - Saving simple transaction 4: 2017/08/07 07:00:41 WITHDRAW 25 GBP FROM 2
+2017-08-07 07:00:41 INFO  DaoFactory:23 - Establishing db connection
+2017-08-07 07:00:42 INFO  DaoFactory:33 - Connection has been established
+2017-08-07 07:00:42 INFO  TransactionDaoImpl:35 - Transaction has been saved
+2017-08-07 07:00:42 INFO  AccountDaoImpl:104 - Getting account 2
+2017-08-07 07:00:42 INFO  DaoFactory:23 - Establishing db connection
+2017-08-07 07:00:42 INFO  DaoFactory:33 - Connection has been established
+2017-08-07 07:00:42 TRACE AccountDaoImpl:119 - Got account 2
