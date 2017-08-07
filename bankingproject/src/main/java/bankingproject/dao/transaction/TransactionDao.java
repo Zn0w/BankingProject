@@ -7,9 +7,7 @@ import bankingproject.domain.customer.transaction.Transaction;
 
 public interface TransactionDao {
 	
-	public void saveSimpleTransaction(int customerId, String info) throws DaoException;
-	
-	public void saveTransferTransaction() throws DaoException;
+	public void saveTransaction(int customerId, String info) throws DaoException;
 	
 	public List<Transaction> getTransactions() throws DaoException;
 	

@@ -114,7 +114,7 @@ public class AccountManagerServlet extends HttpServlet {
 		
 		TransactionDao transactionDao = new TransactionDaoImpl();
 		try {
-			transactionDao.saveSimpleTransaction(customerId, dateFormat.format(date) + " " + actionInfo);
+			transactionDao.saveTransaction(customerId, dateFormat.format(date) + " " + actionInfo);
 		} catch (NumberFormatException e) {
 			e.printStackTrace();
 		} catch (DaoException e) {

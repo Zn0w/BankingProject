@@ -20,7 +20,7 @@ public class TransactionDaoImpl implements TransactionDao {
 	private DaoFactory daoFactory = new DaoFactory();
 	
 	@Override
-	public void saveSimpleTransaction(int customerId, String info) throws DaoException {
+	public void saveTransaction(int customerId, String info) throws DaoException {
 		logger.info("Saving simple transaction " + customerId + ": " + info);
 		
 		Connection connection = null;
@@ -40,11 +40,6 @@ public class TransactionDaoImpl implements TransactionDao {
 			daoFactory.close(statement);
 			daoFactory.close(connection);
 		}
-	}
-
-	@Override
-	public void saveTransferTransaction() throws DaoException {
-		
 	}
 
 	@Override

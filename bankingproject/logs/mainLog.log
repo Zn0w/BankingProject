@@ -2653,3 +2653,390 @@ java.sql.SQLException: Can not issue data manipulation statements with executeQu
 2017-08-07 07:00:42 INFO  DaoFactory:23 - Establishing db connection
 2017-08-07 07:00:42 INFO  DaoFactory:33 - Connection has been established
 2017-08-07 07:00:42 TRACE AccountDaoImpl:119 - Got account 2
+2017-08-07 15:13:12 INFO  LoginServlet:43 - Log in with login cooper
+2017-08-07 15:13:12 TRACE LoginServlet:48 - Get employee with login cooper
+2017-08-07 15:13:12 INFO  EmployeeDao:57 - Getting employee with login cooper
+2017-08-07 15:13:12 INFO  DaoFactory:23 - Establishing db connection
+2017-08-07 15:13:13 INFO  DaoFactory:33 - Connection has been established
+2017-08-07 15:13:13 INFO  NameContainer:13 - Passing name John Cooper
+2017-08-07 15:13:13 INFO  EmployeeDao:72 - Got employee with login cooper
+2017-08-07 15:13:29 INFO  LogoutServlet:32 - Logging out
+2017-08-07 15:13:29 INFO  LogoutServlet:39 - cooperlogged out
+2017-08-07 15:13:36 INFO  LoginServlet:43 - Log in with login cooper
+2017-08-07 15:13:36 TRACE LoginServlet:48 - Get employee with login cooper
+2017-08-07 15:13:36 INFO  EmployeeDao:57 - Getting employee with login cooper
+2017-08-07 15:13:36 INFO  DaoFactory:23 - Establishing db connection
+2017-08-07 15:13:36 INFO  DaoFactory:33 - Connection has been established
+2017-08-07 15:13:36 INFO  NameContainer:13 - Passing name John Cooper
+2017-08-07 15:13:36 INFO  EmployeeDao:72 - Got employee with login cooper
+2017-08-07 15:14:24 TRACE CustomerServlet:42 - Get customer 3
+2017-08-07 15:14:24 INFO  CustomerDaoImpl:57 - Getting customer with id 3
+2017-08-07 15:14:24 INFO  DaoFactory:23 - Establishing db connection
+2017-08-07 15:14:24 INFO  DaoFactory:33 - Connection has been established
+2017-08-07 15:14:24 INFO  NameContainer:13 - Passing name Andy Aronwitz
+2017-08-07 15:14:24 INFO  AccountDaoImpl:25 - Getting accounts of customer 3
+2017-08-07 15:14:24 INFO  DaoFactory:23 - Establishing db connection
+2017-08-07 15:14:24 INFO  DaoFactory:33 - Connection has been established
+2017-08-07 15:14:24 TRACE AccountDaoImpl:43 - Got accounts of customer 3
+2017-08-07 15:14:24 INFO  CustomerDaoImpl:72 - Got customer with id 3
+2017-08-07 15:14:50 INFO  AccountDaoImpl:58 - Creating account for customer 3
+2017-08-07 15:14:50 INFO  DaoFactory:23 - Establishing db connection
+2017-08-07 15:14:50 INFO  DaoFactory:33 - Connection has been established
+2017-08-07 15:14:50 TRACE AccountDaoImpl:69 - Account for customer 3 has been created
+2017-08-07 15:14:50 TRACE CustomerServlet:42 - Get customer 3
+2017-08-07 15:14:50 INFO  CustomerDaoImpl:57 - Getting customer with id 3
+2017-08-07 15:14:50 INFO  DaoFactory:23 - Establishing db connection
+2017-08-07 15:14:50 INFO  DaoFactory:33 - Connection has been established
+2017-08-07 15:14:50 INFO  NameContainer:13 - Passing name Andy Aronwitz
+2017-08-07 15:14:50 INFO  AccountDaoImpl:25 - Getting accounts of customer 3
+2017-08-07 15:14:50 INFO  DaoFactory:23 - Establishing db connection
+2017-08-07 15:14:50 INFO  DaoFactory:33 - Connection has been established
+2017-08-07 15:14:50 TRACE AccountDaoImpl:43 - Got accounts of customer 3
+2017-08-07 15:14:50 INFO  CustomerDaoImpl:72 - Got customer with id 3
+2017-08-07 15:15:00 INFO  AccountDaoImpl:104 - Getting account 7
+2017-08-07 15:15:00 INFO  DaoFactory:23 - Establishing db connection
+2017-08-07 15:15:00 INFO  DaoFactory:33 - Connection has been established
+2017-08-07 15:15:00 TRACE AccountDaoImpl:119 - Got account 7
+2017-08-07 15:15:18 INFO  AccountDaoImpl:104 - Getting account 7
+2017-08-07 15:15:18 INFO  DaoFactory:23 - Establishing db connection
+2017-08-07 15:15:18 INFO  DaoFactory:33 - Connection has been established
+2017-08-07 15:15:18 TRACE AccountDaoImpl:119 - Got account 7
+2017-08-07 15:15:18 INFO  AccountDaoImpl:137 - Updating account 7
+2017-08-07 15:15:18 INFO  DaoFactory:23 - Establishing db connection
+2017-08-07 15:15:18 INFO  DaoFactory:33 - Connection has been established
+2017-08-07 15:15:19 TRACE AccountDaoImpl:148 - Account 7 has been updated
+2017-08-07 15:15:23 INFO  AccountDaoImpl:104 - Getting account 7
+2017-08-07 15:15:23 INFO  DaoFactory:23 - Establishing db connection
+2017-08-07 15:15:23 INFO  DaoFactory:33 - Connection has been established
+2017-08-07 15:15:23 TRACE AccountDaoImpl:119 - Got account 7
+2017-08-07 15:15:23 INFO  AccountDaoImpl:137 - Updating account 7
+2017-08-07 15:15:23 INFO  DaoFactory:23 - Establishing db connection
+2017-08-07 15:15:23 INFO  DaoFactory:33 - Connection has been established
+2017-08-07 15:15:23 TRACE AccountDaoImpl:148 - Account 7 has been updated
+2017-08-07 15:16:13 INFO  AccountDaoImpl:104 - Getting account 7
+2017-08-07 15:16:13 INFO  DaoFactory:23 - Establishing db connection
+2017-08-07 15:16:13 INFO  DaoFactory:33 - Connection has been established
+2017-08-07 15:16:13 TRACE AccountDaoImpl:119 - Got account 7
+2017-08-07 15:16:21 INFO  AccountDaoImpl:104 - Getting account 7
+2017-08-07 15:16:21 INFO  DaoFactory:23 - Establishing db connection
+2017-08-07 15:16:21 INFO  DaoFactory:33 - Connection has been established
+2017-08-07 15:16:21 TRACE AccountDaoImpl:119 - Got account 7
+2017-08-07 15:16:21 INFO  AccountDaoImpl:137 - Updating account 7
+2017-08-07 15:16:21 INFO  DaoFactory:23 - Establishing db connection
+2017-08-07 15:16:21 INFO  DaoFactory:33 - Connection has been established
+2017-08-07 15:16:21 TRACE AccountDaoImpl:148 - Account 7 has been updated
+2017-08-07 15:16:21 INFO  TransactionDaoImpl:24 - Saving simple transaction 3: 2017/08/07 15:16:21 DEPOSIT 500 RUB TO 7
+2017-08-07 15:16:21 INFO  DaoFactory:23 - Establishing db connection
+2017-08-07 15:16:21 INFO  DaoFactory:33 - Connection has been established
+2017-08-07 15:16:21 INFO  TransactionDaoImpl:35 - Transaction has been saved
+2017-08-07 15:16:21 INFO  AccountDaoImpl:104 - Getting account 7
+2017-08-07 15:16:21 INFO  DaoFactory:23 - Establishing db connection
+2017-08-07 15:16:21 INFO  DaoFactory:33 - Connection has been established
+2017-08-07 15:16:21 TRACE AccountDaoImpl:119 - Got account 7
+2017-08-07 15:16:34 INFO  AccountDaoImpl:104 - Getting account 7
+2017-08-07 15:16:34 INFO  DaoFactory:23 - Establishing db connection
+2017-08-07 15:16:34 INFO  DaoFactory:33 - Connection has been established
+2017-08-07 15:16:34 TRACE AccountDaoImpl:119 - Got account 7
+2017-08-07 15:16:34 INFO  AccountDaoImpl:137 - Updating account 7
+2017-08-07 15:16:34 INFO  DaoFactory:23 - Establishing db connection
+2017-08-07 15:16:34 INFO  DaoFactory:33 - Connection has been established
+2017-08-07 15:16:34 TRACE AccountDaoImpl:148 - Account 7 has been updated
+2017-08-07 15:16:34 INFO  TransactionDaoImpl:24 - Saving simple transaction 3: 2017/08/07 15:16:34 WITHDRAW 2500 RUB FROM 7
+2017-08-07 15:16:34 INFO  DaoFactory:23 - Establishing db connection
+2017-08-07 15:16:34 INFO  DaoFactory:33 - Connection has been established
+2017-08-07 15:16:34 INFO  TransactionDaoImpl:35 - Transaction has been saved
+2017-08-07 15:16:34 INFO  AccountDaoImpl:104 - Getting account 7
+2017-08-07 15:16:34 INFO  DaoFactory:23 - Establishing db connection
+2017-08-07 15:16:34 INFO  DaoFactory:33 - Connection has been established
+2017-08-07 15:16:34 TRACE AccountDaoImpl:119 - Got account 7
+2017-08-07 15:17:30 TRACE CustomerServlet:42 - Get customer 7
+2017-08-07 15:17:30 INFO  CustomerDaoImpl:57 - Getting customer with id 7
+2017-08-07 15:17:30 INFO  DaoFactory:23 - Establishing db connection
+2017-08-07 15:17:30 INFO  DaoFactory:33 - Connection has been established
+2017-08-07 15:17:30 INFO  NameContainer:13 - Passing name Robin Fran
+2017-08-07 15:17:30 INFO  AccountDaoImpl:25 - Getting accounts of customer 7
+2017-08-07 15:17:30 INFO  DaoFactory:23 - Establishing db connection
+2017-08-07 15:17:30 INFO  DaoFactory:33 - Connection has been established
+2017-08-07 15:17:30 TRACE AccountDaoImpl:43 - Got accounts of customer 7
+2017-08-07 15:17:30 INFO  CustomerDaoImpl:72 - Got customer with id 7
+2017-08-07 15:17:54 TRACE CustomerServlet:42 - Get customer 1
+2017-08-07 15:17:54 INFO  CustomerDaoImpl:57 - Getting customer with id 1
+2017-08-07 15:17:54 INFO  DaoFactory:23 - Establishing db connection
+2017-08-07 15:17:54 INFO  DaoFactory:33 - Connection has been established
+2017-08-07 15:17:54 INFO  NameContainer:13 - Passing name Dan Tooler
+2017-08-07 15:17:54 INFO  AccountDaoImpl:25 - Getting accounts of customer 1
+2017-08-07 15:17:54 INFO  DaoFactory:23 - Establishing db connection
+2017-08-07 15:17:54 INFO  DaoFactory:33 - Connection has been established
+2017-08-07 15:17:54 TRACE AccountDaoImpl:43 - Got accounts of customer 1
+2017-08-07 15:17:54 INFO  CustomerDaoImpl:72 - Got customer with id 1
+2017-08-07 15:18:08 TRACE CustomerServlet:42 - Get customer 3
+2017-08-07 15:18:08 INFO  CustomerDaoImpl:57 - Getting customer with id 3
+2017-08-07 15:18:08 INFO  DaoFactory:23 - Establishing db connection
+2017-08-07 15:18:08 INFO  DaoFactory:33 - Connection has been established
+2017-08-07 15:18:08 INFO  NameContainer:13 - Passing name Andy Aronwitz
+2017-08-07 15:18:08 INFO  AccountDaoImpl:25 - Getting accounts of customer 3
+2017-08-07 15:18:08 INFO  DaoFactory:23 - Establishing db connection
+2017-08-07 15:18:08 INFO  DaoFactory:33 - Connection has been established
+2017-08-07 15:18:08 TRACE AccountDaoImpl:43 - Got accounts of customer 3
+2017-08-07 15:18:08 INFO  CustomerDaoImpl:72 - Got customer with id 3
+2017-08-07 15:18:11 INFO  AccountDaoImpl:104 - Getting account 7
+2017-08-07 15:18:11 INFO  DaoFactory:23 - Establishing db connection
+2017-08-07 15:18:11 INFO  DaoFactory:33 - Connection has been established
+2017-08-07 15:18:11 TRACE AccountDaoImpl:119 - Got account 7
+2017-08-07 15:18:35 INFO  AccountDaoImpl:104 - Getting account 7
+2017-08-07 15:18:35 INFO  DaoFactory:23 - Establishing db connection
+2017-08-07 15:18:35 INFO  DaoFactory:33 - Connection has been established
+2017-08-07 15:18:35 TRACE AccountDaoImpl:119 - Got account 7
+2017-08-07 15:18:35 INFO  AccountDaoImpl:104 - Getting account 4
+2017-08-07 15:18:35 INFO  DaoFactory:23 - Establishing db connection
+2017-08-07 15:18:35 INFO  DaoFactory:33 - Connection has been established
+2017-08-07 15:18:35 TRACE AccountDaoImpl:119 - Got account 4
+2017-08-07 15:18:35 INFO  Account:24 - Transfer from 7 to 4 amount: 200.0 RUB
+2017-08-07 15:18:35 INFO  Money:69 - Changing currency from RUB to USD
+2017-08-07 15:18:35 INFO  CurrencyHandler:17 - Converting RUB to USD
+2017-08-07 15:18:35 INFO  CurrencyHandler:28 - Got coefficient
+2017-08-07 15:18:35 INFO  CurrencyHandler:17 - Converting USD to USD
+2017-08-07 15:18:35 ERROR CurrencyHandler:44 - Failed to find coefficient
+2017-08-07 15:18:35 TRACE Account:27 - Transaction 7-4 : 3.2 USD has been completed
+2017-08-07 15:18:35 INFO  AccountDaoImpl:137 - Updating account 7
+2017-08-07 15:18:35 INFO  DaoFactory:23 - Establishing db connection
+2017-08-07 15:18:35 INFO  DaoFactory:33 - Connection has been established
+2017-08-07 15:18:35 TRACE AccountDaoImpl:148 - Account 7 has been updated
+2017-08-07 15:18:35 INFO  AccountDaoImpl:137 - Updating account 4
+2017-08-07 15:18:35 INFO  DaoFactory:23 - Establishing db connection
+2017-08-07 15:18:35 INFO  DaoFactory:33 - Connection has been established
+2017-08-07 15:18:35 TRACE AccountDaoImpl:148 - Account 4 has been updated
+2017-08-07 15:18:35 INFO  TransactionDaoImpl:24 - Saving simple transaction 3: 2017/08/07 15:18:35 TRANSFER 200 RUB SENT TO 1
+2017-08-07 15:18:35 INFO  DaoFactory:23 - Establishing db connection
+2017-08-07 15:18:35 INFO  DaoFactory:33 - Connection has been established
+2017-08-07 15:18:35 INFO  TransactionDaoImpl:35 - Transaction has been saved
+2017-08-07 15:18:35 INFO  TransactionDaoImpl:24 - Saving simple transaction 1: 2017/08/07 15:18:35 TRANSFER 200 RUB RECIEVED FROM 3
+2017-08-07 15:18:35 INFO  DaoFactory:23 - Establishing db connection
+2017-08-07 15:18:35 INFO  DaoFactory:33 - Connection has been established
+2017-08-07 15:18:36 INFO  TransactionDaoImpl:35 - Transaction has been saved
+2017-08-07 15:18:36 INFO  AccountDaoImpl:104 - Getting account 7
+2017-08-07 15:18:36 INFO  DaoFactory:23 - Establishing db connection
+2017-08-07 15:18:36 INFO  DaoFactory:33 - Connection has been established
+2017-08-07 15:18:36 TRACE AccountDaoImpl:119 - Got account 7
+2017-08-07 15:18:45 TRACE CustomerServlet:42 - Get customer 1
+2017-08-07 15:18:45 INFO  CustomerDaoImpl:57 - Getting customer with id 1
+2017-08-07 15:18:45 INFO  DaoFactory:23 - Establishing db connection
+2017-08-07 15:18:45 INFO  DaoFactory:33 - Connection has been established
+2017-08-07 15:18:45 INFO  NameContainer:13 - Passing name Dan Tooler
+2017-08-07 15:18:45 INFO  AccountDaoImpl:25 - Getting accounts of customer 1
+2017-08-07 15:18:45 INFO  DaoFactory:23 - Establishing db connection
+2017-08-07 15:18:45 INFO  DaoFactory:33 - Connection has been established
+2017-08-07 15:18:45 TRACE AccountDaoImpl:43 - Got accounts of customer 1
+2017-08-07 15:18:45 INFO  CustomerDaoImpl:72 - Got customer with id 1
+2017-08-07 15:19:08 INFO  AccountDaoImpl:104 - Getting account 4
+2017-08-07 15:19:08 INFO  DaoFactory:23 - Establishing db connection
+2017-08-07 15:19:08 INFO  DaoFactory:33 - Connection has been established
+2017-08-07 15:19:08 TRACE AccountDaoImpl:119 - Got account 4
+2017-08-07 15:19:46 INFO  AccountDaoImpl:104 - Getting account 4
+2017-08-07 15:19:46 INFO  DaoFactory:23 - Establishing db connection
+2017-08-07 15:19:46 INFO  DaoFactory:33 - Connection has been established
+2017-08-07 15:19:46 TRACE AccountDaoImpl:119 - Got account 4
+2017-08-07 15:19:46 INFO  AccountDaoImpl:104 - Getting account 6
+2017-08-07 15:19:46 INFO  DaoFactory:23 - Establishing db connection
+2017-08-07 15:19:46 INFO  DaoFactory:33 - Connection has been established
+2017-08-07 15:19:46 TRACE AccountDaoImpl:119 - Got account 6
+2017-08-07 15:19:46 INFO  Account:24 - Transfer from 4 to 6 amount: 10.0 USD
+2017-08-07 15:19:46 INFO  Money:69 - Changing currency from USD to USD
+2017-08-07 15:19:46 TRACE Money:72 - Currency is same
+2017-08-07 15:19:46 INFO  CurrencyHandler:17 - Converting USD to RUB
+2017-08-07 15:19:46 INFO  CurrencyHandler:25 - Got coefficient
+2017-08-07 15:19:46 TRACE Account:27 - Transaction 4-6 : 10.0 USD has been completed
+2017-08-07 15:19:46 INFO  AccountDaoImpl:137 - Updating account 4
+2017-08-07 15:19:46 INFO  DaoFactory:23 - Establishing db connection
+2017-08-07 15:19:46 INFO  DaoFactory:33 - Connection has been established
+2017-08-07 15:19:46 TRACE AccountDaoImpl:148 - Account 4 has been updated
+2017-08-07 15:19:46 INFO  AccountDaoImpl:137 - Updating account 6
+2017-08-07 15:19:46 INFO  DaoFactory:23 - Establishing db connection
+2017-08-07 15:19:46 INFO  DaoFactory:33 - Connection has been established
+2017-08-07 15:19:47 TRACE AccountDaoImpl:148 - Account 6 has been updated
+2017-08-07 15:19:47 INFO  TransactionDaoImpl:24 - Saving simple transaction 1: 2017/08/07 15:19:47 TRANSFER 10 USD SENT TO 7
+2017-08-07 15:19:47 INFO  DaoFactory:23 - Establishing db connection
+2017-08-07 15:19:47 INFO  DaoFactory:33 - Connection has been established
+2017-08-07 15:19:47 INFO  TransactionDaoImpl:35 - Transaction has been saved
+2017-08-07 15:19:47 INFO  TransactionDaoImpl:24 - Saving simple transaction 7: 2017/08/07 15:19:47 TRANSFER 10 USD RECIEVED FROM 1
+2017-08-07 15:19:47 INFO  DaoFactory:23 - Establishing db connection
+2017-08-07 15:19:47 INFO  DaoFactory:33 - Connection has been established
+2017-08-07 15:19:47 INFO  TransactionDaoImpl:35 - Transaction has been saved
+2017-08-07 15:19:47 INFO  AccountDaoImpl:104 - Getting account 4
+2017-08-07 15:19:47 INFO  DaoFactory:23 - Establishing db connection
+2017-08-07 15:19:47 INFO  DaoFactory:33 - Connection has been established
+2017-08-07 15:19:47 TRACE AccountDaoImpl:119 - Got account 4
+2017-08-07 15:19:51 TRACE CustomerServlet:42 - Get customer 7
+2017-08-07 15:19:51 INFO  CustomerDaoImpl:57 - Getting customer with id 7
+2017-08-07 15:19:51 INFO  DaoFactory:23 - Establishing db connection
+2017-08-07 15:19:51 INFO  DaoFactory:33 - Connection has been established
+2017-08-07 15:19:51 INFO  NameContainer:13 - Passing name Robin Fran
+2017-08-07 15:19:51 INFO  AccountDaoImpl:25 - Getting accounts of customer 7
+2017-08-07 15:19:51 INFO  DaoFactory:23 - Establishing db connection
+2017-08-07 15:19:51 INFO  DaoFactory:33 - Connection has been established
+2017-08-07 15:19:51 TRACE AccountDaoImpl:43 - Got accounts of customer 7
+2017-08-07 15:19:51 INFO  CustomerDaoImpl:72 - Got customer with id 7
+2017-08-07 15:20:10 INFO  AccountDaoImpl:104 - Getting account 6
+2017-08-07 15:20:10 INFO  DaoFactory:23 - Establishing db connection
+2017-08-07 15:20:10 INFO  DaoFactory:33 - Connection has been established
+2017-08-07 15:20:10 TRACE AccountDaoImpl:119 - Got account 6
+2017-08-07 15:20:16 INFO  AccountDaoImpl:104 - Getting account 6
+2017-08-07 15:20:16 INFO  DaoFactory:23 - Establishing db connection
+2017-08-07 15:20:16 INFO  DaoFactory:33 - Connection has been established
+2017-08-07 15:20:16 TRACE AccountDaoImpl:119 - Got account 6
+2017-08-07 15:20:16 INFO  AccountDaoImpl:104 - Getting account 4
+2017-08-07 15:20:16 INFO  DaoFactory:23 - Establishing db connection
+2017-08-07 15:20:16 INFO  DaoFactory:33 - Connection has been established
+2017-08-07 15:20:16 TRACE AccountDaoImpl:119 - Got account 4
+2017-08-07 15:20:16 INFO  Account:24 - Transfer from 6 to 4 amount: 5000.0 RUB
+2017-08-07 15:20:16 INFO  Money:69 - Changing currency from RUB to USD
+2017-08-07 15:20:16 INFO  CurrencyHandler:17 - Converting RUB to USD
+2017-08-07 15:20:16 INFO  CurrencyHandler:28 - Got coefficient
+2017-08-07 15:20:16 INFO  CurrencyHandler:17 - Converting USD to USD
+2017-08-07 15:20:16 ERROR CurrencyHandler:44 - Failed to find coefficient
+2017-08-07 15:20:16 TRACE Account:27 - Transaction 6-4 : 80.0 USD has been completed
+2017-08-07 15:20:16 INFO  AccountDaoImpl:137 - Updating account 6
+2017-08-07 15:20:16 INFO  DaoFactory:23 - Establishing db connection
+2017-08-07 15:20:16 INFO  DaoFactory:33 - Connection has been established
+2017-08-07 15:20:16 TRACE AccountDaoImpl:148 - Account 6 has been updated
+2017-08-07 15:20:16 INFO  AccountDaoImpl:137 - Updating account 4
+2017-08-07 15:20:16 INFO  DaoFactory:23 - Establishing db connection
+2017-08-07 15:20:16 INFO  DaoFactory:33 - Connection has been established
+2017-08-07 15:20:16 TRACE AccountDaoImpl:148 - Account 4 has been updated
+2017-08-07 15:20:16 INFO  TransactionDaoImpl:24 - Saving simple transaction 7: 2017/08/07 15:20:16 TRANSFER 5000 RUB SENT TO 1
+2017-08-07 15:20:16 INFO  DaoFactory:23 - Establishing db connection
+2017-08-07 15:20:16 INFO  DaoFactory:33 - Connection has been established
+2017-08-07 15:20:17 INFO  TransactionDaoImpl:35 - Transaction has been saved
+2017-08-07 15:20:17 INFO  TransactionDaoImpl:24 - Saving simple transaction 1: 2017/08/07 15:20:17 TRANSFER 5000 RUB RECIEVED FROM 7
+2017-08-07 15:20:17 INFO  DaoFactory:23 - Establishing db connection
+2017-08-07 15:20:17 INFO  DaoFactory:33 - Connection has been established
+2017-08-07 15:20:17 INFO  TransactionDaoImpl:35 - Transaction has been saved
+2017-08-07 15:20:17 INFO  AccountDaoImpl:104 - Getting account 6
+2017-08-07 15:20:17 INFO  DaoFactory:23 - Establishing db connection
+2017-08-07 15:20:17 INFO  DaoFactory:33 - Connection has been established
+2017-08-07 15:20:17 TRACE AccountDaoImpl:119 - Got account 6
+2017-08-07 15:20:26 TRACE CustomerServlet:42 - Get customer 1
+2017-08-07 15:20:26 INFO  CustomerDaoImpl:57 - Getting customer with id 1
+2017-08-07 15:20:26 INFO  DaoFactory:23 - Establishing db connection
+2017-08-07 15:20:26 INFO  DaoFactory:33 - Connection has been established
+2017-08-07 15:20:26 INFO  NameContainer:13 - Passing name Dan Tooler
+2017-08-07 15:20:26 INFO  AccountDaoImpl:25 - Getting accounts of customer 1
+2017-08-07 15:20:26 INFO  DaoFactory:23 - Establishing db connection
+2017-08-07 15:20:26 INFO  DaoFactory:33 - Connection has been established
+2017-08-07 15:20:26 TRACE AccountDaoImpl:43 - Got accounts of customer 1
+2017-08-07 15:20:26 INFO  CustomerDaoImpl:72 - Got customer with id 1
+2017-08-07 15:20:37 INFO  AccountDaoImpl:104 - Getting account 4
+2017-08-07 15:20:37 INFO  DaoFactory:23 - Establishing db connection
+2017-08-07 15:20:37 INFO  DaoFactory:33 - Connection has been established
+2017-08-07 15:20:37 TRACE AccountDaoImpl:119 - Got account 4
+2017-08-07 15:20:42 INFO  AccountDaoImpl:104 - Getting account 4
+2017-08-07 15:20:42 INFO  DaoFactory:23 - Establishing db connection
+2017-08-07 15:20:42 INFO  DaoFactory:33 - Connection has been established
+2017-08-07 15:20:42 TRACE AccountDaoImpl:119 - Got account 4
+2017-08-07 15:20:42 INFO  AccountDaoImpl:137 - Updating account 4
+2017-08-07 15:20:42 INFO  DaoFactory:23 - Establishing db connection
+2017-08-07 15:20:42 INFO  DaoFactory:33 - Connection has been established
+2017-08-07 15:20:42 TRACE AccountDaoImpl:148 - Account 4 has been updated
+2017-08-07 15:20:42 INFO  TransactionDaoImpl:24 - Saving simple transaction 1: 2017/08/07 15:20:42 DEPOSIT 500 USD TO 4
+2017-08-07 15:20:42 INFO  DaoFactory:23 - Establishing db connection
+2017-08-07 15:20:42 INFO  DaoFactory:33 - Connection has been established
+2017-08-07 15:20:42 INFO  TransactionDaoImpl:35 - Transaction has been saved
+2017-08-07 15:20:42 INFO  AccountDaoImpl:104 - Getting account 4
+2017-08-07 15:20:42 INFO  DaoFactory:23 - Establishing db connection
+2017-08-07 15:20:42 INFO  DaoFactory:33 - Connection has been established
+2017-08-07 15:20:42 TRACE AccountDaoImpl:119 - Got account 4
+2017-08-07 15:21:02 INFO  AccountDaoImpl:104 - Getting account 4
+2017-08-07 15:21:02 INFO  DaoFactory:23 - Establishing db connection
+2017-08-07 15:21:02 INFO  DaoFactory:33 - Connection has been established
+2017-08-07 15:21:02 TRACE AccountDaoImpl:119 - Got account 4
+2017-08-07 15:21:02 INFO  AccountDaoImpl:104 - Getting account 6
+2017-08-07 15:21:02 INFO  DaoFactory:23 - Establishing db connection
+2017-08-07 15:21:02 INFO  DaoFactory:33 - Connection has been established
+2017-08-07 15:21:02 TRACE AccountDaoImpl:119 - Got account 6
+2017-08-07 15:21:02 INFO  Account:24 - Transfer from 4 to 6 amount: 200.0 USD
+2017-08-07 15:21:02 INFO  Money:69 - Changing currency from USD to USD
+2017-08-07 15:21:02 TRACE Money:72 - Currency is same
+2017-08-07 15:21:02 INFO  CurrencyHandler:17 - Converting USD to RUB
+2017-08-07 15:21:02 INFO  CurrencyHandler:25 - Got coefficient
+2017-08-07 15:21:02 TRACE Account:27 - Transaction 4-6 : 200.0 USD has been completed
+2017-08-07 15:21:02 INFO  AccountDaoImpl:137 - Updating account 4
+2017-08-07 15:21:02 INFO  DaoFactory:23 - Establishing db connection
+2017-08-07 15:21:02 INFO  DaoFactory:33 - Connection has been established
+2017-08-07 15:21:02 TRACE AccountDaoImpl:148 - Account 4 has been updated
+2017-08-07 15:21:02 INFO  AccountDaoImpl:137 - Updating account 6
+2017-08-07 15:21:02 INFO  DaoFactory:23 - Establishing db connection
+2017-08-07 15:21:02 INFO  DaoFactory:33 - Connection has been established
+2017-08-07 15:21:02 TRACE AccountDaoImpl:148 - Account 6 has been updated
+2017-08-07 15:21:02 INFO  TransactionDaoImpl:24 - Saving simple transaction 1: 2017/08/07 15:21:02 TRANSFER 200 USD SENT TO 7
+2017-08-07 15:21:02 INFO  DaoFactory:23 - Establishing db connection
+2017-08-07 15:21:02 INFO  DaoFactory:33 - Connection has been established
+2017-08-07 15:21:02 INFO  TransactionDaoImpl:35 - Transaction has been saved
+2017-08-07 15:21:02 INFO  TransactionDaoImpl:24 - Saving simple transaction 7: 2017/08/07 15:21:02 TRANSFER 200 USD RECIEVED FROM 1
+2017-08-07 15:21:02 INFO  DaoFactory:23 - Establishing db connection
+2017-08-07 15:21:02 INFO  DaoFactory:33 - Connection has been established
+2017-08-07 15:21:03 INFO  TransactionDaoImpl:35 - Transaction has been saved
+2017-08-07 15:21:03 INFO  AccountDaoImpl:104 - Getting account 4
+2017-08-07 15:21:03 INFO  DaoFactory:23 - Establishing db connection
+2017-08-07 15:21:03 INFO  DaoFactory:33 - Connection has been established
+2017-08-07 15:21:03 TRACE AccountDaoImpl:119 - Got account 4
+2017-08-07 15:21:07 TRACE CustomerServlet:42 - Get customer 7
+2017-08-07 15:21:07 INFO  CustomerDaoImpl:57 - Getting customer with id 7
+2017-08-07 15:21:07 INFO  DaoFactory:23 - Establishing db connection
+2017-08-07 15:21:07 INFO  DaoFactory:33 - Connection has been established
+2017-08-07 15:21:07 INFO  NameContainer:13 - Passing name Robin Fran
+2017-08-07 15:21:07 INFO  AccountDaoImpl:25 - Getting accounts of customer 7
+2017-08-07 15:21:07 INFO  DaoFactory:23 - Establishing db connection
+2017-08-07 15:21:07 INFO  DaoFactory:33 - Connection has been established
+2017-08-07 15:21:07 TRACE AccountDaoImpl:43 - Got accounts of customer 7
+2017-08-07 15:21:07 INFO  CustomerDaoImpl:72 - Got customer with id 7
+2017-08-07 15:21:28 INFO  AccountDaoImpl:58 - Creating account for customer 7
+2017-08-07 15:21:28 INFO  DaoFactory:23 - Establishing db connection
+2017-08-07 15:21:28 INFO  DaoFactory:33 - Connection has been established
+2017-08-07 15:21:28 TRACE AccountDaoImpl:69 - Account for customer 7 has been created
+2017-08-07 15:21:28 TRACE CustomerServlet:42 - Get customer 7
+2017-08-07 15:21:28 INFO  CustomerDaoImpl:57 - Getting customer with id 7
+2017-08-07 15:21:28 INFO  DaoFactory:23 - Establishing db connection
+2017-08-07 15:21:28 INFO  DaoFactory:33 - Connection has been established
+2017-08-07 15:21:29 INFO  NameContainer:13 - Passing name Robin Fran
+2017-08-07 15:21:29 INFO  AccountDaoImpl:25 - Getting accounts of customer 7
+2017-08-07 15:21:29 INFO  DaoFactory:23 - Establishing db connection
+2017-08-07 15:21:29 INFO  DaoFactory:33 - Connection has been established
+2017-08-07 15:21:29 TRACE AccountDaoImpl:43 - Got accounts of customer 7
+2017-08-07 15:21:29 INFO  CustomerDaoImpl:72 - Got customer with id 7
+2017-08-07 15:21:48 INFO  AccountDaoImpl:104 - Getting account 8
+2017-08-07 15:21:48 INFO  DaoFactory:23 - Establishing db connection
+2017-08-07 15:21:48 INFO  DaoFactory:33 - Connection has been established
+2017-08-07 15:21:48 TRACE AccountDaoImpl:119 - Got account 8
+2017-08-07 15:21:50 TRACE CustomerServlet:42 - Get customer 7
+2017-08-07 15:21:50 INFO  CustomerDaoImpl:57 - Getting customer with id 7
+2017-08-07 15:21:50 INFO  DaoFactory:23 - Establishing db connection
+2017-08-07 15:21:50 INFO  DaoFactory:33 - Connection has been established
+2017-08-07 15:21:50 INFO  NameContainer:13 - Passing name Robin Fran
+2017-08-07 15:21:50 INFO  AccountDaoImpl:25 - Getting accounts of customer 7
+2017-08-07 15:21:50 INFO  DaoFactory:23 - Establishing db connection
+2017-08-07 15:21:50 INFO  DaoFactory:33 - Connection has been established
+2017-08-07 15:21:50 TRACE AccountDaoImpl:43 - Got accounts of customer 7
+2017-08-07 15:21:50 INFO  CustomerDaoImpl:72 - Got customer with id 7
+2017-08-07 15:22:21 INFO  CustomerDaoImpl:90 - Creating new customer Natalia Blagiy 37
+2017-08-07 15:22:21 INFO  DaoFactory:23 - Establishing db connection
+2017-08-07 15:22:21 INFO  DaoFactory:33 - Connection has been established
+2017-08-07 15:22:22 INFO  CustomerDaoImpl:100 - Customer Natalia Blagiy 37 has been created
+2017-08-07 15:22:22 INFO  CustomerDaoImpl:134 - Getting customer Natalia Blagiy age: 37
+2017-08-07 15:22:22 INFO  DaoFactory:23 - Establishing db connection
+2017-08-07 15:22:22 INFO  DaoFactory:33 - Connection has been established
+2017-08-07 15:22:22 INFO  NameContainer:13 - Passing name Natalia Blagiy
+2017-08-07 15:22:22 INFO  AccountDaoImpl:25 - Getting accounts of customer 13
+2017-08-07 15:22:22 INFO  DaoFactory:23 - Establishing db connection
+2017-08-07 15:22:22 INFO  DaoFactory:33 - Connection has been established
+2017-08-07 15:22:22 TRACE AccountDaoImpl:43 - Got accounts of customer 13
+2017-08-07 15:22:22 INFO  CustomerDaoImpl:150 - Got customer Natalia Blagiy age: 37
+2017-08-07 15:22:22 TRACE CustomerServlet:42 - Get customer 13
+2017-08-07 15:22:22 INFO  CustomerDaoImpl:57 - Getting customer with id 13
+2017-08-07 15:22:22 INFO  DaoFactory:23 - Establishing db connection
+2017-08-07 15:22:22 INFO  DaoFactory:33 - Connection has been established
+2017-08-07 15:22:22 INFO  NameContainer:13 - Passing name Natalia Blagiy
+2017-08-07 15:22:22 INFO  AccountDaoImpl:25 - Getting accounts of customer 13
+2017-08-07 15:22:22 INFO  DaoFactory:23 - Establishing db connection
+2017-08-07 15:22:22 INFO  DaoFactory:33 - Connection has been established
+2017-08-07 15:22:22 TRACE AccountDaoImpl:43 - Got accounts of customer 13
+2017-08-07 15:22:22 INFO  CustomerDaoImpl:72 - Got customer with id 13
